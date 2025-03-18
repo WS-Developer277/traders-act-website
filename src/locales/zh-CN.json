@@ -1,0 +1,796 @@
+{
+  "meta": {
+    "title": "Traders Act - 您成为资金交易员的途径",
+    "description": "加入 Traders Act，证明您的交易技能。通过我们的挑战，获得高达90%利润分成的资金账户。"
+  },
+  "pages": {
+    "about": {
+      "title": "关于我们",
+      "hero": {
+        "title": "我们改变交易未来的使命",
+        "subtitle": "我们正在打造全球最以交易员为中心的自营交易公司，在这里，才能和奉献是成功的唯一障碍。"
+      },
+      "story": {
+        "title": "我们的故事",
+        "content": [
+          "Traders Act 成立于2018年，源于一个简单而强大的理念：有才华的交易员不应受限于初始资金。",
+          "我们建立了一个平台，用于识别和支持技术娴熟的交易员，为他们提供在全球金融市场取得成功所需的资金和工具。",
+          "如今，我们自豪地已为全球1,000多名交易员提供资金，管理数百万交易资金，并继续扩大我们成功交易员的社区。"
+        ]
+      },
+      "values": {
+        "title": "我们的价值观",
+        "subtitle": "指导我们一切行动的原则",
+        "items": {
+          "excellence": {
+            "title": "卓越",
+            "description": "我们在所做的一切中都追求卓越，从我们的交易平台到客户支持。"
+          },
+          "integrity": {
+            "title": "诚信",
+            "description": "我们保持最高标准的透明度和道德行为。"
+          },
+          "innovation": {
+            "title": "创新",
+            "description": "我们不断发展我们的平台和服务，以满足交易员的需求。"
+          }
+        }
+      }
+    },
+    "challenge": {
+      "title": "交易挑战",
+      "hero": {
+        "title": "证明您的交易技能",
+        "subtitle": "参加我们的交易挑战，赢取高达$100,000资金的账户。"
+      },
+      "steps": {
+        "title": "运作方式",
+        "description": "成为资金交易员的三步流程",
+        "items": [
+          {
+            "title": "选择您的账户",
+            "description": "从5,000美元到100,000美元的账户规模中选择。"
+          },
+          {
+            "title": "完成挑战",
+            "description": "交易30天，同时达到利润目标并遵守风险规则。"
+          },
+          {
+            "title": "获得资金",
+            "description": "通过挑战并在24小时内获得资金账户。"
+          }
+        ]
+      },
+      "faqs": {
+        "title": "常见问题",
+        "subtitle": "关于我们交易挑战的所有必知信息",
+        "items": [
+          {
+            "question": "什么是Traders Act挑战？",
+            "answer": "Traders Act挑战是一个评估计划，旨在识别有技能的交易员。您将在模拟账户上交易30天，如果您在遵守我们的风险管理规则的同时达到我们的利润目标，您将获得一个资金账户。"
+          },
+          {
+            "question": "挑战费用是多少？",
+            "answer": "挑战费用根据您选择的账户规模而变化，从5,000美元账户的99美元到100,000美元账户的599美元不等。这是一次性费用，涵盖您的评估期。"
+          },
+          {
+            "question": "利润目标是什么？",
+            "answer": "利润目标是在30天挑战期间达到您账户价值的8%。例如，使用10,000美元账户，您需要产生800美元的利润。"
+          },
+          {
+            "question": "风险管理规则是什么？",
+            "answer": "我们的风险管理规则包括：最大日跌幅5%，最大总跌幅10%，以及在重大经济新闻事件期间不交易。这些规则旨在确保您负责任地交易。"
+          },
+          {
+            "question": "通过后我能多快获得资金？",
+            "answer": "一旦您成功完成挑战，我们将在24小时内审核您的交易表现并设置您的资金账户。获批后，您可以立即开始使用我们的资金进行交易。"
+          },
+          {
+            "question": "我可以使用哪些交易平台？",
+            "answer": "我们支持MetaTrader 4、MetaTrader 5和TradingView用于我们的挑战和资金账户。您可以选择您最感到舒适的平台。"
+          },
+          {
+            "question": "我可以交易哪些市场？",
+            "answer": "您可以交易外汇对、商品、指数和加密货币。我们提供广泛的市场以适应不同的交易风格和策略。"
+          },
+          {
+            "question": "我如何获得我的利润？",
+            "answer": "利润支付通过银行转账、PayPal或加密货币每两周处理一次。您将根据您的利润分享协议获得您的利润份额，根据您的账户规模和表现，这个比例从70%到90%不等。"
+          }
+        ]
+      }
+    },
+    "funding": {
+      "title": "资金计划",
+      "hero": {
+        "title": "资金计划",
+        "subtitle": "使用我们的资金交易并保留高达90%的利润",
+        "applyButton": "申请资金",
+        "learnMoreButton": "了解更多"
+      },
+      "profitSharing": {
+        "title": "利润分成模式",
+        "description": "在Traders Act，我们相信慷慨奖励有技能的交易者。我们行业领先的利润分成模式允许您保留高达90%的利用我们资金产生的利润。",
+        "accounts": [
+          {
+            "account": "$5,000账户",
+            "split": "70%利润分成"
+          },
+          {
+            "account": "$10,000账户",
+            "split": "75%利润分成"
+          },
+          {
+            "account": "$25,000账户",
+            "split": "80%利润分成"
+          },
+          {
+            "account": "$50,000账户",
+            "split": "85%利润分成"
+          },
+          {
+            "account": "$100,000账户",
+            "split": "90%利润分成"
+          }
+        ],
+        "payoutInfo": "利润支付每月进行，确保您能定期获得收益。您的利润分成比例从第一个月的70%开始，每月增加5%，只要持续达到目标，最高可达90%。我们透明的支付流程确保您始终确切知道您赚了多少以及何时收到。"
+      },
+      "growthPlan": {
+        "title": "成长计划",
+        "subtitle": "当您展示持续表现时扩展您的资金账户",
+        "phases": [
+          {
+            "title": "初始资金",
+            "description": "通过挑战后，您将获得初始资金账户。在遵守风险管理规则的同时使用我们的资金交易。"
+          },
+          {
+            "title": "一致性里程碑",
+            "description": "在展示3个月的持续盈利能力后，您有资格进行账户扩展。这展示了您随时间维持表现的能力。"
+          },
+          {
+            "title": "账户扩展",
+            "description": "您的账户规模增加初始资金的25%。例如，$100,000账户将增加到$125,000，为您提供更多交易资金。"
+          },
+          {
+            "title": "高级扩展",
+            "description": "继续展示持续盈利能力，您的账户可以多次扩展，最高达到$1,000,000交易资金。"
+          }
+        ]
+      },
+      "riskRules": {
+        "title": "风险管理规则",
+        "subtitle": "维护您的资金账户并确保长期成功的指南",
+        "rules": [
+          {
+            "title": "最大回撤",
+            "description": "您的账户有2%日最大回撤和10%总最大回撤限制。超过这些限制可能导致账户终止。"
+          },
+          {
+            "title": "仓位大小",
+            "description": "每个交易品种的最大仓位大小限制为您账户权益的5倍。这确保多样化和适当的风险管理。"
+          },
+          {
+            "title": "止损要求",
+            "description": "所有交易必须有止损订单。没有适当止损的交易不被允许，可能导致账户审查。"
+          },
+          {
+            "title": "交易时间",
+            "description": "不鼓励在重大新闻事件或低流动性期间交易。这保护免受过度波动和滑点影响。"
+          },
+          {
+            "title": "一致性要求",
+            "description": "保持一致的交易活动。连续30天没有交易活动的账户可能被审查。"
+          },
+          {
+            "title": "禁止策略",
+            "description": "某些高风险策略如马丁格尔、没有适当风险管理的网格交易和套利不被允许。"
+          }
+        ]
+      },
+      "testimonials": {
+        "title": "成功故事",
+        "subtitle": "听听我们的资金交易者怎么说",
+        "stories": [
+          {
+            "quote": "我已经在Traders Act交易8个月了，它改变了我的职业生涯。透明的资金计划、慷慨的利润分成和始终准时的付款。我已经能够两次扩展我的账户！",
+            "name": "Oluwaseun Adebayo",
+            "role": "外汇交易者",
+            "icon": "👨‍💼"
+          },
+          {
+            "quote": "Traders Act的成长计划是使他们与其他交易公司不同的地方。我从$50,000账户开始，现在已经扩展到$125,000。公平的风险管理规则真的帮助我在交易中保持纪律。",
+            "name": "陈伟明",
+            "role": "期货交易者",
+            "icon": "👨‍💻"
+          }
+        ]
+      },
+      "cta": {
+        "title": "准备好获得资金了吗？",
+        "subtitle": "今天就加入挑战并开始使用我们的资金交易。",
+        "button": "申请资金"
+      }
+    },
+    "academy": {
+      "title": "交易学院",
+      "hero": {
+        "title": "交易是一项可以学习的技能",
+        "subtitle": "学习。交易。成功。",
+        "exploreButton": "探索我们的课程",
+        "resourcesButton": "免费资源"
+      },
+      "whyEducation": {
+        "title": "为什么交易教育很重要",
+        "subtitle": "成功的交易不仅仅需要运气—它需要知识、纪律和经过验证的策略",
+        "features": [
+          {
+            "title": "发展交易优势",
+            "description": "学习经过验证的策略和技术，让您在市场中获得优势。我们的教育帮助您识别高概率的设置并避免常见的陷阱。"
+          },
+          {
+            "title": "掌握交易心理学",
+            "description": "交易是80%的心理学和20%的策略。我们的课程帮助您培养必要的心理纪律，以一致地执行您的交易计划并有效地管理情绪。"
+          },
+          {
+            "title": "风险管理专业知识",
+            "description": "学习如何通过适当的仓位大小、止损设置和专业交易者使用的投资组合管理技术来保护您的资金。"
+          }
+        ]
+      },
+      "offerings": {
+        "title": "我们的教育产品",
+        "subtitle": "为各个级别的交易者提供全面的学习资源",
+        "items": [
+          {
+            "title": "课程",
+            "description": "从初级到高级的结构化学习路径",
+            "features": [
+              "自定进度的视频课程",
+              "互动测验",
+              "实践练习",
+              "完成证书"
+            ]
+          },
+          {
+            "title": "网络研讨会",
+            "description": "与专业交易者和市场专家的实时会话",
+            "features": [
+              "实时市场分析",
+              "问答环节",
+              "策略讨论",
+              "录制访问"
+            ]
+          },
+          {
+            "title": "导师计划",
+            "description": "来自经验丰富的交易者的一对一指导",
+            "features": [
+              "个性化反馈",
+              "交易计划审查",
+              "绩效分析",
+              "定期检查"
+            ]
+          },
+          {
+            "title": "社区",
+            "description": "与其他交易者联系并分享经验",
+            "features": [
+              "讨论论坛",
+              "交易室",
+              "策略分享",
+              "社交活动"
+            ]
+          }
+        ]
+      },
+      "modules": {
+        "title": "课程模块",
+        "subtitle": "掌握交易艺术的结构化方法",
+        "items": [
+          {
+            "number": "01",
+            "title": "交易基础与市场机制",
+            "description": "学习金融市场、交易工具和市场结构的基础知识。",
+            "lessons": [
+              "金融市场简介",
+              "市场工具和交易场所",
+              "订单类型和市场执行",
+              "了解交易平台"
+            ]
+          },
+          {
+            "number": "02",
+            "title": "技术分析与图表",
+            "description": "掌握阅读图表和有效使用技术指标的艺术。",
+            "lessons": [
+              "图表类型和时间框架",
+              "核心技术指标",
+              "图表模式和趋势分析",
+              "实际案例研究"
+            ]
+          },
+          {
+            "number": "03",
+            "title": "交易心理学与风险管理",
+            "description": "培养成功交易所需的心态和纪律。",
+            "lessons": [
+              "交易心理学",
+              "风险管理基础",
+              "制定交易计划",
+              "克服心理障碍"
+            ]
+          },
+          {
+            "number": "04",
+            "title": "高级交易策略",
+            "description": "学习专业交易策略和高级执行技术。",
+            "lessons": [
+              "日内交易策略",
+              "摇摆交易方法",
+              "头寸交易方法",
+              "投资组合管理"
+            ]
+          }
+        ]
+      },
+      "cta": {
+        "title": "今天开始您的交易之旅",
+        "subtitle": "加入我们全面的交易教育计划，培养您在市场上取得成功所需的技能。",
+        "button": "立即注册"
+      }
+    },
+    "blog": {
+      "title": "交易见解",
+      "hero": {
+        "title": "最新交易知识",
+        "subtitle": "专家分析、策略和市场见解。"
+      },
+      "categories": {
+        "technical": "技术分析",
+        "fundamental": "基本面分析",
+        "psychology": "交易心理学",
+        "risk": "风险管理"
+      }
+    },
+    "affiliate": {
+      "title": "联盟计划",
+      "hero": {
+        "title": "与我们一起赚钱",
+        "subtitle": "与Traders Act合作，赚取丰厚佣金。",
+        "joinButton": "立即加入"
+      },
+      "stats": {
+        "payouts": "已支付佣金",
+        "affiliates": "联盟伙伴",
+        "commission": "最高佣金",
+        "support": "全天候支持"
+      },
+      "benefits": {
+        "title": "计划优势",
+        "subtitle": "通过Traders Act联盟计划提高您的收入",
+        "items": [
+          {
+            "title": "高额佣金",
+            "description": "通过您的推荐链接注册并完成挑战的每位交易者，您可以赚取高达40%的佣金。"
+          },
+          {
+            "title": "终身收入",
+            "description": "获得您推荐的终身收益。"
+          },
+          {
+            "title": "快速支付",
+            "description": "每两周获得一次付款，没有最低支付限额。"
+          },
+          {
+            "title": "营销支持",
+            "description": "获取专业营销材料和支持。"
+          },
+          {
+            "title": "用户友好的仪表板",
+            "description": "全面的分析工具，帮助您跟踪表现并优化收入。"
+          },
+          {
+            "title": "专属支持",
+            "description": "从我们专门的联盟支持团队获得个性化帮助。"
+          }
+        ]
+      },
+      "commission": {
+        "title": "佣金结构",
+        "subtitle": "我们的分级佣金结构为每次成功推荐提供丰厚回报",
+        "accountSize": "账户规模",
+        "rate": "佣金",
+        "recurring": "重复佣金",
+        "viewDetails": "查看完整佣金详情",
+        "tiers": [
+          {
+            "range": "0-10 挑战",
+            "commission": "15%",
+            "recurring": "5%"
+          },
+          {
+            "range": "11-25 挑战",
+            "commission": "20%",
+            "recurring": "7%"
+          },
+          {
+            "range": "26-50 挑战",
+            "commission": "25%",
+            "recurring": "10%"
+          },
+          {
+            "range": "51-100 挑战",
+            "commission": "30%",
+            "recurring": "12%"
+          },
+          {
+            "range": "100+ 挑战",
+            "commission": "40%",
+            "recurring": "15%"
+          }
+        ]
+      },
+      "features": [
+        {
+          "title": "高佣金率",
+          "description": "通过您的推荐链接注册并完成挑战的每位交易者，您可以赚取高达40%的佣金。"
+        },
+        {
+          "title": "持续收入",
+          "description": "当您推荐的用户扩展账户或参加额外挑战时，您将获得持续佣金。"
+        },
+        {
+          "title": "及时付款",
+          "description": "通过您首选的支付方式每两周收到一次佣金，没有最低门槛。"
+        },
+        {
+          "title": "营销材料",
+          "description": "获取专业横幅、落地页和电子邮件模板库，提高您的转化率。"
+        },
+        {
+          "title": "专属支持",
+          "description": "从我们的联盟管理团队获得个性化帮助，助您最大化收益。"
+        },
+        {
+          "title": "实时跟踪",
+          "description": "通过我们全面的联盟仪表板实时监控您的推荐和收益。"
+        }
+      ],
+      "faq": {
+        "title": "常见问题",
+        "subtitle": "关于Traders Act联盟计划您需要了解的一切",
+        "items": [
+          {
+            "question": "如何加入Traders Act联盟计划？",
+            "answer": "要加入我们的联盟计划，只需在本页面注册一个联盟账户即可。"
+          },
+          {
+            "question": "我何时能收到佣金？",
+            "answer": "佣金支付每两周处理一次。当您推荐的交易者购买挑战后，您将获得佣金。"
+          },
+          {
+            "question": "是否有最低支付限额？",
+            "answer": "不，我们的联盟计划没有最低支付限额。无论您的收入多少，您都将每两周收到一次付款。"
+          },
+          {
+            "question": "我可以在哪里推广我的联盟链接？",
+            "answer": "您可以在您的网站、社交媒体渠道、博客、电子邮件通讯或任何您的受众对交易感兴趣的在线平台上推广您的联盟链接。"
+          },
+          {
+            "question": "是否会提供营销材料？",
+            "answer": "是的，我们将为您提供横幅、标志、落地页模板和其他营销材料，您可以在推广中使用。"
+          },
+          {
+            "question": "如何跟踪我的联盟表现？",
+            "answer": "您将获得一个全面的联盟仪表板访问权限，您可以在那里实时跟踪您的点击、转化、佣金和支付情况。"
+          }
+        ]
+      },
+      "cta": {
+        "title": "今天就加入我们的联盟计划",
+        "subtitle": "将您的受众与Traders Act联系起来，开始赚取丰厚佣金"
+      }
+    },
+    "common": {
+      "learnMore": "了解更多",
+      "getStarted": "立即开始",
+      "signIn": "登录",
+      "signUp": "注册",
+      "startChallenge": "开始交易挑战",
+      "sendMessage": "发送消息",
+      "email": "电子邮箱",
+      "password": "密码",
+      "name": "姓名",
+      "message": "消息",
+      "rememberMe": "记住我",
+      "forgotPassword": "忘记密码？",
+      "alreadyHaveAccount": "已有账户？",
+      "dontHaveAccount": "没有账户？",
+      "acceptTerms": "我同意服务条款和隐私政策"
+    },
+    "navbar": {
+      "about": "关于我们",
+      "features": "功能特点",
+      "pricing": "价格",
+      "faq": "常见问题",
+      "challenge": "交易挑战",
+      "funding": "资金计划",
+      "academy": "交易学院",
+      "blog": "交易见解",
+      "affiliate": "联盟计划"
+    },
+    "home": {
+      "hero": {
+        "title": "您成为资金交易员的途径",
+        "subtitle": "加入 Traders Act，证明您的交易技能。通过我们的挑战，获得高达90%利润分成的资金账户。",
+        "stats": {
+          "payouts": "交易员收益",
+          "traders": "资金交易员",
+          "profitShare": "利润分成",
+          "support": "支持"
+        }
+      },
+      "features": {
+        "title": "为什么选择 Traders Act",
+        "subtitle": "我们为成功的交易员提供最佳条件",
+        "profitShare": {
+          "title": "高达90%利润分成",
+          "description": "通过行业领先的利润分配系统，保留高达90%的交易利润。"
+        },
+        "security": {
+          "title": "安全平台",
+          "description": "在我们安全可靠的交易平台上自信交易。"
+        },
+        "analytics": {
+          "title": "实时分析",
+          "description": "通过高级实时交易分析监控您的表现。"
+        },
+        "community": {
+          "title": "社区支持",
+          "description": "加入成功交易员的社区，向最优秀的人学习。"
+        }
+      },
+      "testimonials": {
+        "title": "我们的交易者怎么说",
+        "subtitle": "加入数千名成功的资金交易者",
+        "testimonial1": {
+          "quote": "Traders Act平台非常出色。挑战公平，现在我正在使用50,000美元的账户进行交易，利润分成85%。两周一次的付款总是准时到账。",
+          "name": "Abdullah Al-Rashid",
+          "position": "资金交易者 - 4个月"
+        },
+        "testimonial2": {
+          "quote": "支持团队非常棒。他们帮助我度过了挑战阶段，现在我正在资金账户上成功交易。平台上的分析工具非常先进。",
+          "name": "Oluwaseun Adebayo",
+          "position": "资金交易者 - 3个月"
+        },
+        "testimonial3": {
+          "quote": "从25,000美元的账户开始，仅6个月就增长到100,000美元。扩展计划很棒，利润分成是行业中最好的。",
+          "name": "Carlos Rodriguez",
+          "position": "资金交易者 - 5个月"
+        }
+      },
+      "pricing": {
+        "title": "选择您的交易账户",
+        "subtitle": "选择适合您交易目标的账户规模",
+        "mostPopular": "最受欢迎",
+        "micro": {
+          "title": "微型",
+          "price": "$5,000",
+          "features": [
+            "初始余额: $5,000",
+            "利润目标: 10%",
+            "最大日亏损: $100 (2%)",
+            "最大总亏损: $300 (6%)",
+            "利润分成: 70% 每月",
+            "评估费: $49.99"
+          ],
+          "button": "开始挑战"
+        },
+        "mini": {
+          "title": "迷你",
+          "price": "$10,000",
+          "features": [
+            "初始余额: $10,000",
+            "利润目标: 10%",
+            "最大日亏损: $200 (2%)",
+            "最大总亏损: $700 (7%)",
+            "利润分成: 75% 每月",
+            "评估费: $99.99"
+          ],
+          "button": "开始挑战"
+        },
+        "starter": {
+          "title": "入门",
+          "price": "$25,000",
+          "features": [
+            "初始余额: $25,000",
+            "利润目标: 10%",
+            "最大日亏损: $500 (2%)",
+            "最大总亏损: $2000 (8%)",
+            "利润分成: 80% 每月",
+            "评估费: $199.99"
+          ],
+          "button": "开始挑战"
+        },
+        "pro": {
+          "title": "专业",
+          "price": "$50,000",
+          "features": [
+            "初始余额: $50,000",
+            "利润目标: 10%",
+            "最大日亏损: $1000 (2%)",
+            "最大总亏损: $4500 (9%)",
+            "利润分成: 85% 每月",
+            "评估费: $299.99"
+          ],
+          "button": "开始挑战"
+        },
+        "elite": {
+          "title": "精英",
+          "price": "$100,000",
+          "features": [
+            "初始余额: $100,000",
+            "利润目标: 10%",
+            "最大日亏损: $2000 (2%)",
+            "最大总亏损: $10000 (10%)",
+            "利润分成: 90% 每月",
+            "评估费: $499.99"
+          ],
+          "button": "开始挑战"
+        }
+      },
+      "faq": {
+        "title": "常见问题",
+        "subtitle": "我们回答了您可能遇到的问题",
+        "questions": [
+          {
+            "question": "什么是交易挑战？",
+            "answer": "交易挑战是我们为交易员提供的测试他们交易技能的机会。"
+          },
+          {
+            "question": "如何参加交易挑战？",
+            "answer": "您可以在我们的网站上注册并选择您想要参加的挑战。"
+          },
+          {
+            "question": "什么是资金计划？",
+            "answer": "我们的资金计划为交易员提供了一个机会，使用我们的资金进行交易。"
+          }
+        ]
+      },
+      "hours": {
+        "trading": {
+          "title": "交易时间",
+          "weekdays": "周一 - 周五",
+          "weekdaysHours": "00:00 - 23:59 GMT",
+          "weekend": "周六 - 周日",
+          "weekendHours": "休市"
+        },
+        "support": {
+          "title": "客服时间",
+          "weekdays": "周一 - 周五",
+          "weekdaysHours": "9:00 - 17:00 GMT",
+          "weekend": "周六 - 周日",
+          "weekendHours": "10:00 - 14:00 GMT"
+        }
+      }
+    },
+    "auth": {
+      "signIn": {
+        "title": "欢迎回来",
+        "emailLabel": "电子邮箱地址",
+        "emailPlaceholder": "输入您的邮箱",
+        "passwordLabel": "密码",
+        "passwordPlaceholder": "输入您的密码",
+        "button": "登录",
+        "forgotPassword": "忘记密码？",
+        "noAccount": "没有账户？",
+        "signUp": "注册",
+        "success": "登录成功！",
+        "error": "邮箱或密码无效"
+      }
+    },
+    "footer": {
+      "quickLinks": "快速链接",
+      "legal": "法律",
+      "connect": "联系",
+      "copyright": " Traders Act。保留所有权利。",
+      "links": {
+        "features": "功能特点",
+        "pricing": "价格",
+        "testimonials": "评价",
+        "faq": "常见问题",
+        "privacy": "隐私政策",
+        "terms": "服务条款",
+        "risk": "风险披露",
+        "refund": "退款政策",
+        "twitter": "Twitter",
+        "linkedin": "LinkedIn",
+        "instagram": "Instagram",
+        "youtube": "YouTube"
+      }
+    },
+    "languageSwitcher": {
+      "selectLanguage": "选择语言",
+      "english": "English",
+      "arabic": "العربية",
+      "vietnamese": "Tiếng Việt",
+      "malay": "Bahasa Melayu",
+      "hindi": "हिंदी",
+      "chinese": "简体中文",
+      "spanish": "Español"
+    }
+  },
+  "common": {
+    "learnMore": "了解更多",
+    "getStarted": "立即开始",
+    "signIn": "登录",
+    "signUp": "注册",
+    "startChallenge": "开始交易挑战",
+    "sendMessage": "发送消息",
+    "email": "电子邮箱",
+    "password": "密码",
+    "name": "姓名",
+    "message": "消息",
+    "rememberMe": "记住我",
+    "forgotPassword": "忘记密码？",
+    "alreadyHaveAccount": "已有账户？",
+    "dontHaveAccount": "没有账户？",
+    "acceptTerms": "我同意服务条款和隐私政策"
+  },
+  "navbar": {
+    "about": "关于我们",
+    "features": "功能特点",
+    "pricing": "价格",
+    "faq": "常见问题",
+    "challenge": "交易挑战",
+    "funding": "资金计划",
+    "academy": "交易学院",
+    "blog": "交易见解",
+    "affiliate": "联盟计划"
+  },
+  "auth": {
+    "signIn": {
+      "title": "欢迎回来",
+      "emailLabel": "电子邮箱地址",
+      "emailPlaceholder": "输入您的邮箱",
+      "passwordLabel": "密码",
+      "passwordPlaceholder": "输入您的密码",
+      "button": "登录",
+      "forgotPassword": "忘记密码？",
+      "noAccount": "没有账户？",
+      "signUp": "注册",
+      "success": "登录成功！",
+      "error": "邮箱或密码无效"
+    }
+  },
+  "footer": {
+    "quickLinks": "快速链接",
+    "legal": "法律",
+    "connect": "联系",
+    "copyright": " Traders Act。保留所有权利。",
+    "links": {
+      "features": "功能特点",
+      "pricing": "价格",
+      "testimonials": "评价",
+      "faq": "常见问题",
+      "privacy": "隐私政策",
+      "terms": "服务条款",
+      "risk": "风险披露",
+      "refund": "退款政策",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram",
+      "youtube": "YouTube"
+    }
+  },
+  "languageSwitcher": {
+    "selectLanguage": "选择语言",
+    "english": "English",
+    "arabic": "العربية",
+    "vietnamese": "Tiếng Việt",
+    "malay": "Bahasa Melayu",
+    "hindi": "हिंदी",
+    "chinese": "简体中文",
+    "spanish": "Español"
+  }
+}

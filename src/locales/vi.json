@@ -1,0 +1,756 @@
+{
+  "meta": {
+    "title": "Traders Act - Con đường trở thành nhà giao dịch được tài trợ",
+    "description": "Tham gia Traders Act và chứng minh kỹ năng giao dịch của bạn. Vượt qua thử thách của chúng tôi và nhận tài khoản được tài trợ với tỷ lệ chia sẻ lợi nhuận lên đến 90%."
+  },
+  "pages": {
+    "about": {
+      "title": "Giới thiệu",
+      "hero": {
+        "title": "Sứ mệnh của chúng tôi để thay đổi tương lai giao dịch",
+        "subtitle": "Chúng tôi đang xây dựng công ty giao dịch tư nhân tập trung vào nhà giao dịch nhất thế giới, nơi tài năng và sự cống hiến là những rào cản duy nhất đối với thành công."
+      },
+      "story": {
+        "title": "Câu chuyện của chúng tôi",
+        "content": [
+          "Traders Act được thành lập vào năm 2018, bắt nguồn từ một ý tưởng đơn giản nhưng mạnh mẽ: các nhà giao dịch tài năng không nên bị giới hạn bởi vốn ban đầu của họ.",
+          "Chúng tôi đã xây dựng một nền tảng xác định và hỗ trợ các nhà giao dịch có kỹ năng, cung cấp cho họ vốn và công cụ cần thiết để thành công trên thị trường tài chính toàn cầu.",
+          "Ngày nay, chúng tôi tự hào tài trợ cho hơn 1.000 nhà giao dịch trên toàn thế giới, quản lý hàng triệu vốn giao dịch và tiếp tục phát triển cộng đồng các nhà giao dịch thành công của chúng tôi."
+        ]
+      },
+      "values": {
+        "title": "Giá trị của chúng tôi",
+        "subtitle": "Những nguyên tắc hướng dẫn mọi việc chúng tôi làm",
+        "items": {
+          "excellence": {
+            "title": "Xuất sắc",
+            "description": "Chúng tôi luôn hướng tới sự xuất sắc trong mọi việc làm, từ nền tảng giao dịch đến hỗ trợ khách hàng."
+          },
+          "integrity": {
+            "title": "Chính trực",
+            "description": "Chúng tôi duy trì các tiêu chuẩn cao nhất về tính minh bạch và đạo đức kinh doanh."
+          },
+          "innovation": {
+            "title": "Đổi mới",
+            "description": "Chúng tôi liên tục phát triển nền tảng và dịch vụ để đáp ứng nhu cầu của các nhà giao dịch."
+          }
+        }
+      }
+    },
+    "challenge": {
+      "title": "Thử thách giao dịch",
+      "hero": {
+        "title": "Chứng minh kỹ năng giao dịch của bạn",
+        "subtitle": "Tham gia thử thách giao dịch và nhận tài khoản được tài trợ lên đến 100.000 đô la vốn."
+      },
+      "steps": {
+        "title": "Cách thức hoạt động",
+        "description": "Quy trình ba bước của chúng tôi để trở thành nhà giao dịch được tài trợ",
+        "items": [
+          {
+            "title": "Chọn tài khoản của bạn",
+            "description": "Lựa chọn từ các kích cỡ tài khoản từ 5.000 đô la đến 100.000 đô la."
+          },
+          {
+            "title": "Hoàn thành thử thách",
+            "description": "Giao dịch trong 30 ngày đạt mục tiêu lợi nhuận và tuân thủ quy tắc rủi ro."
+          },
+          {
+            "title": "Nhận tài trợ",
+            "description": "Vượt qua thử thách và nhận tài khoản được tài trợ trong vòng 24 giờ."
+          }
+        ]
+      },
+      "faqs": {
+        "title": "Câu hỏi thường gặp",
+        "subtitle": "Tất cả những gì bạn cần biết về thử thách giao dịch của chúng tôi",
+        "items": [
+          {
+            "question": "Thử thách Traders Act là gì?",
+            "answer": "Thử thách Traders Act là một chương trình đánh giá được thiết kế để xác định các nhà giao dịch có kỹ năng. Bạn sẽ giao dịch trên tài khoản mô phỏng trong 30 ngày, và nếu bạn đạt được mục tiêu lợi nhuận trong khi tuân thủ các quy tắc quản lý rủi ro của chúng tôi, bạn sẽ nhận được tài khoản được tài trợ."
+          },
+          {
+            "question": "Thử thách có chi phí bao nhiêu?",
+            "answer": "Phí thử thách thay đổi dựa trên kích thước tài khoản bạn chọn, từ 99 đô la cho tài khoản 5.000 đô la đến 599 đô la cho tài khoản 100.000 đô la. Đây là khoản phí một lần bao gồm thởi gian đánh giá của bạn."
+          },
+          {
+            "question": "Mục tiêu lợi nhuận là gì?",
+            "answer": "Mục tiêu lợi nhuận là 8% giá trị tài khoản của bạn trong thởi gian thử thách 30 ngày. Ví dụ, với tài khoản 10.000 đô la, bạn sẽ cần tạo ra 800 đô la lợi nhuận."
+          },
+          {
+            "question": "Các quy tắc quản lý rủi ro là gì?",
+            "answer": "Các quy tắc quản lý rủi ro của chúng tôi bao gồm: mức giảm giá hàng ngày tối đa 5%, mức giảm giá tổng tối đa 10%, và không giao dịch trong các sự kiện tin tức kinh tế lớn. Các quy tắc này được thiết kế để đảm bảo bạn giao dịch có trách nhiệm."
+          },
+          {
+            "question": "Tôi có thể nhận tài trợ nhanh như thế nào sau khi vượt qua?",
+            "answer": "Khi bạn hoàn thành thành công thử thách, chúng tôi sẽ xem xét hiệu suất giao dịch của bạn trong vòng 24 giờ và thiết lập tài khoản được tài trợ của bạn. Bạn có thể bắt đầu giao dịch với vốn của chúng tôi ngay sau khi được phê duyệt."
+          },
+          {
+            "question": "Tôi có thể sử dụng nền tảng giao dịch nào?",
+            "answer": "Chúng tôi hỗ trợ MetaTrader 4, MetaTrader 5 và TradingView cho các thử thách và tài khoản được tài trợ của chúng tôi. Bạn có thể chọn nền tảng mà bạn cảm thấy thoải mái nhất."
+          },
+          {
+            "question": "Tôi có thể giao dịch thị trường nào?",
+            "answer": "Bạn có thể giao dịch các cặp tiền tệ, hàng hóa, chỉ số và tiền điện tử. Chúng tôi cung cấp nhiều thị trường để phù hợp với các phong cách và chiến lược giao dịch khác nhau."
+          },
+          {
+            "question": "Làm thế nào để tôi nhận được lợi nhuận của mình?",
+            "answer": "Thanh toán lợi nhuận được xử lý hai tuần một lần qua chuyển khoản ngân hàng, PayPal hoặc tiền điện tử. Bạn sẽ nhận được phần lợi nhuận của mình dựa trên thỏa thuận chia sẻ lợi nhuận, dao động từ 70% đến 90% tùy thuộc vào kích thước tài khoản và hiệu suất của bạn."
+          }
+        ]
+      }
+    },
+    "funding": {
+      "title": "Chương trình tài trợ",
+      "hero": {
+        "title": "Chương trình tài trợ",
+        "subtitle": "Giao dịch với vốn của chúng tôi và giữ lại đến 90% lợi nhuận",
+        "applyButton": "Đăng ký tài trợ",
+        "learnMoreButton": "Tìm hiểu thêm"
+      },
+      "profitSharing": {
+        "title": "Mô hình chia sẻ lợi nhuận",
+        "description": "Tại Traders Act, chúng tôi tin tưởng vào việc thưởng cho các nhà giao dịch có kỹ năng một cách hào phóng. Mô hình chia sẻ lợi nhuận hàng đầu trong ngành của chúng tôi cho phép bạn giữ lại tới 90% lợi nhuận bạn tạo ra với vốn của chúng tôi.",
+        "accounts": [
+          {
+            "account": "Tài khoản $5,000",
+            "split": "70% Chia sẻ lợi nhuận"
+          },
+          {
+            "account": "Tài khoản $10,000",
+            "split": "75% Chia sẻ lợi nhuận"
+          },
+          {
+            "account": "Tài khoản $25,000",
+            "split": "80% Chia sẻ lợi nhuận"
+          },
+          {
+            "account": "Tài khoản $50,000",
+            "split": "85% Chia sẻ lợi nhuận"
+          },
+          {
+            "account": "Tài khoản $100,000",
+            "split": "90% Chia sẻ lợi nhuận"
+          }
+        ],
+        "payoutInfo": "Việc chi trả lợi nhuận được thực hiện hàng tháng, đảm bảo bạn có quyền truy cập thường xuyên vào thu nhập của mình. Tỷ lệ chia sẻ lợi nhuận của bạn bắt đầu ở mức 70% trong tháng đầu tiên và tăng 5% mỗi tháng, đạt mức tối đa 90% miễn là các mục tiêu được đáp ứng một cách nhất quán. Quy trình thanh toán minh bạch của chúng tôi đảm bảo bạn luôn biết chính xác những gì bạn kiếm được và khi nào bạn sẽ nhận được nó."
+      },
+      "growthPlan": {
+        "title": "Kế hoạch tăng trưởng",
+        "subtitle": "Mở rộng tài khoản được tài trợ của bạn khi bạn thể hiện hiệu suất nhất quán",
+        "phases": [
+          {
+            "title": "Tài trợ ban đầu",
+            "description": "Sau khi vượt qua thử thách, bạn nhận được tài khoản được tài trợ ban đầu. Giao dịch với vốn của chúng tôi trong khi tuân thủ các quy tắc quản lý rủi ro."
+          },
+          {
+            "title": "Cột mốc nhất quán",
+            "description": "Sau khi thể hiện khả năng sinh lời nhất quán trong 3 tháng, bạn đủ điều kiện để mở rộng tài khoản. Điều này cho thấy khả năng duy trì hiệu suất của bạn theo thởi gian."
+          },
+          {
+            "title": "Mở rộng tài khoản",
+            "description": "Kích thước tài khoản của bạn tăng 25% so với tài trợ ban đầu. Ví dụ, tài khoản $100,000 sẽ tăng lên $125,000, cung cấp cho bạn nhiều vốn hơn để giao dịch."
+          },
+          {
+            "title": "Mở rộng nâng cao",
+            "description": "Tiếp tục thể hiện khả năng sinh lời nhất quán, và tài khoản của bạn có thể được mở rộng nhiều lần, lên đến tối đa $1,000,000 vốn giao dịch."
+          }
+        ]
+      },
+      "riskRules": {
+        "title": "Quy tắc quản lý rủi ro",
+        "subtitle": "Hướng dẫn để duy trì tài khoản được tài trợ của bạn và đảm bảo thành công lâu dài",
+        "rules": [
+          {
+            "title": "Rút vốn tối đa",
+            "description": "Tài khoản của bạn có giới hạn rút vốn tối đa là 2% hàng ngày và 10% tổng cộng. Vượt quá các giới hạn này có thể dẫn đến việc chấm dứt tài khoản."
+          },
+          {
+            "title": "Kích thước vị thế",
+            "description": "Kích thước vị thế tối đa cho mỗi biểu tượng được giới hạn ở mức 5 lần vốn chủ sở hữu của tài khoản của bạn. Điều này đảm bảo đa dạng hóa và quản lý rủi ro thích hợp."
+          },
+          {
+            "title": "Yêu cầu dừng lỗ",
+            "description": "Tất cả các giao dịch phải có lệnh dừng lỗ. Giao dịch mà không có lệnh dừng lỗ thích hợp không được phép và có thể dẫn đến việc xem xét tài khoản."
+          },
+          {
+            "title": "Giờ giao dịch",
+            "description": "Không khuyến khích giao dịch trong các sự kiện tin tức lớn hoặc thởi kỳ thanh khoản thấp. Điều này bảo vệ khỏi biến động quá mức và trượt giá."
+          },
+          {
+            "title": "Yêu cầu nhất quán",
+            "description": "Duy trì hoạt động giao dịch nhất quán. Tài khoản không có hoạt động giao dịch trong 30 ngày liên tiếp có thể bị xem xét."
+          },
+          {
+            "title": "Chiến lược bị cấm",
+            "description": "Một số chiến lược rủi ro cao như martingale, giao dịch lưới mà không có quản lý rủi ro thích hợp, và chênh lệch giá không được phép."
+          }
+        ]
+      },
+      "testimonials": {
+        "title": "Câu chuyện thành công",
+        "subtitle": "Nghe từ các nhà giao dịch được tài trợ của chúng tôi",
+        "stories": [
+          {
+            "quote": "Tôi đã giao dịch với Traders Act được 8 tháng rồi, và nó đã thay đổi sự nghiệp của tôi. Chương trình tài trợ minh bạch, chia sẻ lợi nhuận hào phóng, và các khoản thanh toán luôn đúng hạn. Tôi đã có thể mở rộng tài khoản của mình hai lần rồi!",
+            "name": "Oluwaseun Adebayo",
+            "role": "Nhà giao dịch Forex",
+            "icon": "👨‍💼"
+          },
+          {
+            "quote": "Kế hoạch tăng trưởng tại Traders Act là điều khiến họ khác biệt so với các công ty giao dịch khác. Tôi bắt đầu với tài khoản $50,000 và hiện đã mở rộng lên $125,000. Các quy tắc quản lý rủi ro công bằng và thực sự giúp tôi duy trì kỷ luật trong giao dịch của mình.",
+            "name": "Tan Wei Ming",
+            "role": "Nhà giao dịch Futures",
+            "icon": "👨‍💻"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Sẵn sàng để được tài trợ?",
+        "subtitle": "Hãy tham gia thử thách ngay hôm nay và bắt đầu giao dịch với vốn của chúng tôi.",
+        "button": "Đăng ký tài trợ"
+      }
+    },
+    "academy": {
+      "title": "Học viện giao dịch",
+      "hero": {
+        "title": "Giao dịch là một kỹ năng có thể học được",
+        "subtitle": "Học. Giao dịch. Thành công.",
+        "exploreButton": "Khám phá các khóa học",
+        "resourcesButton": "Tài nguyên miễn phí"
+      },
+      "whyEducation": {
+        "title": "Tại sao giáo dục giao dịch quan trọng",
+        "subtitle": "Giao dịch thành công đòi hỏi nhiều hơn chỉ là may mắn—nó cần kiến thức, kỷ luật và một chiến lược đã được chứng minh",
+        "features": [
+          {
+            "title": "Phát triển lợi thế giao dịch",
+            "description": "Học các chiến lược và kỹ thuật đã được chứng minh giúp bạn có lợi thế trên thị trường. Giáo dục của chúng tôi giúp bạn xác định các thiết lập xác suất cao và tránh những sai lầm phổ biến."
+          },
+          {
+            "title": "Làm chủ tâm lý giao dịch",
+            "description": "Giao dịch là 80% tâm lý và 20% chiến lược. Các khóa học của chúng tôi giúp bạn phát triển kỷ luật tinh thần cần thiết để thực hiện kế hoạch giao dịch của bạn một cách nhất quán và quản lý cảm xúc hiệu quả."
+          },
+          {
+            "title": "Chuyên môn quản lý rủi ro",
+            "description": "Học cách bảo vệ vốn của bạn với kích thước vị thế phù hợp, đặt lệnh dừng lỗ và các kỹ thuật quản lý danh mục đầu tư mà các nhà giao dịch chuyên nghiệp sử dụng."
+          }
+        ]
+      },
+      "offerings": {
+        "title": "Các dịch vụ giáo dục của chúng tôi",
+        "subtitle": "Tài nguyên học tập toàn diện cho các nhà giao dịch ở mọi cấp độ",
+        "items": [
+          {
+            "title": "Khóa học",
+            "description": "Lộ trình học tập có cấu trúc từ cấp độ cơ bản đến nâng cao",
+            "features": [
+              "Bài học video theo nhịp độ riêng",
+              "Bài kiểm tra tương tác",
+              "Bài tập thực hành",
+              "Chứng chỉ hoàn thành"
+            ]
+          },
+          {
+            "title": "Hội thảo trực tuyến",
+            "description": "Các buổi học trực tiếp với các nhà giao dịch chuyên nghiệp và chuyên gia thị trường",
+            "features": [
+              "Phân tích thị trường thời gian thực",
+              "Phiên hỏi đáp",
+              "Thảo luận chiến lược",
+              "Truy cập bản ghi"
+            ]
+          },
+          {
+            "title": "Cố vấn",
+            "description": "Hướng dẫn cá nhân từ các nhà giao dịch có kinh nghiệm",
+            "features": [
+              "Phản hồi cá nhân hóa",
+              "Đánh giá kế hoạch giao dịch",
+              "Phân tích hiệu suất",
+              "Kiểm tra định kỳ"
+            ]
+          },
+          {
+            "title": "Cộng đồng",
+            "description": "Kết nối với các nhà giao dịch đồng nghiệp và chia sẻ kinh nghiệm",
+            "features": [
+              "Diễn đàn thảo luận",
+              "Phòng giao dịch",
+              "Chia sẻ chiến lược",
+              "Sự kiện kết nối"
+            ]
+          }
+        ]
+      },
+      "modules": {
+        "title": "Các mô-đun khóa học",
+        "subtitle": "Phương pháp có cấu trúc để làm chủ nghệ thuật giao dịch",
+        "items": [
+          {
+            "number": "01",
+            "title": "Nền tảng giao dịch & Cơ chế thị trường",
+            "description": "Tìm hiểu các nguyên tắc cơ bản của thị trường tài chính, công cụ giao dịch và cấu trúc thị trường.",
+            "lessons": [
+              "Giới thiệu về thị trường tài chính",
+              "Công cụ thị trường và nơi giao dịch",
+              "Loại lệnh và thực hiện thị trường",
+              "Hiểu về nền tảng giao dịch"
+            ]
+          },
+          {
+            "number": "02",
+            "title": "Phân tích kỹ thuật & Biểu đồ",
+            "description": "Làm chủ nghệ thuật đọc biểu đồ và sử dụng các chỉ báo kỹ thuật hiệu quả.",
+            "lessons": [
+              "Loại biểu đồ & khung thởi gian",
+              "Chỉ báo kỹ thuật cốt lõi",
+              "Mẫu biểu đồ và phân tích xu hướng",
+              "Nghiên cứu tình huống thực tế"
+            ]
+          },
+          {
+            "number": "03",
+            "title": "Tâm lý giao dịch & Quản lý rủi ro",
+            "description": "Phát triển tư duy và kỷ luật cần thiết cho giao dịch thành công.",
+            "lessons": [
+              "Tâm lý giao dịch",
+              "Cơ bản về quản lý rủi ro",
+              "Phát triển kế hoạch giao dịch",
+              "Vượt qua rào cản tâm lý"
+            ]
+          },
+          {
+            "number": "04",
+            "title": "Chiến lược giao dịch nâng cao",
+            "description": "Học các chiến lược giao dịch chuyên nghiệp và kỹ thuật thực hiện nâng cao.",
+            "lessons": [
+              "Chiến lược giao dịch trong ngày",
+              "Phương pháp giao dịch swing",
+              "Cách tiếp cận giao dịch vị thế",
+              "Quản lý danh mục đầu tư"
+            ]
+          }
+        ]
+      },
+      "cta": {
+        "title": "Bắt đầu hành trình giao dịch của bạn ngay hôm nay",
+        "subtitle": "Tham gia chương trình giáo dục giao dịch toàn diện của chúng tôi và phát triển các kỹ năng bạn cần để thành công trên thị trường.",
+        "button": "Đăng ký ngay"
+      }
+    },
+    "blog": {
+      "title": "Góc nhìn giao dịch",
+      "hero": {
+        "title": "Kiến thức giao dịch mới nhất",
+        "subtitle": "Phân tích chuyên gia, chiến lược và góc nhìn thị trường."
+      },
+      "categories": {
+        "technical": "Phân tích kỹ thuật",
+        "fundamental": "Phân tích cơ bản",
+        "psychology": "Tâm lý giao dịch",
+        "risk": "Quản lý rủi ro"
+      }
+    },
+    "affiliate": {
+      "title": "Chương trình liên kết",
+      "hero": {
+        "title": "Kiếm tiền cùng chúng tôi",
+        "subtitle": "Hợp tác với Traders Act và nhận hoa hồng hấp dẫn.",
+        "joinButton": "Tham gia chương trình liên kết của chúng tôi"
+      },
+      "benefits": {
+        "title": "Lợi ích chương trình",
+        "subtitle": "Kiếm hoa hồng đáng kể trong khi giúp các nhà giao dịch tiếp cận nguồn vốn họ cần để thành công",
+        "items": [
+          {
+            "title": "Hoa hồng cao",
+            "description": "Kiếm hoa hồng lên đến 40% cho các giới thiệu."
+          },
+          {
+            "title": "Thu nhập trọn đời",
+            "description": "Nhận thanh toán trong suốt thởi gian hoạt động của người được giới thiệu."
+          },
+          {
+            "title": "Hỗ trợ tiếp thị",
+            "description": "Tiếp cận tài liệu tiếp thị chuyên nghiệp và hỗ trợ."
+          }
+        ]
+      },
+      "stats": {
+        "payouts": "Thanh toán hàng tháng",
+        "affiliates": "Đối tác liên kết hoạt động",
+        "commission": "Hoa hồng tối đa",
+        "support": "Hỗ trợ"
+      },
+      "commission": {
+        "title": "Cấu trúc hoa hồng",
+        "subtitle": "Cấu trúc hoa hồng theo bậc của chúng tôi thưởng cho bạn một cách hào phóng cho mỗi giới thiệu thành công",
+        "accountSize": "Kích thước tài khoản",
+        "rate": "Hoa hồng",
+        "recurring": "Hoa hồng định kỳ",
+        "viewDetails": "Xem chi tiết đầy đủ về hoa hồng",
+        "tiers": [
+          {
+            "range": "0-10 Thử thách",
+            "commission": "15%",
+            "recurring": "5%"
+          },
+          {
+            "range": "11-50 Thử thách",
+            "commission": "20%",
+            "recurring": "7%"
+          },
+          {
+            "range": "51-100 Thử thách",
+            "commission": "25%",
+            "recurring": "10%"
+          },
+          {
+            "range": "101-1000 Thử thách",
+            "commission": "30%",
+            "recurring": "12%"
+          },
+          {
+            "range": "1001+ Thử thách",
+            "commission": "35%",
+            "recurring": "15%"
+          }
+        ]
+      },
+      "features": [
+        {
+          "title": "Tỷ lệ hoa hồng cao",
+          "description": "Kiếm tới 40% cho mỗi nhà giao dịch đăng ký và hoàn thành thử thách thông qua liên kết giới thiệu của bạn."
+        },
+        {
+          "title": "Thu nhập định kỳ",
+          "description": "Nhận hoa hồng liên tục khi người được giới thiệu của bạn mở rộng tài khoản hoặc tham gia thêm các thử thách."
+        },
+        {
+          "title": "Thanh toán đúng hạn",
+          "description": "Nhận hoa hồng của bạn hai tuần một lần thông qua phương thức thanh toán ưa thích của bạn, không có ngưỡng tối thiểu."
+        },
+        {
+          "title": "Tài liệu tiếp thị",
+          "description": "Truy cập thư viện banner chuyên nghiệp, trang đích và mẫu email để tăng tỷ lệ chuyển đổi của bạn."
+        },
+        {
+          "title": "Hỗ trợ chuyên biệt",
+          "description": "Nhận hỗ trợ cá nhân từ đội ngũ quản lý đối tác liên kết của chúng tôi để giúp bạn tối đa hóa thu nhập."
+        },
+        {
+          "title": "Theo dõi thời gian thực",
+          "description": "Giám sát người được giới thiệu và thu nhập của bạn theo thời gian thực thông qua bảng điều khiển đối tác liên kết toàn diện của chúng tôi."
+        }
+      ],
+      "faq": {
+        "title": "Câu hỏi thường gặp",
+        "subtitle": "Tất cả những gì bạn cần biết về chương trình liên kết của chúng tôi",
+        "items": [
+          {
+            "question": "Làm thế nào để tham gia chương trình liên kết của Traders Act?",
+            "answer": "Để tham gia chương trình liên kết của chúng tôi, chỉ cần đăng ký tài khoản liên kết trên trang này. Sau khi được phê duyệt, bạn sẽ nhận được liên kết giới thiệu độc đáo và quyền truy cập vào bảng điều khiển liên kết của chúng tôi."
+          },
+          {
+            "question": "Khi nào và bằng cách nào tôi được thanh toán?",
+            "answer": "Hoa hồng được thanh toán hai tuần một lần. Bạn có thể chọn nhận thanh toán qua chuyển khoản ngân hàng, PayPal hoặc tiền điện tử. Không có ngưỡng thanh toán tối thiểu."
+          },
+          {
+            "question": "Làm thế nào để theo dõi người được giới thiệu?",
+            "answer": "Người được giới thiệu được theo dõi bằng cookie với cửa sổ quy đổi 90 ngày. Điều này có nghĩa là nếu ai đó nhấp vào liên kết của bạn và đăng ký trong vòng 90 ngày, bạn sẽ nhận được hoa hồng."
+          },
+          {
+            "question": "Tôi có thể quảng bá Traders Act trên mạng xã hội không?",
+            "answer": "Có, bạn có thể quảng bá Traders Act trên các nền tảng mạng xã hội, trang web, blog hoặc qua tiếp thị email. Chúng tôi cung cấp nhiều tài liệu tiếp thị để hỗ trợ bạn trong các chiến dịch quảng bá."
+          },
+          {
+            "question": "Cấu trúc hoa hồng là gì?",
+            "answer": "Cấu trúc hoa hồng của chúng tôi được phân theo bậc dựa trên kích thước tài khoản mà người được giới thiệu của bạn chọn. Bạn có thể kiếm từ 15% đến 35% cho mỗi lần giới thiệu thành công, cộng với hoa hồng định kỳ khi họ mở rộng tài khoản."
+          },
+          {
+            "question": "Có giới hạn về số tiền tôi có thể kiếm không?",
+            "answer": "Không có giới hạn về thu nhập của bạn. Càng nhiều nhà giao dịch bạn giới thiệu đăng ký và hoàn thành thử thách, bạn càng kiếm được nhiều. Các đối tác liên kết hàng đầu của chúng tôi kiếm hàng nghìn đô la mỗi tháng."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Tham gia chương trình liên kết của chúng tôi",
+        "subtitle": "Đăng ký hoặc đăng nhập để truy cập bảng điều khiển liên kết của bạn và bắt đầu kiếm tiền"
+      }
+    },
+    "common": {
+      "learnMore": "Tìm hiểu thêm",
+      "getStarted": "Bắt đầu",
+      "signIn": "Đăng nhập",
+      "signUp": "Đăng ký",
+      "startChallenge": "Bắt đầu thử thách giao dịch",
+      "sendMessage": "Gửi tin nhắn",
+      "email": "Email",
+      "password": "Mật khẩu",
+      "name": "Tên",
+      "message": "Tin nhắn",
+      "rememberMe": "Ghi nhớ tôi",
+      "forgotPassword": "Quên mật khẩu?",
+      "alreadyHaveAccount": "Đã có tài khoản?",
+      "dontHaveAccount": "Chưa có tài khoản?",
+      "acceptTerms": "Tôi đồng ý với điều khoản dịch vụ và chính sách bảo mật"
+    },
+    "navbar": {
+      "about": "Giới thiệu",
+      "features": "Tính năng",
+      "pricing": "Bảng giá",
+      "faq": "Câu hỏi thường gặp",
+      "challenge": "Thử thách",
+      "funding": "Tài trợ",
+      "academy": "Học viện",
+      "blog": "Blog",
+      "affiliate": "Tiếp thị liên kết"
+    },
+    "home": {
+      "hero": {
+        "title": "Con đường trở thành nhà giao dịch được tài trợ",
+        "subtitle": "Tham gia Traders Act và chứng minh kỹ năng giao dịch của bạn. Vượt qua thử thách của chúng tôi và nhận tài khoản được tài trợ với tỷ lệ chia sẻ lợi nhuận lên đến 90%.",
+        "stats": {
+          "payouts": "Thanh toán cho nhà giao dịch",
+          "traders": "Nhà giao dịch được tài trợ",
+          "profitShare": "Chia sẻ lợi nhuận",
+          "support": "Hỗ trợ"
+        }
+      },
+      "features": {
+        "title": "Tại sao chọn Traders Act",
+        "subtitle": "Chúng tôi cung cấp điều kiện tốt nhất cho các nhà giao dịch thành công",
+        "profitShare": {
+          "title": "Chia sẻ lợi nhuận lên đến 90%",
+          "description": "Giữ lại đến 90% lợi nhuận giao dịch của bạn với hệ thống chia sẻ lợi nhuận hàng đầu trong ngành."
+        },
+        "security": {
+          "title": "Nền tảng an toàn",
+          "description": "Giao dịch tự tin trên nền tảng giao dịch an toàn và đáng tin cậy."
+        },
+        "analytics": {
+          "title": "Phân tích thời gian thực",
+          "description": "Theo dõi hiệu suất của bạn với phân tích giao dịch nâng cao theo thởi gian thực."
+        },
+        "community": {
+          "title": "Hỗ trợ cộng đồng",
+          "description": "Tham gia cộng đồng các nhà giao dịch thành công và học hỏi từ những người giỏi nhất."
+        }
+      },
+      "testimonials": {
+        "title": "Nhà giao dịch của chúng tôi nói gì",
+        "subtitle": "Tham gia hàng nghìn nhà giao dịch được tài trợ thành công",
+        "testimonial1": {
+          "quote": "Nền tảng của Traders Act thật xuất sắc. Thử thách rất công bằng, và bây giờ tôi đang giao dịch với tài khoản $50,000 với 85% chia sẻ lợi nhuận. Các khoản thanh toán hai tuần một lần luôn đúng hạn.",
+          "name": "Abdullah Al-Rashid",
+          "position": "Nhà giao dịch được tài trợ - 4 tháng"
+        },
+        "testimonial2": {
+          "quote": "Đội ngũ hỗ trợ thật tuyệt vời. Họ đã giúp tôi vượt qua giai đoạn thử thách và giờ đây tôi đang giao dịch thành công với tài khoản được tài trợ. Các công cụ phân tích của nền tảng rất tuyệt vời.",
+          "name": "Oluwaseun Adebayo",
+          "position": "Nhà giao dịch được tài trợ - 3 tháng"
+        },
+        "testimonial3": {
+          "quote": "Bắt đầu với tài khoản $25,000 và tăng lên $100,000 chỉ trong 6 tháng. Chương trình mở rộng thật tuyệt vời, và tỷ lệ chia sẻ lợi nhuận là tốt nhất trong ngành.",
+          "name": "Carlos Rodriguez",
+          "position": "Nhà giao dịch được tài trợ - 5 tháng"
+        }
+      },
+      "pricing": {
+        "title": "Chọn kích thước tài khoản của bạn",
+        "subtitle": "Chọn kích thước tài khoản phù hợp với mục tiêu giao dịch của bạn",
+        "mostPopular": "Phổ biến nhất",
+        "micro": {
+          "title": "Micro",
+          "price": "$5,000",
+          "features": [
+            "Số dư ban đầu: $5,000",
+            "Mục tiêu lợi nhuận: 10%",
+            "Thua lỗ tối đa hàng ngày: $100 (2%)",
+            "Thua lỗ tối đa: $300 (6%)",
+            "Chia sẻ lợi nhuận: 70% hàng tháng",
+            "Phí đánh giá: $49.99"
+          ],
+          "button": "Bắt đầu thử thách"
+        },
+        "mini": {
+          "title": "Mini",
+          "price": "$10,000",
+          "features": [
+            "Số dư ban đầu: $10,000",
+            "Mục tiêu lợi nhuận: 10%",
+            "Thua lỗ tối đa hàng ngày: $200 (2%)",
+            "Thua lỗ tối đa: $700 (7%)",
+            "Chia sẻ lợi nhuận: 75% hàng tháng",
+            "Phí đánh giá: $99.99"
+          ],
+          "button": "Bắt đầu thử thách"
+        },
+        "starter": {
+          "title": "Khởi đầu",
+          "price": "$25,000",
+          "features": [
+            "Số dư ban đầu: $25,000",
+            "Mục tiêu lợi nhuận: 10%",
+            "Thua lỗ tối đa hàng ngày: $500 (2%)",
+            "Thua lỗ tối đa: $2000 (8%)",
+            "Chia sẻ lợi nhuận: 80% hàng tháng",
+            "Phí đánh giá: $199.99"
+          ],
+          "button": "Bắt đầu thử thách"
+        },
+        "pro": {
+          "title": "Chuyên nghiệp",
+          "price": "$50,000",
+          "features": [
+            "Số dư ban đầu: $50,000",
+            "Mục tiêu lợi nhuận: 10%",
+            "Thua lỗ tối đa hàng ngày: $1000 (2%)",
+            "Thua lỗ tối đa: $4500 (9%)",
+            "Chia sẻ lợi nhuận: 85% hàng tháng",
+            "Phí đánh giá: $299.99"
+          ],
+          "button": "Bắt đầu thử thách"
+        },
+        "elite": {
+          "title": "Ưu tú",
+          "price": "$100,000",
+          "features": [
+            "Số dư ban đầu: $100,000",
+            "Mục tiêu lợi nhuận: 10%",
+            "Thua lỗ tối đa hàng ngày: $2000 (2%)",
+            "Thua lỗ tối đa: $9000 (9%)",
+            "Chia sẻ lợi nhuận: 90% hàng tháng",
+            "Phí đánh giá: $499.99"
+          ],
+          "button": "Bắt đầu thử thách"
+        }
+      },
+      "faq": {
+        "title": "Câu hỏi thường gặp",
+        "subtitle": "Những câu hỏi phổ biến nhất về chương trình của chúng tôi",
+        "questions": [
+          {
+            "question": "Thử thách Traders Act là gì?",
+            "answer": "Thử thách Traders Act là chương trình đánh giá được thiết kế để xác định các nhà giao dịch có kỹ năng. Bạn sẽ giao dịch trên tài khoản mô phỏng với tiền ảo, tuân theo các quy tắc và mục tiêu cụ thể. Khi hoàn thành thành công, bạn sẽ nhận được tài khoản giao dịch được tài trợ bằng vốn thực."
+          },
+          {
+            "question": "Tôi có bao nhiêu thởi gian để hoàn thành thử thách?",
+            "answer": "Bạn có tối đa 30 ngày theo lịch để hoàn thành thử thách. Không có số ngày giao dịch tối thiểu - bạn có thể hoàn thành thử thách nhanh hơn nếu đạt được mục tiêu lợi nhuận trong khi tuân thủ tất cả các quy tắc giao dịch."
+          },
+          {
+            "question": "Tôi có thể giao dịch những thị trường nào trong thử thách?",
+            "answer": "Bạn có thể giao dịch forex, chỉ số, hàng hóa và tiền điện tử. Nền tảng của chúng tôi cung cấp quyền truy cập vào tất cả các thị trường toàn cầu chính với spread cạnh tranh và thực hiện lệnh xuất sắc."
+          },
+          {
+            "question": "Các quy tắc giao dịch trong thử thách là gì?",
+            "answer": "Các quy tắc chính bao gồm duy trì kích thước vị thế phù hợp (tối đa 5% cho mỗi giao dịch), sử dụng lệnh dừng lỗ, tránh giao dịch trong thởi gian tin tức quan trọng và duy trì trong giới hạn thua lỗ tối đa. Các quy tắc đầy đủ được cung cấp khi bắt đầu thử thách."
+          },
+          {
+            "question": "Điều gì xảy ra sau khi vượt qua thử thách?",
+            "answer": "Sau khi thành công, bạn sẽ nhận được tài khoản được tài trợ bằng vốn thực trong vòng 24-48 giờ. Sau đó, bạn có thể bắt đầu giao dịch bằng vốn của chúng tôi trong khi giữ lại đến 90% lợi nhuận bạn tạo ra."
+          },
+          {
+            "question": "Lợi nhuận được thanh toán thường xuyên như thế nào?",
+            "answer": "Chúng tôi xử lý các khoản thanh toán lợi nhuận hai tuần một lần. Sau khi thanh toán của bạn được phê duyệt, bạn sẽ nhận được tiền trong vòng 1-2 ngày làm việc thông qua phương thức thanh toán bạn đã chọn."
+          }
+        ]
+      },
+      "hours": {
+        "trading": {
+          "title": "Giờ Giao Dịch",
+          "weekdays": "Thứ Hai - Thứ Sáu",
+          "weekdaysHours": "00:00 - 23:59 GMT",
+          "weekend": "Thứ Bảy - Chủ Nhật",
+          "weekendHours": "Đóng cửa"
+        },
+        "support": {
+          "title": "Giờ Hỗ Trợ",
+          "weekdays": "Thứ Hai - Thứ Sáu",
+          "weekdaysHours": "9:00 - 17:00 GMT",
+          "weekend": "Thứ Bảy - Chủ Nhật",
+          "weekendHours": "10:00 - 14:00 GMT"
+        }
+      }
+    },
+    "auth": {
+      "signIn": {
+        "title": "Chào mừng trở lại",
+        "emailLabel": "Email",
+        "emailPlaceholder": "Nhập email của bạn",
+        "passwordLabel": "Mật khẩu",
+        "passwordPlaceholder": "Nhập mật khẩu của bạn",
+        "button": "Đăng nhập",
+        "forgotPassword": "Quên mật khẩu?",
+        "noAccount": "Chưa có tài khoản?",
+        "signUp": "Đăng ký",
+        "success": "Đăng nhập thành công!",
+        "error": "Email hoặc mật khẩu không chính xác"
+      },
+      "signUp": {
+        "title": "Tạo tài khoản mới",
+        "nameLabel": "Họ tên đầy đủ",
+        "namePlaceholder": "Nhập họ tên đầy đủ của bạn",
+        "emailLabel": "Email",
+        "emailPlaceholder": "Nhập email của bạn",
+        "passwordLabel": "Mật khẩu",
+        "passwordPlaceholder": "Nhập mật khẩu của bạn",
+        "confirmPasswordLabel": "Xác nhận mật khẩu",
+        "confirmPasswordPlaceholder": "Nhập lại mật khẩu của bạn",
+        "termsLabel": "Bằng cách đăng ký, bạn đồng ý với",
+        "termsLink": "Điều khoản dịch vụ",
+        "andText": "và",
+        "privacyLink": "Chính sách bảo mật",
+        "button": "Tạo tài khoản",
+        "haveAccount": "Đã có tài khoản?",
+        "signIn": "Đăng nhập",
+        "success": "Tạo tài khoản thành công!",
+        "error": "Đã xảy ra lỗi khi tạo tài khoản"
+      }
+    },
+    "dashboard": {
+      "welcome": "Xin chào",
+      "subtitle": "Đây là tổng quan về hiệu suất tài khoản của bạn",
+      "signOut": "Đăng xuất",
+      "signOutSuccess": "Đăng xuất thành công",
+      "signOutError": "Đã xảy ra lỗi khi đăng xuất",
+      "stats": {
+        "accountBalance": "Số dư tài khoản",
+        "dailyPnL": "Lãi/Lỗ hàng ngày",
+        "winRate": "Tỷ lệ thắng",
+        "totalTrades": "Tổng số giao dịch"
+      }
+    },
+    "footer": {
+      "quickLinks": "Liên kết nhanh",
+      "legal": "Pháp lý",
+      "connect": "Kết nối",
+      "copyright": " Traders Act. Tất cả quyền được bảo lưu.",
+      "links": {
+        "features": "Tính năng",
+        "pricing": "Giá",
+        "testimonials": "Đánh giá",
+        "faq": "Câu hỏi thường gặp",
+        "privacy": "Chính sách bảo mật",
+        "terms": "Điều khoản dịch vụ",
+        "risk": "Tiết lộ rủi ro",
+        "refund": "Chính sách hoàn tiền",
+        "twitter": "Twitter",
+        "linkedin": "LinkedIn",
+        "instagram": "Instagram",
+        "youtube": "YouTube"
+      }
+    },
+    "languageSwitcher": {
+      "selectLanguage": "Chọn ngôn ngữ",
+      "english": "English",
+      "arabic": "",
+      "vietnamese": "Tiếng Việt",
+      "malay": "Bahasa Melayu",
+      "hindi": "",
+      "chinese": "",
+      "spanish": "Español"
+    }
+  }
+}

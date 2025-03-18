@@ -1,0 +1,597 @@
+{
+  "meta": {
+    "title": "Traders Act - Tu camino para convertirte en un trader financiado",
+    "description": "Únete a Traders Act y demuestra tus habilidades de trading. Supera nuestro desafío y obtén acceso a una cuenta financiada con hasta 90% de participación en las ganancias."
+  },
+  "pages": {
+    "about": {
+      "title": "Acerca de",
+      "hero": {
+        "title": "Nuestra misión para transformar el futuro del trading",
+        "subtitle": "Estamos construyendo la empresa de trading privada más centrada en los traders del mundo, donde el talento y la dedicación son las únicas barreras para el éxito."
+      },
+      "story": {
+        "title": "Nuestra Historia",
+        "content": [
+          "Traders Act fue fundada en 2018, a partir de una idea simple pero poderosa: los traders talentosos no deberían estar limitados por su capital inicial.",
+          "Hemos construido una plataforma que identifica y apoya a traders habilidosos, proporcionándoles el capital y las herramientas que necesitan para tener éxito en los mercados financieros globales.",
+          "Hoy, nos enorgullece financiar a más de 1,000 traders en todo el mundo, administrar millones en capital de trading y continuar haciendo crecer nuestra comunidad de traders exitosos."
+        ]
+      },
+      "values": {
+        "title": "Nuestros Valores",
+        "subtitle": "Los principios que guían todo lo que hacemos",
+        "items": {
+          "excellence": {
+            "title": "Excelencia",
+            "description": "Buscamos la excelencia en todo lo que hacemos, desde nuestra plataforma de trading hasta el soporte al cliente."
+          },
+          "integrity": {
+            "title": "Integridad",
+            "description": "Mantenemos los más altos estándares de transparencia y conducta ética."
+          },
+          "innovation": {
+            "title": "Innovación",
+            "description": "Continuamente desarrollamos nuestra plataforma y servicios para satisfacer las necesidades de los traders."
+          }
+        }
+      }
+    },
+    "challenge": {
+      "title": "Desafío de Trading",
+      "hero": {
+        "title": "Demuestra tus habilidades de trading",
+        "subtitle": "Toma el desafío de trading y obtén una cuenta financiada de hasta $100,000 en capital."
+      },
+      "steps": {
+        "title": "Cómo Funciona",
+        "description": "Nuestro proceso de tres pasos para convertirse en un trader financiado",
+        "items": [
+          {
+            "title": "Elige Tu Cuenta",
+            "description": "Selecciona entre tamaños de cuenta que van desde $5,000 hasta $100,000."
+          },
+          {
+            "title": "Completa el Desafío",
+            "description": "Opera durante 30 días cumpliendo nuestros objetivos de beneficio y reglas de riesgo."
+          },
+          {
+            "title": "Obtén Financiación",
+            "description": "Supera el desafío y recibe tu cuenta financiada en 24 horas."
+          }
+        ]
+      },
+      "faqs": {
+        "title": "Preguntas Frecuentes",
+        "subtitle": "Todo lo que necesitas saber sobre nuestro desafío de trading",
+        "items": [
+          {
+            "question": "¿Qué es el desafío de Traders Act?",
+            "answer": "El desafío de Traders Act es un programa de evaluación diseñado para identificar traders habilidosos. Operarás una cuenta simulada durante 30 días, y si cumples nuestros objetivos de beneficio siguiendo nuestras reglas de gestión de riesgos, recibirás una cuenta financiada."
+          },
+          {
+            "question": "¿Cuánto cuesta el desafío?",
+            "answer": "La tarifa del desafío varía según el tamaño de cuenta que elijas, desde $99 para una cuenta de $5,000 hasta $599 para una cuenta de $100,000. Esta es una tarifa única que cubre tu período de evaluación."
+          },
+          {
+            "question": "¿Cuáles son los objetivos de beneficio?",
+            "answer": "El objetivo de beneficio es del 8% del valor de tu cuenta durante el período de desafío de 30 días. Por ejemplo, con una cuenta de $10,000, necesitarás obtener $800 de beneficio."
+          },
+          {
+            "question": "¿Cuáles son las reglas de gestión de riesgos?",
+            "answer": "Nuestras reglas de gestión de riesgos incluyen: drawdown diario máximo del 5%, drawdown total máximo del 10%, y no operar durante eventos económicos importantes. Estas reglas están diseñadas para asegurar que operes de manera responsable."
+          },
+          {
+            "question": "¿Qué tan rápido puedo obtener financiación después de aprobar?",
+            "answer": "Una vez que completes con éxito el desafío, revisaremos tu rendimiento de trading en 24 horas y configuraremos tu cuenta financiada. Puedes comenzar a operar con nuestro capital inmediatamente después de la aprobación."
+          },
+          {
+            "question": "¿Qué plataformas de trading puedo usar?",
+            "answer": "Soportamos MetaTrader 4, MetaTrader 5 y TradingView para nuestros desafíos y cuentas financiadas. Puedes elegir la plataforma con la que te sientas más cómodo."
+          },
+          {
+            "question": "¿Qué mercados puedo operar?",
+            "answer": "Puedes operar pares de forex, materias primas, índices y criptomonedas. Ofrecemos una amplia gama de mercados para adaptarse a diferentes estilos y estrategias de trading."
+          },
+          {
+            "question": "¿Cómo recibo mis beneficios?",
+            "answer": "Los pagos de beneficios se procesan quincenalmente mediante transferencia bancaria, PayPal o criptomoneda. Recibirás tu parte de los beneficios según tu acuerdo de reparto de beneficios, que oscila entre el 70% y el 90% dependiendo del tamaño de tu cuenta y rendimiento."
+          }
+        ]
+      }
+    },
+    "funding": {
+      "title": "Programa de Financiación",
+      "hero": {
+        "title": "Programa de Financiación",
+        "subtitle": "Opera con nuestro capital y conserva hasta el 90% de tus beneficios",
+        "applyButton": "Solicitar Financiación",
+        "learnMoreButton": "Saber Más"
+      },
+      "profitSharing": {
+        "title": "Modelo de Reparto de Beneficios",
+        "description": "En Traders Act, creemos en recompensar generosamente a los traders con habilidad. Nuestro modelo de reparto de beneficios líder en la industria te permite conservar hasta el 90% de los beneficios que generas con nuestro capital.",
+        "accounts": [
+          {
+            "account": "Cuenta de $5,000",
+            "split": "70% Reparto de Beneficios"
+          },
+          {
+            "account": "Cuenta de $10,000",
+            "split": "75% Reparto de Beneficios"
+          },
+          {
+            "account": "Cuenta de $25,000",
+            "split": "80% Reparto de Beneficios"
+          },
+          {
+            "account": "Cuenta de $50,000",
+            "split": "85% Reparto de Beneficios"
+          },
+          {
+            "account": "Cuenta de $100,000",
+            "split": "90% Reparto de Beneficios"
+          }
+        ],
+        "payoutInfo": "Los pagos de beneficios se realizan mensualmente, asegurando que tengas acceso regular a tus ganancias. Tu porcentaje de reparto de beneficios comienza en el 70% en el primer mes y aumenta un 5% cada mes, alcanzando un máximo del 90% siempre que se cumplan los objetivos de manera constante. Nuestro proceso de pago transparente asegura que siempre sepas exactamente lo que estás ganando y cuándo lo recibirás."
+      },
+      "growthPlan": {
+        "title": "Plan de Crecimiento",
+        "subtitle": "Amplía tu cuenta financiada a medida que demuestras un rendimiento constante",
+        "phases": [
+          {
+            "title": "Financiación Inicial",
+            "description": "Después de pasar el desafío, recibes tu cuenta financiada inicial. Opera con nuestro capital mientras cumples con las reglas de gestión de riesgos."
+          },
+          {
+            "title": "Hito de Consistencia",
+            "description": "Después de demostrar rentabilidad constante durante 3 meses, calificas para la ampliación de cuenta. Esto demuestra tu capacidad para mantener el rendimiento a lo largo del tiempo."
+          },
+          {
+            "title": "Ampliación de Cuenta",
+            "description": "El tamaño de tu cuenta aumenta un 25% desde la financiación inicial. Por ejemplo, una cuenta de $100,000 aumentará a $125,000, proporcionándote más capital para operar."
+          },
+          {
+            "title": "Ampliación Avanzada",
+            "description": "Continúa demostrando rentabilidad constante, y tu cuenta puede ampliarse varias veces, hasta un máximo de $1,000,000 de capital de trading."
+          }
+        ]
+      },
+      "riskRules": {
+        "title": "Reglas de Gestión de Riesgos",
+        "subtitle": "Directrices para mantener tu cuenta financiada y asegurar el éxito a largo plazo",
+        "rules": [
+          {
+            "title": "Drawdown Máximo",
+            "description": "Tu cuenta tiene un límite de drawdown máximo del 2% diario y 10% total. Exceder estos límites puede llevar a la terminación de la cuenta."
+          },
+          {
+            "title": "Tamaño de Posición",
+            "description": "El tamaño máximo de posición para cada símbolo está limitado a 5 veces el capital de tu cuenta. Esto asegura diversificación y gestión de riesgos adecuada."
+          },
+          {
+            "title": "Requisito de Stop Loss",
+            "description": "Todas las operaciones deben tener órdenes de stop loss. No se permite operar sin stops loss adecuados y puede llevar a una revisión de cuenta."
+          },
+          {
+            "title": "Horas de Trading",
+            "description": "Se desaconseja operar durante grandes eventos de noticias o períodos de baja liquidez. Esto protege contra la volatilidad excesiva y el deslizamiento."
+          },
+          {
+            "title": "Requisito de Consistencia",
+            "description": "Mantén una actividad de trading constante. Las cuentas sin actividad de trading durante 30 días consecutivos pueden ser revisadas."
+          },
+          {
+            "title": "Estrategias Prohibidas",
+            "description": "Algunas estrategias de alto riesgo como martingala, trading de cuadrícula sin gestión de riesgos adecuada, y arbitraje no están permitidas."
+          }
+        ]
+      },
+      "testimonials": {
+        "title": "Historias de Éxito",
+        "subtitle": "Escucha a nuestros traders financiados",
+        "stories": [
+          {
+            "quote": "He estado operando con Traders Act durante 8 meses ya, y ha cambiado mi carrera. Programa de financiación transparente, reparto de beneficios generoso, y pagos siempre puntuales. ¡He podido ampliar mi cuenta dos veces!",
+            "name": "Oluwaseun Adebayo",
+            "role": "Trader de Forex",
+            "icon": "👨‍💼"
+          },
+          {
+            "quote": "El equipo de soporte es increíble. Me ayudaron durante la fase de desafío y ahora opero con éxito en una cuenta financiada. Las herramientas de análisis en la plataforma son muy sofisticadas.",
+            "name": "Tan Wei Ming",
+            "role": "Trader Financiado",
+            "icon": "👨‍💻"
+          }
+        ]
+      },
+      "cta": {
+        "title": "¿Listo para ser Financiado?",
+        "subtitle": "Únete al desafío hoy y comienza a operar con nuestro capital.",
+        "button": "Solicitar Financiación"
+      }
+    },
+    "academy": {
+      "title": "Academia de Trading",
+      "hero": {
+        "title": "El Trading es una Habilidad que se Puede Aprender",
+        "subtitle": "Aprende. Opera. Triunfa.",
+        "exploreButton": "Explorar Nuestros Cursos",
+        "resourcesButton": "Recursos Gratuitos"
+      },
+      "whyEducation": {
+        "title": "Por Qué la Educación en Trading es Importante",
+        "subtitle": "El trading exitoso requiere más que suerte: exige conocimiento, disciplina y una estrategia probada",
+        "features": [
+          {
+            "title": "Desarrolla una Ventaja en el Trading",
+            "description": "Aprende estrategias y técnicas probadas que te dan ventaja en los mercados. Nuestra educación te ayuda a identificar configuraciones de alta probabilidad y evitar errores comunes."
+          },
+          {
+            "title": "Domina la Psicología del Trading",
+            "description": "El trading es 80% psicología y 20% estrategia. Nuestros cursos te ayudan a desarrollar la disciplina mental necesaria para ejecutar tu plan de trading de manera consistente y gestionar las emociones eficazmente."
+          },
+          {
+            "title": "Experiencia en Gestión de Riesgos",
+            "description": "Aprende a proteger tu capital con el dimensionamiento adecuado de posiciones, colocación de stop-loss y técnicas de gestión de cartera que utilizan los traders profesionales."
+          }
+        ]
+      },
+      "offerings": {
+        "title": "Nuestras Ofertas Educativas",
+        "subtitle": "Recursos de aprendizaje completos para traders de todos los niveles",
+        "items": [
+          {
+            "title": "Cursos",
+            "description": "Rutas de aprendizaje estructuradas desde nivel principiante hasta avanzado",
+            "features": [
+              "Lecciones en video a tu propio ritmo",
+              "Cuestionarios interactivos",
+              "Ejercicios prácticos",
+              "Certificado de finalización"
+            ]
+          },
+          {
+            "title": "Webinars",
+            "description": "Sesiones en vivo con traders profesionales y expertos del mercado",
+            "features": [
+              "Análisis de mercado en tiempo real",
+              "Sesiones de preguntas y respuestas",
+              "Discusiones de estrategia",
+              "Acceso a grabaciones"
+            ]
+          },
+          {
+            "title": "Mentoría",
+            "description": "Orientación personalizada de traders experimentados",
+            "features": [
+              "Retroalimentación personalizada",
+              "Revisión del plan de trading",
+              "Análisis de rendimiento",
+              "Seguimientos regulares"
+            ]
+          },
+          {
+            "title": "Comunidad",
+            "description": "Conéctate con otros traders y comparte experiencias",
+            "features": [
+              "Foros de discusión",
+              "Salas de trading",
+              "Compartir estrategias",
+              "Eventos de networking"
+            ]
+          }
+        ]
+      },
+      "modules": {
+        "title": "Módulos del Curso",
+        "subtitle": "Un enfoque estructurado para dominar el arte del trading",
+        "items": [
+          {
+            "number": "01",
+            "title": "Fundamentos del Trading y Mecánica del Mercado",
+            "description": "Aprende los fundamentos de los mercados financieros, instrumentos de trading y estructura del mercado.",
+            "lessons": [
+              "Introducción a los Mercados Financieros",
+              "Instrumentos del Mercado y Lugares de Negociación",
+              "Tipos de Órdenes y Ejecución de Mercado",
+              "Comprensión de Plataformas de Trading"
+            ]
+          },
+          {
+            "number": "02",
+            "title": "Análisis Técnico y Gráficos",
+            "description": "Domina el arte de leer gráficos y utilizar indicadores técnicos de manera efectiva.",
+            "lessons": [
+              "Tipos de Gráficos y Marcos Temporales",
+              "Indicadores Técnicos Fundamentales",
+              "Patrones de Gráficos y Análisis de Tendencias",
+              "Estudios de Casos Prácticos"
+            ]
+          },
+          {
+            "number": "03",
+            "title": "Psicología del Trading y Gestión de Riesgos",
+            "description": "Desarrolla la mentalidad y disciplina necesarias para el trading exitoso.",
+            "lessons": [
+              "Psicología del Trading",
+              "Fundamentos de Gestión de Riesgos",
+              "Desarrollo de un Plan de Trading",
+              "Superación de Barreras Psicológicas"
+            ]
+          },
+          {
+            "number": "04",
+            "title": "Estrategias Avanzadas de Trading",
+            "description": "Aprende estrategias profesionales de trading y técnicas avanzadas de ejecución.",
+            "lessons": [
+              "Estrategias de Trading Diario",
+              "Métodos de Trading de Swing",
+              "Enfoques de Trading de Posición",
+              "Gestión de Cartera"
+            ]
+          }
+        ]
+      },
+      "cta": {
+        "title": "Comienza Tu Viaje de Trading Hoy",
+        "subtitle": "Únete a nuestro programa integral de educación en trading y desarrolla las habilidades que necesitas para tener éxito en los mercados.",
+        "button": "Inscríbete Ahora"
+      }
+    },
+    "blog": {
+      "title": "Perspectivas de Trading",
+      "hero": {
+        "title": "Los últimos conocimientos de trading",
+        "subtitle": "Análisis de expertos, estrategias y perspectivas del mercado."
+      },
+      "categories": {
+        "technical": "Análisis Técnico",
+        "fundamental": "Análisis Fundamental",
+        "psychology": "Psicología de Trading",
+        "risk": "Gestión de Riesgos"
+      }
+    },
+    "affiliate": {
+      "title": "Programa de Afiliados",
+      "hero": {
+        "title": "Gana con nosotros",
+        "subtitle": "Asociate con Traders Act y obtén comisiones generosas.",
+        "joinButton": "Únete a Nuestro Programa de Afiliados"
+      },
+      "benefits": {
+        "title": "Beneficios del Programa",
+        "subtitle": "Gana comisiones sustanciales mientras ayudas a los traders a acceder al capital que necesitan para tener éxito",
+        "items": [
+          {
+            "title": "Altas comisiones",
+            "description": "Gana hasta un 40% de comisión por referidos."
+          },
+          {
+            "title": "Ingresos de por vida",
+            "description": "Recibe pagos durante toda la vida de tus referidos."
+          },
+          {
+            "title": "Soporte de marketing",
+            "description": "Acceso a materiales profesionales de marketing y soporte."
+          }
+        ]
+      },
+      "stats": {
+        "payouts": "Pagos Mensuales",
+        "affiliates": "Afiliados Activos",
+        "commission": "Comisión Máxima",
+        "support": "Soporte"
+      },
+      "commission": {
+        "title": "Estructura de Comisiones",
+        "subtitle": "Nuestra estructura de comisiones escalonada te recompensa generosamente por cada referencia exitosa",
+        "accountSize": "Tamaño de Cuenta",
+        "rate": "Comisión",
+        "recurring": "Comisión Recurrente",
+        "viewDetails": "Ver Detalles Completos de Comisiones",
+        "tiers": [
+          {
+            "range": "0-10 Desafíos",
+            "commission": "15%",
+            "recurring": "5%"
+          },
+          {
+            "range": "11-50 Desafíos",
+            "commission": "20%",
+            "recurring": "7%"
+          },
+          {
+            "range": "51-100 Desafíos",
+            "commission": "25%",
+            "recurring": "10%"
+          },
+          {
+            "range": "101-1000 Desafíos",
+            "commission": "30%",
+            "recurring": "12%"
+          },
+          {
+            "range": "1001+ Desafíos",
+            "commission": "35%",
+            "recurring": "15%"
+          }
+        ]
+      },
+      "features": [
+        {
+          "title": "Altas Tasas de Comisión",
+          "description": "Gana hasta un 40% por cada trader que se registre y complete un desafío a través de tu enlace de referido."
+        },
+        {
+          "title": "Ingresos Recurrentes",
+          "description": "Recibe comisiones continuas cuando tus referidos escalan sus cuentas o toman desafíos adicionales."
+        },
+        {
+          "title": "Pagos Puntuales",
+          "description": "Recibe tus comisiones quincenalmente a través de tu método de pago preferido, sin umbral mínimo."
+        },
+        {
+          "title": "Materiales de Marketing",
+          "description": "Accede a una biblioteca de banners profesionales, páginas de destino y plantillas de correo electrónico para aumentar tus tasas de conversión."
+        },
+        {
+          "title": "Soporte Dedicado",
+          "description": "Obtén asistencia personalizada de nuestro equipo de gestión de afiliados para ayudarte a maximizar tus ganancias."
+        },
+        {
+          "title": "Seguimiento en Tiempo Real",
+          "description": "Monitorea tus referidos y ganancias en tiempo real a través de nuestro completo panel de afiliados."
+        }
+      ],
+      "faq": {
+        "title": "Preguntas Frecuentes",
+        "subtitle": "Todo lo que necesitas saber sobre nuestro programa de afiliados",
+        "items": [
+          {
+            "question": "¿Cómo me uno al programa de afiliados de Traders Act?",
+            "answer": "Para unirte a nuestro programa de afiliados, simplemente regístrate para obtener una cuenta de afiliado en esta página. Una vez aprobado, recibirás tu enlace de referido único y acceso a nuestro panel de afiliados."
+          },
+          {
+            "question": "¿Cuándo y cómo me pagan?",
+            "answer": "Las comisiones se pagan quincenalmente. Puedes elegir recibir pagos mediante transferencia bancaria, PayPal o criptomonedas. No hay umbral mínimo de pago."
+          },
+          {
+            "question": "¿Cómo se rastrean los referidos?",
+            "answer": "Los referidos se rastrean utilizando cookies con una ventana de atribución de 90 días. Esto significa que si alguien hace clic en tu enlace y se registra dentro de los 90 días, recibirás la comisión."
+          },
+          {
+            "question": "¿Puedo promocionar Traders Act en redes sociales?",
+            "answer": "Sí, puedes promocionar Traders Act en plataformas de redes sociales, tu sitio web, blog o a través de marketing por correo electrónico. Proporcionamos una variedad de materiales de marketing para ayudarte con tus promociones."
+          },
+          {
+            "question": "¿Cuál es la estructura de comisiones?",
+            "answer": "Nuestra estructura de comisiones está escalonada según el tamaño de cuenta que elija tu referido. Puedes ganar entre un 15% y un 35% por cada referido exitoso, más comisiones recurrentes cuando escalan sus cuentas."
+          },
+          {
+            "question": "¿Hay un límite en cuanto puedo ganar?",
+            "answer": "No hay límite en tus ganancias. Cuantos más traders refieras que se registren y completen desafíos, más ganas. Nuestros mejores afiliados ganan miles de dólares cada mes."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Únete a Nuestro Programa de Afiliados",
+        "subtitle": "Regístrate o inicia sesión para acceder a tu panel de afiliado y comenzar a ganar"
+      }
+    },
+    "home": {
+      "hero": {
+        "title": "Traders Act - Tu camino para convertirte en un trader financiado",
+        "subtitle": "Únete a Traders Act y demuestra tus habilidades de trading. Supera nuestro desafío y obtén acceso a una cuenta financiada con hasta 90% de participación en las ganancias."
+      },
+      "pricing": {
+        "title": "Elige tu Cuenta de Trading",
+        "subtitle": "Selecciona el tamaño de cuenta que se ajuste a tus objetivos de trading",
+        "mostPopular": "Más Popular",
+        "micro": {
+          "title": "Micro",
+          "price": "$5,000",
+          "features": [
+            "Saldo Inicial: $5,000",
+            "Objetivo de Beneficio: 10%",
+            "Pérdida Diaria Máxima: $100 (2%)",
+            "Pérdida Total Máxima: $300 (6%)",
+            "Reparto de Beneficios: 70% Mensual",
+            "Tarifa de Evaluación: $49.99"
+          ],
+          "button": "Iniciar Desafío"
+        },
+        "mini": {
+          "title": "Mini",
+          "price": "$10,000",
+          "features": [
+            "Saldo Inicial: $10,000",
+            "Objetivo de Beneficio: 10%",
+            "Pérdida Diaria Máxima: $200 (2%)",
+            "Pérdida Total Máxima: $700 (7%)",
+            "Reparto de Beneficios: 75% Mensual",
+            "Tarifa de Evaluación: $99.99"
+          ],
+          "button": "Iniciar Desafío"
+        },
+        "starter": {
+          "title": "Inicial",
+          "price": "$25,000",
+          "features": [
+            "Saldo Inicial: $25,000",
+            "Objetivo de Beneficio: 10%",
+            "Pérdida Diaria Máxima: $500 (2%)",
+            "Pérdida Total Máxima: $2000 (8%)",
+            "Reparto de Beneficios: 80% Mensual",
+            "Tarifa de Evaluación: $199.99"
+          ],
+          "button": "Iniciar Desafío"
+        },
+        "pro": {
+          "title": "Profesional",
+          "price": "$50,000",
+          "features": [
+            "Saldo Inicial: $50,000",
+            "Objetivo de Beneficio: 10%",
+            "Pérdida Diaria Máxima: $1000 (2%)",
+            "Pérdida Total Máxima: $4500 (9%)",
+            "Reparto de Beneficios: 85% Mensual",
+            "Tarifa de Evaluación: $299.99"
+          ],
+          "button": "Iniciar Desafío"
+        },
+        "elite": {
+          "title": "Élite",
+          "price": "$100,000",
+          "features": [
+            "Saldo Inicial: $100,000",
+            "Objetivo de Beneficio: 10%",
+            "Pérdida Diaria Máxima: $2000 (2%)",
+            "Pérdida Total Máxima: $10000 (10%)",
+            "Reparto de Beneficios: 85% Mensual",
+            "Tarifa de Evaluación: $499.99"
+          ],
+          "button": "Iniciar Desafío"
+        }
+      },
+      "faq": {
+        "title": "Preguntas Frecuentes",
+        "subtitle": "Todo lo que necesitas saber sobre nuestro desafío de trading",
+        "items": [
+          {
+            "question": "¿Qué es el desafío de Traders Act?",
+            "answer": "El desafío de Traders Act es un programa de evaluación diseñado para identificar traders habilidosos. Operarás una cuenta simulada durante 30 días, y si cumples nuestros objetivos de beneficio siguiendo nuestras reglas de gestión de riesgos, recibirás una cuenta financiada."
+          },
+          {
+            "question": "¿Cuánto cuesta el desafío?",
+            "answer": "La tarifa del desafío varía según el tamaño de cuenta que elijas, desde $99 para una cuenta de $5,000 hasta $599 para una cuenta de $100,000. Esta es una tarifa única que cubre tu período de evaluación."
+          },
+          {
+            "question": "¿Cuáles son los objetivos de beneficio?",
+            "answer": "El objetivo de beneficio es del 8% del valor de tu cuenta durante el período de desafío de 30 días. Por ejemplo, con una cuenta de $10,000, necesitarás obtener $800 de beneficio."
+          },
+          {
+            "question": "¿Cuáles son las reglas de gestión de riesgos?",
+            "answer": "Nuestras reglas de gestión de riesgos incluyen: drawdown diario máximo del 5%, drawdown total máximo del 10%, y no operar durante eventos económicos importantes. Estas reglas están diseñadas para asegurar que operes de manera responsable."
+          },
+          {
+            "question": "¿Qué tan rápido puedo obtener financiación después de aprobar?",
+            "answer": "Una vez que completes con éxito el desafío, revisaremos tu rendimiento de trading en 24 horas y configuraremos tu cuenta financiada. Puedes comenzar a operar con nuestro capital inmediatamente después de la aprobación."
+          },
+          {
+            "question": "¿Qué plataformas de trading puedo usar?",
+            "answer": "Soportamos MetaTrader 4, MetaTrader 5 y TradingView para nuestros desafíos y cuentas financiadas. Puedes elegir la plataforma con la que te sientas más cómodo."
+          },
+          {
+            "question": "¿Qué mercados puedo operar?",
+            "answer": "Puedes operar pares de forex, materias primas, índices y criptomonedas. Ofrecemos una amplia gama de mercados para adaptarse a diferentes estilos y estrategias de trading."
+          },
+          {
+            "question": "¿Cómo recibo mis beneficios?",
+            "answer": "Los pagos de beneficios se procesan quincenalmente mediante transferencia bancaria, PayPal o criptomoneda. Recibirás tu parte de los beneficios según tu acuerdo de reparto de beneficios, que oscila entre el 70% y el 90% dependiendo del tamaño de tu cuenta y rendimiento."
+          }
+        ]
+      }
+    }
+  }
+}

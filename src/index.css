@@ -1,0 +1,235 @@
+/*
+ * Main stylesheet for the Traders Act Website
+ * This file imports the tailwind.css file which contains CSS custom properties
+ * and basic styles to mimic Tailwind CSS functionality.
+ * 
+ * The real Tailwind CSS directives are in real-tailwind.css, which is imported
+ * directly in the build process but hidden from the linter.
+ */
+
+/* Import Tailwind CSS styles */
+@import './real-tailwind.css';
+
+/* CSS custom properties for base styles */
+:root {
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-arabic: 'Amiri', 'Scheherazade New', serif;
+  --font-hindi: 'Hind', sans-serif;
+  --font-chinese: 'Noto Sans SC', sans-serif;
+  
+  --color-primary: #3b82f6;
+  --color-primary-dark: #2563eb;
+  --color-secondary: #10b981;
+  --color-secondary-dark: #059669;
+  --color-background: #0f172a;
+  --color-foreground: #f8fafc;
+  --color-text: #f1f5f9;
+  --color-text-muted: #94a3b8;
+  
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+input, textarea, select {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #337ab7;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #23527c;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base font classes */
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+.font-arabic {
+  font-family: var(--font-arabic);
+}
+
+.font-hindi {
+  font-family: var(--font-hindi);
+}
+
+.font-chinese {
+  font-family: var(--font-chinese);
+}
+
+/* RTL specific adjustments */
+html[dir="rtl"] .ltr-only {
+  display: none;
+}
+
+html[dir="ltr"] .rtl-only {
+  display: none;
+}
+
+/* Flip icons in RTL mode */
+html[dir="rtl"] .flip-in-rtl {
+  transform: scaleX(-1);
+}
+
+/* Adjust text alignment in RTL mode */
+html[dir="rtl"] .text-left {
+  text-align: right;
+}
+
+html[dir="rtl"] .text-right {
+  text-align: left;
+}
+
+/* Adjust margins in RTL mode */
+html[dir="rtl"] .ml-1, html[dir="rtl"] .ml-2, html[dir="rtl"] .ml-3, html[dir="rtl"] .ml-4 {
+  margin-left: 0;
+  margin-right: 0.25rem;
+  margin-right: 0.5rem;
+  margin-right: 0.75rem;
+  margin-right: 1rem;
+}
+
+html[dir="rtl"] .mr-1, html[dir="rtl"] .mr-2, html[dir="rtl"] .mr-3, html[dir="rtl"] .mr-4 {
+  margin-right: 0;
+  margin-left: 0.25rem;
+  margin-left: 0.5rem;
+  margin-left: 0.75rem;
+  margin-left: 1rem;
+}
+
+/* Adjust padding in RTL mode */
+html[dir="rtl"] .pl-1, html[dir="rtl"] .pl-2, html[dir="rtl"] .pl-3, html[dir="rtl"] .pl-4 {
+  padding-left: 0;
+  padding-right: 0.25rem;
+  padding-right: 0.5rem;
+  padding-right: 0.75rem;
+  padding-right: 1rem;
+}
+
+html[dir="rtl"] .pr-1, html[dir="rtl"] .pr-2, html[dir="rtl"] .pr-3, html[dir="rtl"] .pr-4 {
+  padding-right: 0;
+  padding-left: 0.25rem;
+  padding-left: 0.5rem;
+  padding-left: 0.75rem;
+  padding-left: 1rem;
+}
+
+/* Add support for RTL in flex and grid layouts */
+html[dir="rtl"] .flex-row {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .space-x-1 > :not([hidden]) ~ :not([hidden]),
+html[dir="rtl"] .space-x-2 > :not([hidden]) ~ :not([hidden]),
+html[dir="rtl"] .space-x-3 > :not([hidden]) ~ :not([hidden]),
+html[dir="rtl"] .space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 1;
+}
+
+/* Fix text direction for Arabic paragraphs */
+html[dir="rtl"] p {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: embed;
+}
+
+/* Ensure proper alignment for motion paragraphs in RTL */
+html[dir="rtl"] .text-xl.md\:text-2xl.text-gray-200.mb-8 {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: embed;
+}
+
+/* Target the specific MotionComponent */
+html[dir="rtl"] [data-component-name="MotionComponent"] {
+  direction: rtl;
+  text-align: right !important;
+  unicode-bidi: embed;
+}
+
+/* Ensure proper text rendering for CJK characters */
+.font-chinese {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Improve readability for Hindi text */
+.font-hindi {
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+}
+
+/* Improve readability for Arabic text */
+.font-arabic {
+  line-height: 1.8;
+  letter-spacing: 0;
+}

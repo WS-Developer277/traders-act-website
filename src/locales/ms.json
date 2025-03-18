@@ -1,0 +1,711 @@
+{
+  "meta": {
+    "title": "Traders Act - Laluan Anda Menjadi Pedagang Bermodal",
+    "description": "Sertai Traders Act dan buktikan kemahiran dagangan anda. Lulus cabaran kami dan dapatkan akses kepada akaun bermodal dengan perkongsian keuntungan sehingga 90%."
+  },
+  "pages": {
+    "about": {
+      "title": "Tentang Kami",
+      "hero": {
+        "title": "Misi Kami untuk Mengubah Masa Depan Perdagangan",
+        "subtitle": "Kami membina firma perdagangan proprietari yang paling berpusatkan pedagang di dunia, di mana bakat dan dedikasi adalah satu-satunya halangan kepada kejayaan."
+      },
+      "story": {
+        "title": "Kisah Kami",
+        "content": [
+          "Ditubuhkan pada 2018, Traders Act muncul daripada idea yang mudah tetapi berkuasa: pedagang berbakat tidak seharusnya dihadkan oleh modal awal mereka.",
+          "Kami telah membina platform yang mengenal pasti dan menyokong pedagang berkemahiran, menyediakan mereka dengan modal dan alat yang mereka perlukan untuk berjaya di pasaran kewangan global.",
+          "Hari ini, kami berbangga telah membiayai lebih daripada 1,000 pedagang di seluruh dunia, menguruskan berjuta-juta dalam modal perdagangan dan terus mengembangkan komuniti pedagang yang berjaya."
+        ]
+      },
+      "values": {
+        "title": "Nilai-nilai Kami",
+        "subtitle": "Prinsip-prinsip yang memandu segala yang kami lakukan",
+        "items": {
+          "excellence": {
+            "title": "Kecemerlangan",
+            "description": "Kami berusaha untuk kecemerlangan dalam segala yang kami lakukan, dari platform perdagangan hingga sokongan pelanggan kami."
+          },
+          "integrity": {
+            "title": "Integriti",
+            "description": "Kami mengekalkan standard tertinggi ketelusan dan tingkah laku beretika."
+          },
+          "innovation": {
+            "title": "Inovasi",
+            "description": "Kami terus mengembangkan platform dan perkhidmatan kami untuk memenuhi keperluan pedagang."
+          }
+        }
+      }
+    },
+    "challenge": {
+      "title": "Cabaran Perdagangan",
+      "hero": {
+        "title": "Buktikan Kemahiran Perdagangan Anda",
+        "subtitle": "Ambil cabaran perdagangan kami dan dapatkan akaun bermodal dengan modal sehingga $100,000."
+      },
+      "steps": {
+        "title": "Cara Ia Berfungsi",
+        "description": "Proses tiga langkah kami untuk menjadi pedagang yang dibiayai",
+        "items": [
+          {
+            "title": "Pilih Akaun Anda",
+            "description": "Pilih dari saiz akaun bermula dari $5,000 hingga $100,000."
+          },
+          {
+            "title": "Selesaikan Cabaran",
+            "description": "Berdagang selama 30 hari sambil memenuhi sasaran keuntungan dan peraturan risiko."
+          },
+          {
+            "title": "Dapatkan Pembiayaan",
+            "description": "Lulus cabaran dan terima akaun yang dibiayai dalam masa 24 jam."
+          }
+        ]
+      },
+      "faqs": {
+        "title": "Soalan Lazim",
+        "subtitle": "Semua yang anda perlu tahu tentang cabaran perdagangan kami",
+        "items": [
+          {
+            "question": "Apakah cabaran Traders Act?",
+            "answer": "Cabaran Traders Act adalah program penilaian yang direka untuk mengenal pasti pedagang yang berkemahiran. Anda akan berdagang dengan akaun simulasi selama 30 hari, dan jika anda memenuhi sasaran keuntungan kami sambil mengikuti peraturan pengurusan risiko kami, anda akan menerima akaun yang dibiayai."
+          },
+          {
+            "question": "Berapa kos cabaran ini?",
+            "answer": "Yuran cabaran berbeza berdasarkan saiz akaun yang anda pilih, bermula dari $99 untuk akaun $5,000 hingga $599 untuk akaun $100,000. Ini adalah yuran sekali sahaja yang meliputi tempoh penilaian anda."
+          },
+          {
+            "question": "Apakah sasaran keuntungan?",
+            "answer": "Sasaran keuntungan adalah 8% daripada nilai akaun anda sepanjang tempoh cabaran 30 hari. Sebagai contoh, dengan akaun $10,000, anda perlu membuat keuntungan sebanyak $800."
+          },
+          {
+            "question": "Apakah peraturan pengurusan risiko?",
+            "answer": "Peraturan pengurusan risiko kami termasuk: penurunan harian maksimum sebanyak 5%, penurunan keseluruhan maksimum sebanyak 10%, dan tiada perdagangan semasa acara berita ekonomi utama. Peraturan ini direka untuk memastikan anda berdagang secara bertanggungjawab."
+          },
+          {
+            "question": "Berapa cepat saya boleh mendapat pembiayaan selepas lulus?",
+            "answer": "Sebaik sahaja anda berjaya menyelesaikan cabaran, kami akan mengkaji prestasi perdagangan anda dalam masa 24 jam dan menyediakan akaun yang dibiayai untuk anda. Anda boleh mula berdagang dengan modal kami serta-merta selepas kelulusan."
+          },
+          {
+            "question": "Platform perdagangan apa yang boleh saya gunakan?",
+            "answer": "Kami menyokong MetaTrader 4, MetaTrader 5, dan TradingView untuk cabaran dan akaun yang dibiayai. Anda boleh memilih platform yang paling selesa untuk anda."
+          },
+          {
+            "question": "Pasaran apa yang boleh saya perdagangkan?",
+            "answer": "Anda boleh berdagang pasangan forex, komoditi, indeks, dan mata wang kripto. Kami menawarkan pelbagai pasaran untuk memenuhi gaya dan strategi perdagangan yang berbeza."
+          },
+          {
+            "question": "Bagaimana saya mendapat bayaran keuntungan saya?",
+            "answer": "Pembayaran keuntungan diproses setiap dua minggu melalui pemindahan bank, PayPal, atau mata wang kripto. Anda akan menerima bahagian keuntungan anda berdasarkan perjanjian perkongsian keuntungan anda, yang berkisar antara 70% hingga 90% bergantung pada saiz akaun dan prestasi anda."
+          }
+        ]
+      }
+    },
+    "funding": {
+      "title": "Program Pembiayaan",
+      "hero": {
+        "title": "Program Pembiayaan",
+        "subtitle": "Berdagang Modal Kami dan simpan sehingga 90% daripada keuntungan",
+        "applyButton": "Mohon Pembiayaan",
+        "learnMoreButton": "Ketahui Lebih Lanjut"
+      },
+      "profitSharing": {
+        "title": "Model Perkongsian Keuntungan",
+        "description": "Di Traders Act, kami percaya pada ganjaran yang murah hati kepada pedagang yang berkemahiran. Model perkongsian keuntungan terkemuka dalam industri kami membolehkan anda menyimpan sehingga 90% daripada keuntungan yang anda hasilkan dengan modal kami.",
+        "accounts": [
+          {
+            "account": "Akaun $5,000",
+            "split": "70% Perkongsian Keuntungan"
+          },
+          {
+            "account": "Akaun $10,000",
+            "split": "75% Perkongsian Keuntungan"
+          },
+          {
+            "account": "Akaun $25,000",
+            "split": "80% Perkongsian Keuntungan"
+          },
+          {
+            "account": "Akaun $50,000",
+            "split": "85% Perkongsian Keuntungan"
+          },
+          {
+            "account": "Akaun $100,000",
+            "split": "90% Perkongsian Keuntungan"
+          }
+        ],
+        "payoutInfo": "Pembayaran keuntungan dibuat setiap bulan, memastikan anda mempunyai akses yang tetap kepada pendapatan anda. Peratusan perkongsian keuntungan anda bermula pada 70% pada bulan pertama dan meningkat sebanyak 5% setiap bulan, mencapai maksimum 90% selagi sasaran dicapai secara konsisten. Proses pembayaran kami yang telus memastikan anda sentiasa tahu dengan tepat berapa yang anda perolehi dan bila anda akan menerimanya."
+      },
+      "growthPlan": {
+        "title": "Pelan Pertumbuhan",
+        "subtitle": "Kembangkan akaun pembiayaan anda apabila anda menunjukkan prestasi yang konsisten",
+        "phases": [
+          {
+            "title": "Pembiayaan Awal",
+            "description": "Selepas lulus cabaran, anda menerima akaun pembiayaan awal anda. Berdagang dengan modal kami sambil mematuhi peraturan pengurusan risiko."
+          },
+          {
+            "title": "Pencapaian Konsisten",
+            "description": "Selepas menunjukkan keuntungan yang konsisten selama 3 bulan, anda layak untuk penskalaan akaun. Ini menunjukkan keupayaan anda untuk mengekalkan prestasi dari masa ke masa."
+          },
+          {
+            "title": "Penskalaan Akaun",
+            "description": "Saiz akaun anda meningkat sebanyak 25% daripada pembiayaan awal. Sebagai contoh, akaun $100,000 akan meningkat kepada $125,000, memberi anda lebih banyak modal untuk berdagang."
+          },
+          {
+            "title": "Penskalaan Lanjutan",
+            "description": "Terus menunjukkan keuntungan yang konsisten, dan akaun anda boleh diskalakan beberapa kali, sehingga maksimum $1,000,000 modal perdagangan."
+          }
+        ]
+      },
+      "riskRules": {
+        "title": "Peraturan Pengurusan Risiko",
+        "subtitle": "Garis panduan untuk mengekalkan akaun pembiayaan anda dan memastikan kejayaan jangka panjang",
+        "rules": [
+          {
+            "title": "Kerugian Maksimum",
+            "description": "Akaun anda mempunyai had kerugian maksimum sebanyak 2% harian dan 10% keseluruhan. Melebihi had ini boleh menyebabkan penamatan akaun."
+          },
+          {
+            "title": "Saiz Kedudukan",
+            "description": "Saiz kedudukan maksimum untuk setiap simbol dihadkan kepada 5 kali ganda ekuiti akaun anda. Ini memastikan kepelbagaian dan pengurusan risiko yang sesuai."
+          },
+          {
+            "title": "Keperluan Henti Rugi",
+            "description": "Semua dagangan mesti mempunyai pesanan henti rugi. Perdagangan tanpa henti rugi yang sesuai tidak dibenarkan dan boleh menyebabkan semakan akaun."
+          },
+          {
+            "title": "Waktu Perdagangan",
+            "description": "Perdagangan semasa acara berita utama atau tempoh kecairan rendah tidak digalakkan. Ini melindungi daripada turun naik berlebihan dan gelinciran."
+          },
+          {
+            "title": "Keperluan Konsistensi",
+            "description": "Kekalkan aktiviti perdagangan yang konsisten. Akaun tanpa aktiviti perdagangan selama 30 hari berturut-turut boleh disemak."
+          },
+          {
+            "title": "Strategi Terlarang",
+            "description": "Beberapa strategi berisiko tinggi seperti martingale, perdagangan grid tanpa pengurusan risiko yang sesuai, dan arbitraj tidak dibenarkan."
+          }
+        ]
+      },
+      "testimonials": {
+        "title": "Kisah Kejayaan",
+        "subtitle": "Dengar daripada pedagang pembiayaan kami",
+        "stories": [
+          {
+            "quote": "Saya telah berdagang dengan Traders Act selama 8 bulan sekarang, dan ia telah mengubah kerjaya saya. Program pembiayaan yang telus, perkongsian keuntungan yang murah hati, dan pembayaran yang sentiasa tepat pada masanya. Saya telah dapat menskalakan akaun saya dua kali!",
+            "name": "Oluwaseun Adebayo",
+            "role": "Pedagang Forex",
+            "icon": "👨‍💼"
+          },
+          {
+            "quote": "Pelan pertumbuhan di Traders Act adalah apa yang membezakan mereka daripada firma perdagangan lain. Saya bermula dengan akaun $50,000 dan kini telah meningkat kepada $125,000. Peraturan pengurusan risiko yang adil dan benar-benar membantu saya mengekalkan disiplin dalam perdagangan saya.",
+            "name": "Tan Wei Ming",
+            "role": "Pedagang Futures",
+            "icon": "👨‍💻"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Bersedia untuk Dibiayai?",
+        "subtitle": "Sertai cabaran hari ini dan mula berdagang dengan modal kami.",
+        "button": "Mohon Pembiayaan"
+      }
+    },
+    "academy": {
+      "title": "Akademi Perdagangan",
+      "hero": {
+        "title": "Perdagangan Adalah Kemahiran Yang Boleh Dipelajari",
+        "subtitle": "Belajar. Berniaga. Berjaya.",
+        "exploreButton": "Terokai Kursus Kami",
+        "resourcesButton": "Sumber Percuma"
+      },
+      "whyEducation": {
+        "title": "Mengapa Pendidikan Perdagangan Penting",
+        "subtitle": "Perdagangan yang berjaya memerlukan lebih daripada sekadar nasib—ia memerlukan pengetahuan, disiplin, dan strategi yang terbukti",
+        "features": [
+          {
+            "title": "Bangunkan Kelebihan Perdagangan",
+            "description": "Pelajari strategi dan teknik yang terbukti yang memberi anda kelebihan di pasaran. Pendidikan kami membantu anda mengenal pasti persediaan berkemungkinan tinggi dan mengelakkan kesilapan biasa."
+          },
+          {
+            "title": "Kuasai Psikologi Perdagangan",
+            "description": "Perdagangan adalah 80% psikologi dan 20% strategi. Kursus kami membantu anda mengembangkan disiplin mental yang diperlukan untuk melaksanakan pelan perdagangan anda secara konsisten dan menguruskan emosi dengan berkesan."
+          },
+          {
+            "title": "Kepakaran Pengurusan Risiko",
+            "description": "Pelajari cara melindungi modal anda dengan saiz kedudukan yang betul, penempatan henti rugi, dan teknik pengurusan portfolio yang digunakan oleh pedagang profesional."
+          }
+        ]
+      },
+      "offerings": {
+        "title": "Tawaran Pendidikan Kami",
+        "subtitle": "Sumber pembelajaran komprehensif untuk pedagang di semua peringkat",
+        "items": [
+          {
+            "title": "Kursus",
+            "description": "Laluan pembelajaran berstruktur dari peringkat permulaan hingga lanjutan",
+            "features": [
+              "Pelajaran video belajar sendiri",
+              "Kuiz interaktif",
+              "Latihan praktikal",
+              "Sijil penyempurnaan"
+            ]
+          },
+          {
+            "title": "Webinar",
+            "description": "Sesi langsung dengan pedagang profesional dan pakar pasaran",
+            "features": [
+              "Analisis pasaran masa nyata",
+              "Sesi soal jawab",
+              "Perbincangan strategi",
+              "Akses rakaman"
+            ]
+          },
+          {
+            "title": "Bimbingan",
+            "description": "Panduan satu-ke-satu dari pedagang berpengalaman",
+            "features": [
+              "Maklum balas peribadi",
+              "Semakan pelan perdagangan",
+              "Analisis prestasi",
+              "Pemeriksaan berkala"
+            ]
+          },
+          {
+            "title": "Komuniti",
+            "description": "Berhubung dengan pedagang lain dan berkongsi pengalaman",
+            "features": [
+              "Forum perbincangan",
+              "Bilik perdagangan",
+              "Perkongsian strategi",
+              "Acara rangkaian"
+            ]
+          }
+        ]
+      },
+      "modules": {
+        "title": "Modul Kursus",
+        "subtitle": "Pendekatan berstruktur untuk menguasai seni perdagangan",
+        "items": [
+          {
+            "number": "01",
+            "title": "Asas Perdagangan & Mekanik Pasaran",
+            "description": "Pelajari asas pasaran kewangan, instrumen perdagangan, dan struktur pasaran.",
+            "lessons": [
+              "Pengenalan kepada Pasaran Kewangan",
+              "Instrumen Pasaran dan Tempat Perdagangan",
+              "Jenis Pesanan dan Pelaksanaan Pasaran",
+              "Memahami Platform Perdagangan"
+            ]
+          },
+          {
+            "number": "02",
+            "title": "Analisis Teknikal & Carta",
+            "description": "Kuasai seni membaca carta dan menggunakan penunjuk teknikal dengan berkesan.",
+            "lessons": [
+              "Jenis Carta dan Kerangka Masa",
+              "Penunjuk Teknikal Teras",
+              "Corak Carta dan Analisis Trend",
+              "Kajian Kes Praktikal"
+            ]
+          },
+          {
+            "number": "03",
+            "title": "Psikologi Perdagangan & Pengurusan Risiko",
+            "description": "Bangunkan minda dan disiplin yang diperlukan untuk perdagangan yang berjaya.",
+            "lessons": [
+              "Psikologi Perdagangan",
+              "Asas Pengurusan Risiko",
+              "Membangunkan Pelan Perdagangan",
+              "Mengatasi Halangan Psikologi"
+            ]
+          },
+          {
+            "number": "04",
+            "title": "Strategi Perdagangan Lanjutan",
+            "description": "Pelajari strategi perdagangan profesional dan teknik pelaksanaan lanjutan.",
+            "lessons": [
+              "Strategi Perdagangan Harian",
+              "Kaedah Perdagangan Ayunan",
+              "Pendekatan Perdagangan Kedudukan",
+              "Pengurusan Portfolio"
+            ]
+          }
+        ]
+      },
+      "cta": {
+        "title": "Mulakan Perjalanan Perdagangan Anda Hari Ini",
+        "subtitle": "Sertai program pendidikan perdagangan komprehensif kami dan bangunkan kemahiran yang diperlukan untuk berjaya di pasaran.",
+        "button": "Daftar Sekarang"
+      }
+    },
+    "blog": {
+      "title": "Wawasan Perdagangan",
+      "hero": {
+        "title": "Pengetahuan Perdagangan Terkini",
+        "subtitle": "Analisis pakar, strategi, dan wawasan pasaran."
+      },
+      "categories": {
+        "technical": "Analisis Teknikal",
+        "fundamental": "Analisis Asas",
+        "psychology": "Psikologi Perdagangan",
+        "risk": "Pengurusan Risiko"
+      }
+    },
+    "affiliate": {
+      "title": "Program Affiliate",
+      "hero": {
+        "title": "Jana bersama kami",
+        "subtitle": "Bekerjasama dengan Traders Act dan dapatkan komisen yang lumayan.",
+        "joinButton": "Sertai Program Affiliate Kami"
+      },
+      "benefits": {
+        "title": "Faedah Program",
+        "subtitle": "Tingkatkan pendapatan anda dengan Program Affiliate Traders Act",
+        "items": [
+          {
+            "title": "Komisen Tinggi",
+            "description": "Dapatkan sehingga 40% komisen untuk rujukan."
+          },
+          {
+            "title": "Pendapatan Sepanjang Hayat",
+            "description": "Terima bayaran untuk sepanjang hayat rujukan anda."
+          },
+          {
+            "title": "Sokongan Pemasaran",
+            "description": "Akses kepada bahan pemasaran profesional dan sokongan."
+          }
+        ]
+      },
+      "stats": {
+        "payouts": "Pembayaran Bulanan",
+        "affiliates": "Affiliate Aktif",
+        "commission": "Komisen Maksimum",
+        "support": "Sokongan"
+      },
+      "commission": {
+        "title": "Struktur Komisen",
+        "subtitle": "Struktur komisen berperingkat kami memberi ganjaran yang lumayan untuk setiap rujukan yang berjaya",
+        "accountSize": "Saiz Akaun",
+        "rate": "Komisen",
+        "recurring": "Komisen Berulang",
+        "viewDetails": "Lihat Butiran Komisen Penuh",
+        "tiers": [
+          {
+            "range": "0-10 Cabaran",
+            "commission": "15%",
+            "recurring": "5%"
+          },
+          {
+            "range": "11-50 Cabaran",
+            "commission": "20%",
+            "recurring": "7%"
+          },
+          {
+            "range": "51-100 Cabaran",
+            "commission": "25%",
+            "recurring": "10%"
+          },
+          {
+            "range": "101-1000 Cabaran",
+            "commission": "30%",
+            "recurring": "12%"
+          },
+          {
+            "range": "1001+ Cabaran",
+            "commission": "35%",
+            "recurring": "15%"
+          }
+        ]
+      },
+      "features": [
+        {
+          "title": "Kadar Komisen Tinggi",
+          "description": "Dapatkan sehingga 40% untuk setiap pedagang yang mendaftar dan melengkapkan cabaran melalui pautan rujukan anda."
+        },
+        {
+          "title": "Pendapatan Berulang",
+          "description": "Terima komisen berterusan apabila rujukan anda meningkatkan akaun mereka atau mengambil cabaran tambahan."
+        },
+        {
+          "title": "Pembayaran Tepat Masa",
+          "description": "Terima komisen anda setiap dua minggu melalui kaedah pembayaran pilihan anda, tanpa had minimum."
+        },
+        {
+          "title": "Bahan Pemasaran",
+          "description": "Akses kepada perpustakaan banner profesional, laman arahan dan templat e-mel untuk meningkatkan kadar penukaran anda."
+        },
+        {
+          "title": "Sokongan Dedikasi",
+          "description": "Dapatkan bantuan peribadi daripada pasukan pengurusan affiliate kami untuk membantu anda memaksimumkan pendapatan anda."
+        },
+        {
+          "title": "Penjejakan Masa Nyata",
+          "description": "Pantau rujukan dan pendapatan anda secara masa nyata melalui papan pemuka affiliate komprehensif kami."
+        }
+      ],
+      "faq": {
+        "title": "Soalan Lazim",
+        "subtitle": "Semua yang anda perlu tahu tentang program affiliate kami",
+        "items": [
+          {
+            "question": "Bagaimana saya boleh menyertai program affiliate Traders Act?",
+            "answer": "Untuk menyertai program affiliate kami, hanya daftar untuk akaun affiliate di halaman ini. Setelah diluluskan, anda akan menerima pautan rujukan unik anda dan akses ke papan pemuka affiliate kami."
+          },
+          {
+            "question": "Bila dan bagaimana saya dibayar?",
+            "answer": "Komisen dibayar setiap dua minggu. Anda boleh memilih untuk menerima pembayaran melalui pemindahan bank, PayPal, atau cryptocurrency. Tiada had pembayaran minimum."
+          },
+          {
+            "question": "Bagaimana rujukan dijejaki?",
+            "answer": "Rujukan dijejaki menggunakan cookies dengan tetingkap atribusi 90 hari. Ini bermakna jika seseorang mengklik pautan anda dan mendaftar dalam masa 90 hari, anda akan menerima komisen."
+          },
+          {
+            "question": "Bolehkah saya mempromosikan Traders Act di media sosial?",
+            "answer": "Ya, anda boleh mempromosikan Traders Act di platform media sosial, laman web anda, blog, atau melalui pemasaran e-mel. Kami menyediakan pelbagai bahan pemasaran untuk membantu anda dengan promosi anda."
+          },
+          {
+            "question": "Apakah struktur komisen?",
+            "answer": "Struktur komisen kami adalah berperingkat berdasarkan saiz akaun yang dipilih oleh rujukan anda. Anda boleh memperoleh antara 15% hingga 35% untuk setiap rujukan yang berjaya, ditambah komisen berulang apabila mereka meningkatkan akaun mereka."
+          },
+          {
+            "question": "Adakah had berapa banyak yang boleh saya peroleh?",
+            "answer": "Tiada had pada pendapatan anda. Semakin banyak pedagang yang anda rujuk yang mendaftar dan melengkapkan cabaran, semakin banyak anda memperoleh. Affiliate teratas kami memperoleh beribu-ribu dolar setiap bulan."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Sertai Program Affiliate Kami",
+        "subtitle": "Daftar atau log masuk untuk mengakses papan pemuka affiliate anda dan mula menjana"
+      }
+    },
+    "common": {
+      "learnMore": "Ketahui Lebih Lanjut",
+      "getStarted": "Mulakan Sekarang",
+      "signIn": "Log Masuk",
+      "signUp": "Daftar",
+      "startChallenge": "Mulakan Cabaran Dagangan",
+      "sendMessage": "Hantar Mesej",
+      "email": "Emel",
+      "password": "Kata Laluan",
+      "name": "Nama",
+      "message": "Mesej",
+      "rememberMe": "Ingat saya",
+      "forgotPassword": "Lupa kata laluan?",
+      "alreadyHaveAccount": "Sudah mempunyai akaun?",
+      "dontHaveAccount": "Belum mempunyai akaun?",
+      "acceptTerms": "Saya bersetuju dengan Syarat Perkhidmatan dan Dasar Privasi"
+    },
+    "navbar": {
+      "about": "Tentang Kami",
+      "features": "Ciri-ciri",
+      "pricing": "Harga",
+      "faq": "Soalan Lazim",
+      "challenge": "Cabaran",
+      "funding": "Pembiayaan",
+      "academy": "Akademi",
+      "blog": "Blog",
+      "affiliate": "Program Affiliate"
+    },
+    "home": {
+      "hero": {
+        "title": "Laluan Anda Menjadi Pedagang Bermodal",
+        "subtitle": "Sertai Traders Act dan buktikan kemahiran dagangan anda. Lulus cabaran kami dan dapatkan akses kepada akaun bermodal dengan perkongsian keuntungan sehingga 90%.",
+        "stats": {
+          "payouts": "Pembayaran Pedagang",
+          "traders": "Pedagang Bermodal",
+          "profitShare": "Perkongsian Keuntungan",
+          "support": "Sokongan"
+        }
+      },
+      "features": {
+        "title": "Mengapa Memilih Traders Act",
+        "subtitle": "Kami menawarkan syarat terbaik untuk pedagang berjaya",
+        "profitShare": {
+          "title": "Sehingga 90% Perkongsian Keuntungan",
+          "description": "Simpan sehingga 90% daripada keuntungan dagangan anda dengan sistem pembahagian keuntungan terkemuka dalam industri."
+        },
+        "security": {
+          "title": "Platform Selamat",
+          "description": "Berdagang dengan yakin di platform dagangan kami yang selamat dan boleh dipercayai."
+        },
+        "analytics": {
+          "title": "Analisis Masa Nyata",
+          "description": "Pantau prestasi anda dengan analisis dagangan lanjutan masa nyata."
+        },
+        "community": {
+          "title": "Sokongan Komuniti",
+          "description": "Sertai komuniti pedagang berjaya dan belajar daripada yang terbaik."
+        }
+      },
+      "testimonials": {
+        "title": "Apa Kata Pedagang Kami",
+        "subtitle": "Sertai ribuan pedagang berjaya yang dibiayai",
+        "testimonial1": {
+          "quote": "Platform Traders Act sangat hebat. Cabaran itu adil, dan sekarang saya berdagang dengan akaun $50,000 dengan perkongsian keuntungan 85%. Pembayaran dua mingguan sentiasa tepat pada masanya.",
+          "name": "Abdullah Al-Rashid",
+          "position": "Pedagang Dibiayai - 4 bulan"
+        },
+        "testimonial2": {
+          "quote": "Pasukan sokongan sangat hebat. Mereka membantu saya melalui fasa cabaran dan sekarang saya berdagang dengan jayanya pada akaun yang dibiayai. Alat analisis pada platform ini sangat canggih.",
+          "name": "Oluwaseun Adebayo",
+          "role": "Pedagang Dibiayai - 3 bulan"
+        },
+        "testimonial3": {
+          "quote": "Bermula dengan akaun $25,000 dan meningkat kepada $100,000 dalam masa hanya 6 bulan. Program peningkatan adalah hebat, dan perkongsian keuntungan adalah yang terbaik dalam industri.",
+          "name": "Carlos Rodriguez",
+          "position": "Pedagang Dibiayai - 5 bulan"
+        }
+      },
+      "pricing": {
+        "title": "Pilih Akaun Dagangan Anda",
+        "subtitle": "Pilih saiz akaun yang sesuai dengan matlamat dagangan anda",
+        "mostPopular": "Paling Popular",
+        "micro": {
+          "title": "Mikro",
+          "price": "$5,000",
+          "features": [
+            "Baki Awal: $5,000",
+            "Sasaran Keuntungan: 10%",
+            "Kerugian Harian Maksimum: $100 (2%)",
+            "Kerugian Keseluruhan Maksimum: $300 (6%)",
+            "Perkongsian Keuntungan: 70% Bulanan",
+            "Yuran Penilaian: $49.99"
+          ],
+          "button": "Mula Cabaran"
+        },
+        "mini": {
+          "title": "Mini",
+          "price": "$10,000",
+          "features": [
+            "Baki Awal: $10,000",
+            "Sasaran Keuntungan: 10%",
+            "Kerugian Harian Maksimum: $200 (2%)",
+            "Kerugian Keseluruhan Maksimum: $700 (7%)",
+            "Perkongsian Keuntungan: 75% Bulanan",
+            "Yuran Penilaian: $99.99"
+          ],
+          "button": "Mula Cabaran"
+        },
+        "starter": {
+          "title": "Permulaan",
+          "price": "$25,000",
+          "features": [
+            "Baki Awal: $25,000",
+            "Sasaran Keuntungan: 10%",
+            "Kerugian Harian Maksimum: $500 (2%)",
+            "Kerugian Keseluruhan Maksimum: $2000 (8%)",
+            "Perkongsian Keuntungan: 80% Bulanan",
+            "Yuran Penilaian: $199.99"
+          ],
+          "button": "Mula Cabaran"
+        },
+        "pro": {
+          "title": "Profesional",
+          "price": "$50,000",
+          "features": [
+            "Baki Awal: $50,000",
+            "Sasaran Keuntungan: 10%",
+            "Kerugian Harian Maksimum: $1000 (2%)",
+            "Kerugian Keseluruhan Maksimum: $4500 (9%)",
+            "Perkongsian Keuntungan: 85% Bulanan",
+            "Yuran Penilaian: $299.99"
+          ],
+          "button": "Mula Cabaran"
+        },
+        "elite": {
+          "title": "Elit",
+          "price": "$100,000",
+          "features": [
+            "Baki Awal: $100,000",
+            "Sasaran Keuntungan: 10%",
+            "Kerugian Harian Maksimum: $2000 (2%)",
+            "Kerugian Keseluruhan Maksimum: $10000 (10%)",
+            "Perkongsian Keuntungan: 85% Bulanan",
+            "Yuran Penilaian: $499.99"
+          ],
+          "button": "Mula Cabaran"
+        }
+      },
+      "faq": {
+        "title": "Soalan Lazim",
+        "subtitle": "Cari jawapan kepada soalan yang paling kerap ditanya",
+        "questions": [
+          {
+            "question": "Apa itu Traders Act?",
+            "answer": "Traders Act adalah platform perdagangan yang menyediakan akaun bermodal kepada pedagang berbakat."
+          },
+          {
+            "question": "Bagaimana saya boleh memulakan?",
+            "answer": "Pilih saiz akaun yang sesuai dengan matlamat dagangan anda dan mulakan cabaran perdagangan kami."
+          },
+          {
+            "question": "Berapa lama masa yang diperlukan untuk lulus cabaran?",
+            "answer": "Cabaran perdagangan kami berlangsung selama 30 hari."
+          }
+        ]
+      },
+      "hours": {
+        "trading": {
+          "title": "Waktu Perdagangan",
+          "weekdays": "Isnin - Jumaat",
+          "weekdaysHours": "00:00 - 23:59 GMT",
+          "weekend": "Sabtu - Ahad",
+          "weekendHours": "Tutup"
+        },
+        "support": {
+          "title": "Waktu Sokongan",
+          "weekdays": "Isnin - Jumaat",
+          "weekdaysHours": "9:00 - 17:00 GMT",
+          "weekend": "Sabtu - Ahad",
+          "weekendHours": "10:00 - 14:00 GMT"
+        }
+      }
+    },
+    "auth": {
+      "signIn": {
+        "title": "Selamat Kembali",
+        "emailLabel": "Alamat emel",
+        "emailPlaceholder": "Masukkan emel anda",
+        "passwordLabel": "Kata laluan",
+        "passwordPlaceholder": "Masukkan kata laluan anda",
+        "button": "Log masuk",
+        "forgotPassword": "Lupa kata laluan?",
+        "noAccount": "Belum mempunyai akaun?",
+        "signUp": "Daftar",
+        "success": "Berjaya log masuk!",
+        "error": "Emel atau kata laluan tidak sah"
+      }
+    },
+    "footer": {
+      "quickLinks": "Pautan Pantas",
+      "legal": "Perundangan",
+      "connect": "Hubungi",
+      "copyright": " Traders Act. Hak cipta terpelihara.",
+      "links": {
+        "features": "Ciri-ciri",
+        "pricing": "Harga",
+        "testimonials": "Testimoni",
+        "faq": "Soalan Lazim",
+        "privacy": "Dasar Privasi",
+        "terms": "Syarat Perkhidmatan",
+        "risk": "Pendedahan Risiko",
+        "refund": "Dasar Bayaran Balik",
+        "twitter": "Twitter",
+        "linkedin": "LinkedIn",
+        "instagram": "Instagram",
+        "youtube": "YouTube"
+      }
+    },
+    "languageSwitcher": {
+      "selectLanguage": "Pilih bahasa",
+      "english": "English",
+      "arabic": "",
+      "vietnamese": "Tiếng Việt",
+      "malay": "Bahasa Melayu",
+      "hindi": "हिंदी",
+      "chinese": "简体中文",
+      "spanish": "Español"
+    }
+  }
+}

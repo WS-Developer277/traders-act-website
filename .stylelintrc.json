@@ -1,0 +1,17 @@
+{
+  "ignoreFiles": ["**/real-tailwind.css", "**/.tailwind-real.css"],
+  "rules": {
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": [
+          "tailwind",
+          "apply",
+          "variants",
+          "responsive",
+          "screen"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,757 @@
+{
+  "meta": {
+    "title": "Traders Act - Your Path to Becoming a Funded Trader",
+    "description": "Join Traders Act and prove your trading skills. Pass our challenge and get access to a funded account with up to 90% profit share."
+  },
+  "pages": {
+    "about": {
+      "title": "About Us",
+      "hero": {
+        "title": "Our Mission to Transform the Future of Trading",
+        "subtitle": "We're building the world's most trader-centric proprietary trading firm, where talent and dedication are the only barriers to success."
+      },
+      "story": {
+        "title": "Our Story",
+        "content": [
+          "Founded in 2018, Traders Act emerged from a simple yet powerful idea: talented traders shouldn't be limited by their initial capital.",
+          "We've built a platform that identifies and supports skilled traders, providing them with the capital and tools they need to succeed in the global financial markets.",
+          "Today, we're proud to have funded over 1,000 traders worldwide, managing millions in trading capital and continuing to grow our community of successful traders."
+        ]
+      },
+      "values": {
+        "title": "Our Values",
+        "subtitle": "The principles that guide everything we do",
+        "items": {
+          "excellence": {
+            "title": "Excellence",
+            "description": "We strive for excellence in everything we do, from our trading platform to our customer support."
+          },
+          "integrity": {
+            "title": "Integrity",
+            "description": "We maintain the highest standards of transparency and ethical conduct."
+          },
+          "innovation": {
+            "title": "Innovation",
+            "description": "We continuously evolve our platform and services to meet traders' needs."
+          }
+        }
+      }
+    },
+    "challenge": {
+      "title": "Trading Challenge",
+      "hero": {
+        "title": "Prove Your Trading Skills",
+        "subtitle": "Take our trading challenge and earn a funded account with up to $100,000 in capital."
+      },
+      "steps": {
+        "title": "How It Works",
+        "description": "Our three-step process to becoming a funded trader",
+        "items": [
+          {
+            "title": "Choose Your Account",
+            "description": "Select from account sizes ranging from $5,000 to $100,000."
+          },
+          {
+            "title": "Complete the Challenge",
+            "description": "Trade for 30 days while meeting our profit targets and risk rules."
+          },
+          {
+            "title": "Get Funded",
+            "description": "Pass the challenge and receive your funded account within 24 hours."
+          }
+        ]
+      },
+      "faqs": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Everything you need to know about our trading challenge",
+        "items": [
+          {
+            "question": "What is the Traders Act challenge?",
+            "answer": "The Traders Act challenge is an evaluation program designed to identify skilled traders. You'll trade a simulated account for 30 days, and if you meet our profit targets while following our risk management rules, you'll receive a funded account."
+          },
+          {
+            "question": "How much does the challenge cost?",
+            "answer": "The challenge fee varies based on the account size you choose, ranging from $99 for a $5,000 account to $599 for a $100,000 account. This is a one-time fee that covers your evaluation period."
+          },
+          {
+            "question": "What are the profit targets?",
+            "answer": "The profit target is 8% of your account value over the 30-day challenge period. For example, with a $10,000 account, you'll need to make $800 in profit."
+          },
+          {
+            "question": "What are the risk management rules?",
+            "answer": "Our risk management rules include: maximum daily drawdown of 5%, maximum total drawdown of 10%, and no trading during major economic news events. These rules are designed to ensure you're trading responsibly."
+          },
+          {
+            "question": "How quickly can I get funded after passing?",
+            "answer": "Once you successfully complete the challenge, we'll review your trading performance within 24 hours and set up your funded account. You can start trading with our capital immediately after approval."
+          },
+          {
+            "question": "What trading platforms can I use?",
+            "answer": "We support MetaTrader 4, MetaTrader 5, and TradingView for our challenges and funded accounts. You can choose the platform you're most comfortable with."
+          },
+          {
+            "question": "What markets can I trade?",
+            "answer": "You can trade forex pairs, commodities, indices, and cryptocurrencies. We offer a wide range of markets to suit different trading styles and strategies."
+          },
+          {
+            "question": "How do I get paid my profits?",
+            "answer": "Profit payouts are processed bi-weekly via bank transfer, PayPal, or cryptocurrency. You'll receive your share of the profits based on your profit-sharing agreement, which ranges from 70% to 90% depending on your account size and performance."
+          }
+        ]
+      }
+    },
+    "funding": {
+      "title": "Funding Program",
+      "hero": {
+        "title": "Funding Program",
+        "subtitle": "Trade with our capital and keep up to 90% of the profits",
+        "applyButton": "Apply for Funding",
+        "learnMoreButton": "Learn More"
+      },
+      "profitSharing": {
+        "title": "Profit Sharing Model",
+        "description": "At Traders Act, we believe in rewarding skilled traders generously. Our industry-leading profit sharing model allows you to keep up to 90% of the profits you generate with our capital.",
+        "accounts": [
+          {
+            "account": "$5,000 Account",
+            "split": "70% Profit Split"
+          },
+          {
+            "account": "$10,000 Account",
+            "split": "75% Profit Split"
+          },
+          {
+            "account": "$25,000 Account",
+            "split": "80% Profit Split"
+          },
+          {
+            "account": "$50,000 Account",
+            "split": "85% Profit Split"
+          },
+          {
+            "account": "$100,000 Account",
+            "split": "90% Profit Split"
+          }
+        ],
+        "payoutInfo": "Profit payouts are made monthly, ensuring you have regular access to your earnings. Your profit-sharing percentage starts at 70% in the first month and increases by 5% each month, reaching a maximum of 90% as long as targets are consistently met. Our transparent payout process ensures you always know exactly what you're earning and when you'll receive it."
+      },
+      "growthPlan": {
+        "title": "Growth Plan",
+        "subtitle": "Scale your funded account as you demonstrate consistent performance",
+        "phases": [
+          {
+            "title": "Initial Funding",
+            "description": "After passing the challenge, you receive your initial funded account. Trade with our capital while following the risk management rules."
+          },
+          {
+            "title": "Consistency Milestone",
+            "description": "After demonstrating consistent profitability for 3 months, you become eligible for account scaling. This shows your ability to maintain performance over time."
+          },
+          {
+            "title": "Account Scaling",
+            "description": "Your account size increases by 25% of your initial funding. For example, a $100,000 account would increase to $125,000, giving you more capital to trade with."
+          },
+          {
+            "title": "Advanced Scaling",
+            "description": "Continue to demonstrate consistent profitability, and your account can be scaled multiple times, up to a maximum of $1,000,000 in trading capital."
+          }
+        ]
+      },
+      "riskRules": {
+        "title": "Risk Management Rules",
+        "subtitle": "Guidelines to maintain your funded account and ensure long-term success",
+        "rules": [
+          {
+            "title": "Maximum Drawdown",
+            "description": "Your account has a maximum drawdown limit of 2% daily and 10% total. Exceeding these limits may result in account termination."
+          },
+          {
+            "title": "Position Sizing",
+            "description": "Maximum position size per symbol is limited to 5X of your account equity. This ensures proper diversification and risk management."
+          },
+          {
+            "title": "Stop Loss Requirement",
+            "description": "All trades must have a stop loss in place. Trading without proper stop losses is not permitted and may result in account review."
+          },
+          {
+            "title": "Trading Hours",
+            "description": "Trading during major news events or low liquidity periods is discouraged. This protects against excessive volatility and slippage."
+          },
+          {
+            "title": "Consistency Requirement",
+            "description": "Maintain consistent trading activity. Accounts with no trading activity for 30 consecutive days may be subject to review."
+          },
+          {
+            "title": "Prohibited Strategies",
+            "description": "Certain high-risk strategies such as martingale, grid trading without proper risk management, and arbitrage are not permitted."
+          }
+        ]
+      },
+      "testimonials": {
+        "title": "Success Stories",
+        "subtitle": "Hear from our funded traders",
+        "stories": [
+          {
+            "quote": "I've been trading with Traders Act for 8 months now, and it's been a game-changer for my career. The funding program is transparent, the profit splits are generous, and the payouts are always on time. I've been able to scale my account twice already!",
+            "name": "Oluwaseun Adebayo",
+            "role": "Forex Trader",
+            "icon": "👨‍💼"
+          },
+          {
+            "quote": "The growth plan at Traders Act is what sets them apart from other prop firms. I started with a $50,000 account and have now scaled to $125,000. The risk management rules are fair and actually help me maintain discipline in my trading.",
+            "name": "Tan Wei Ming",
+            "role": "Futures Trader",
+            "icon": "👨‍💻"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready to Get Funded?",
+        "subtitle": "Take the challenge today and start trading with our capital.",
+        "button": "Apply for Funding"
+      }
+    },
+    "academy": {
+      "title": "Trading Academy",
+      "hero": {
+        "title": "Trading is a Skill That Can Be Learned",
+        "subtitle": "Learn. Trade. Succeed.",
+        "exploreButton": "Explore Our Courses",
+        "resourcesButton": "Free Resources"
+      },
+      "whyEducation": {
+        "title": "Why Trading Education Matters",
+        "subtitle": "Successful trading requires more than just luck—it demands knowledge, discipline, and a proven strategy",
+        "features": [
+          {
+            "title": "Develop a Trading Edge",
+            "description": "Learn proven strategies and techniques that give you an advantage in the markets. Our education helps you identify high-probability setups and avoid common pitfalls."
+          },
+          {
+            "title": "Master Trading Psychology",
+            "description": "Trading is 80% psychology and 20% strategy. Our courses help you develop the mental discipline needed to execute your trading plan consistently and manage emotions effectively."
+          },
+          {
+            "title": "Risk Management Expertise",
+            "description": "Learn how to protect your capital with proper position sizing, stop-loss placement, and portfolio management techniques that professional traders use."
+          }
+        ]
+      },
+      "offerings": {
+        "title": "Our Educational Offerings",
+        "subtitle": "Comprehensive learning resources for traders at every level",
+        "items": [
+          {
+            "title": "Courses",
+            "description": "Structured learning paths from beginner to advanced levels",
+            "features": [
+              "Self-paced video lessons",
+              "Interactive quizzes",
+              "Practical exercises",
+              "Certificate of completion"
+            ]
+          },
+          {
+            "title": "Webinars",
+            "description": "Live sessions with professional traders and market experts",
+            "features": [
+              "Real-time market analysis",
+              "Q&A sessions",
+              "Strategy discussions",
+              "Recording access"
+            ]
+          },
+          {
+            "title": "Mentorship",
+            "description": "One-on-one guidance from experienced traders",
+            "features": [
+              "Personalized feedback",
+              "Trading plan review",
+              "Performance analysis",
+              "Regular check-ins"
+            ]
+          },
+          {
+            "title": "Community",
+            "description": "Connect with fellow traders and share experiences",
+            "features": [
+              "Discussion forums",
+              "Trading rooms",
+              "Strategy sharing",
+              "Networking events"
+            ]
+          }
+        ]
+      },
+      "modules": {
+        "title": "Course Modules",
+        "subtitle": "A structured approach to mastering the art of trading",
+        "items": [
+          {
+            "number": "01",
+            "title": "Trading Foundations & Market Mechanics",
+            "description": "Learn the fundamentals of financial markets, trading instruments, and market structure.",
+            "lessons": [
+              "Introduction to Financial Markets",
+              "Market Instruments and Trading Venues",
+              "Order Types and Market Execution",
+              "Understanding Trading Platforms"
+            ]
+          },
+          {
+            "number": "02",
+            "title": "Technical Analysis & Charting",
+            "description": "Master the art of reading charts and using technical indicators effectively.",
+            "lessons": [
+              "Chart Types & Timeframes",
+              "Core Technical Indicators",
+              "Chart Patterns and Trend Analysis",
+              "Practical Case Studies"
+            ]
+          },
+          {
+            "number": "03",
+            "title": "Trading Psychology & Risk Management",
+            "description": "Develop the mindset and discipline required for successful trading.",
+            "lessons": [
+              "Psychology of Trading",
+              "Risk Management Fundamentals",
+              "Developing a Trading Plan",
+              "Overcoming Psychological Barriers"
+            ]
+          },
+          {
+            "number": "04",
+            "title": "Advanced Trading Strategies",
+            "description": "Learn professional trading strategies and advanced execution techniques.",
+            "lessons": [
+              "Day Trading Strategies",
+              "Swing Trading Methods",
+              "Position Trading Approaches",
+              "Portfolio Management"
+            ]
+          }
+        ]
+      },
+      "cta": {
+        "title": "Start Your Trading Journey Today",
+        "subtitle": "Join our comprehensive trading education program and develop the skills you need to succeed in the markets.",
+        "button": "Enroll Now"
+      }
+    },
+    "blog": {
+      "title": "Trading Insights",
+      "hero": {
+        "title": "Latest Trading Knowledge",
+        "subtitle": "Expert analysis, strategies, and market insights."
+      },
+      "categories": {
+        "technical": "Technical Analysis",
+        "fundamental": "Fundamental Analysis",
+        "psychology": "Trading Psychology",
+        "risk": "Risk Management"
+      }
+    },
+    "affiliate": {
+      "title": "Affiliate Program",
+      "hero": {
+        "title": "Earn With Us",
+        "subtitle": "Partner with Traders Act and earn generous commissions.",
+        "joinButton": "Join Our Affiliate Program"
+      },
+      "benefits": {
+        "title": "Program Benefits",
+        "subtitle": "Earn substantial commissions while helping traders access the capital they need to succeed",
+        "items": [
+          {
+            "title": "High Commissions",
+            "description": "Earn up to 40% commission on referrals."
+          },
+          {
+            "title": "Lifetime Revenue",
+            "description": "Get paid for the entire lifetime of your referrals."
+          },
+          {
+            "title": "Marketing Support",
+            "description": "Access professional marketing materials and support."
+          }
+        ]
+      },
+      "stats": {
+        "payouts": "Monthly Payouts",
+        "affiliates": "Active Affiliates",
+        "commission": "Max Commission",
+        "support": "Support"
+      },
+      "commission": {
+        "title": "Commission Structure",
+        "subtitle": "Our tiered commission structure rewards you generously for each successful referral",
+        "accountSize": "Account Size",
+        "rate": "Commission",
+        "recurring": "Recurring Commission",
+        "viewDetails": "View Full Commission Details",
+        "tiers": [
+          {
+            "range": "0-10 Challenges",
+            "commission": "15%",
+            "recurring": "5%"
+          },
+          {
+            "range": "11-50 Challenges",
+            "commission": "20%",
+            "recurring": "7%"
+          },
+          {
+            "range": "51-100 Challenges",
+            "commission": "25%",
+            "recurring": "10%"
+          },
+          {
+            "range": "101-1000 Challenges",
+            "commission": "30%",
+            "recurring": "12%"
+          },
+          {
+            "range": "1001+ Challenges",
+            "commission": "35%",
+            "recurring": "15%"
+          }
+        ]
+      },
+      "features": [
+        {
+          "title": "High Commission Rates",
+          "description": "Earn up to 40% for each trader who signs up and completes a challenge through your referral link."
+        },
+        {
+          "title": "Recurring Revenue",
+          "description": "Receive ongoing commissions when your referrals scale their accounts or take additional challenges."
+        },
+        {
+          "title": "Timely Payouts",
+          "description": "Receive your commissions bi-weekly through your preferred payment method, with no minimum threshold."
+        },
+        {
+          "title": "Marketing Materials",
+          "description": "Access a library of professional banners, landing pages, and email templates to boost your conversion rates."
+        },
+        {
+          "title": "Dedicated Support",
+          "description": "Get personalized assistance from our affiliate management team to help you maximize your earnings."
+        },
+        {
+          "title": "Real-Time Tracking",
+          "description": "Monitor your referrals and earnings in real-time through our comprehensive affiliate dashboard."
+        }
+      ],
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Everything you need to know about our affiliate program",
+        "items": [
+          {
+            "question": "How do I join the Traders Act affiliate program?",
+            "answer": "To join our affiliate program, simply register for an affiliate account on this page. Once approved, you'll receive your unique referral link and access to our affiliate dashboard."
+          },
+          {
+            "question": "When and how do I get paid?",
+            "answer": "Commissions are paid bi-weekly. You can choose to receive payments via bank transfer, PayPal, or cryptocurrency. There is no minimum payout threshold."
+          },
+          {
+            "question": "How are referrals tracked?",
+            "answer": "Referrals are tracked using cookies with a 90-day attribution window. This means that if someone clicks your link and signs up within 90 days, you'll receive the commission."
+          },
+          {
+            "question": "Can I promote Traders Act on social media?",
+            "answer": "Yes, you can promote Traders Act on social media platforms, your website, blog, or through email marketing. We provide a variety of marketing materials to help you with your promotions."
+          },
+          {
+            "question": "What is the commission structure?",
+            "answer": "Our commission structure is tiered based on the account size your referral chooses. You can earn between 15% to 35% per successful referral, plus recurring commissions when they scale their accounts."
+          },
+          {
+            "question": "Is there a limit to how much I can earn?",
+            "answer": "There is no cap on your earnings. The more traders you refer who sign up and complete challenges, the more you earn. Our top affiliates earn thousands of dollars each month."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Join Our Affiliate Program",
+        "subtitle": "Register or log in to access your affiliate dashboard and start earning"
+      }
+    },
+    "pricing": {
+      "title": "Choose Your Trading Account",
+      "subtitle": "Select the account size that matches your trading goals",
+      "mostPopular": "Most Popular",
+      "micro": {
+        "title": "Micro",
+        "price": "$5,000",
+        "features": [
+          "Initial Balance: $5,000",
+          "Profit Target: 10%",
+          "Max Daily Loss: $100 (2%)",
+          "Max Total Loss: $300 (6%)",
+          "Profit Share: 70% Monthly",
+          "Assessment Fee: $49.99"
+        ],
+        "button": "Start Challenge"
+      },
+      "mini": {
+        "title": "Mini",
+        "price": "$10,000",
+        "features": [
+          "Initial Balance: $10,000",
+          "Profit Target: 10%",
+          "Max Daily Loss: $200 (2%)",
+          "Max Total Loss: $700 (7%)",
+          "Profit Share: 75% Monthly",
+          "Assessment Fee: $99.99"
+        ],
+        "button": "Start Challenge"
+      },
+      "starter": {
+        "title": "Starter",
+        "price": "$25,000",
+        "features": [
+          "Initial Balance: $25,000",
+          "Profit Target: 10%",
+          "Max Daily Loss: $500 (2%)",
+          "Max Total Loss: $2000 (8%)",
+          "Profit Share: 80% Monthly",
+          "Assessment Fee: $199.99"
+        ],
+        "button": "Start Challenge"
+      },
+      "pro": {
+        "title": "Professional",
+        "price": "$50,000",
+        "features": [
+          "Initial Balance: $50,000",
+          "Profit Target: 10%",
+          "Max Daily Loss: $1000 (2%)",
+          "Max Total Loss: $4500 (9%)",
+          "Profit Share: 85% Monthly",
+          "Assessment Fee: $299.99"
+        ],
+        "button": "Start Challenge"
+      },
+      "elite": {
+        "title": "Elite",
+        "price": "$100,000",
+        "features": [
+          "Initial Balance: $100,000",
+          "Profit Target: 10%",
+          "Max Daily Loss: $2000 (2%)",
+          "Max Total Loss: $10000 (10%)",
+          "Profit Share: 85% Monthly",
+          "Assessment Fee: $499.99"
+        ],
+        "button": "Start Challenge"
+      }
+    }
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "startChallenge": "Start Trading Challenge",
+    "sendMessage": "Send Message",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "message": "Message",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot your password?",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+    "acceptTerms": "I accept the Terms of Service and Privacy Policy"
+  },
+  "navbar": {
+    "about": "About",
+    "features": "Features",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "challenge": "Challenge",
+    "funding": "Funding",
+    "academy": "Academy",
+    "blog": "Blog",
+    "affiliate": "Affiliate"
+  },
+  "home": {
+    "hero": {
+      "title": "Your Path to Becoming a Funded Trader",
+      "subtitle": "Join Traders Act and prove your trading skills. Pass our challenge and get access to a funded account with up to 90% profit share.",
+      "stats": {
+        "payouts": "Trader Payouts",
+        "traders": "Funded Traders",
+        "profitShare": "Profit Share",
+        "support": "Support"
+      }
+    },
+    "features": {
+      "title": "Why Choose Traders Act",
+      "subtitle": "We offer the best conditions for successful traders",
+      "profitShare": {
+        "title": "Up to 90% Profit Share",
+        "description": "Keep up to 90% of your trading profits with our industry-leading profit split."
+      },
+      "security": {
+        "title": "Secure Platform",
+        "description": "Trade with confidence on our secure and reliable trading platform."
+      },
+      "analytics": {
+        "title": "Real-time Analytics",
+        "description": "Monitor your performance with advanced real-time trading analytics."
+      },
+      "community": {
+        "title": "Community Support",
+        "description": "Join a community of successful traders and learn from the best."
+      }
+    },
+    "testimonials": {
+      "title": "What Our Traders Say",
+      "subtitle": "Join thousands of successful funded traders",
+      "testimonial1": {
+        "quote": "Traders Act's platform is exceptional. The challenge was fair, and now I'm trading a $50,000 account with 85% profit share. The bi-weekly payouts are always on time.",
+        "name": "Abdullah Al-Rashid",
+        "position": "Funded Trader - 4 months"
+      },
+      "testimonial2": {
+        "quote": "The support team is incredible. They helped me through the challenge phase and now I'm successfully trading a funded account. The platform's analytics tools are top-notch.",
+        "name": "Oluwaseun Adebayo",
+        "position": "Funded Trader - 3 months"
+      },
+      "testimonial3": {
+        "quote": "Started with a $25,000 account and scaled up to $100,000 in just 6 months. The scaling program is fantastic, and the profit splits are the best in the industry.",
+        "name": "Carlos Rodriguez",
+        "position": "Funded Trader - 5 months"
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "Get in touch with our team for any questions or support",
+      "form": {
+        "name": "Your Name",
+        "email": "Your Email",
+        "message": "Your Message",
+        "button": "Send Message"
+      },
+      "hours": {
+        "trading": {
+          "title": "Trading Hours",
+          "weekdays": "Monday - Friday",
+          "weekdaysHours": "00:00 - 23:59 GMT",
+          "weekend": "Saturday - Sunday",
+          "weekendHours": "Closed"
+        },
+        "support": {
+          "title": "Support Hours",
+          "weekdays": "Monday - Friday",
+          "weekdaysHours": "9:00 - 17:00 GMT",
+          "weekend": "Saturday - Sunday",
+          "weekendHours": "10:00 - 14:00 GMT"
+        }
+      },
+      "companies": {
+        "title": "Group Contact Information",
+        "marketsAct": {
+          "name": "Markets Act Broker Ltd",
+          "website": "www.marketsact.com",
+          "email": "Contact@marketsact.com",
+          "phone": "+230 4635632",
+          "address": "Office No. EB3- 001 Ebene Junction, Ebene, Mauritius"
+        },
+        "whiteStoneInvestment": {
+          "name": "White Stone Investment Advisors LTD",
+          "website": "www.enveston.com",
+          "email": "info@enveston.com",
+          "phone": "+230 5255 6677",
+          "address": "79, La Hausse de la Louviere Street, Floreal, Mauritius"
+        },
+        "whiteStoneFinancial": {
+          "name": "White Stone Financial Services LLC",
+          "website": "www.wsfs.ae",
+          "email": "support@wsfs.ae",
+          "phone": "+971 4 572 5385",
+          "address": "Office 1107, The Onyx Tower 2, The Greens, SZR, Dubai, UAE"
+        }
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find answers to common questions about our trading challenge and funding program",
+      "items": [
+        {
+          "question": "What is the Traders Act challenge?",
+          "answer": "The Traders Act challenge is an evaluation program designed to identify skilled traders. You'll trade on a simulated account with virtual funds, following specific rules and targets. Upon successful completion, you'll receive a funded trading account with real capital."
+        },
+        {
+          "question": "How long do I have to complete the challenge?",
+          "answer": "You have up to 30 calendar days to complete the challenge. There's no minimum trading days - you can complete the challenge faster if you reach the profit target while following all trading rules."
+        },
+        {
+          "question": "Which markets can I trade during the challenge?",
+          "answer": "You can trade forex, indices, commodities, and cryptocurrencies. Our platform provides access to all major global markets with competitive spreads and excellent execution."
+        },
+        {
+          "question": "What are the trading rules during the challenge?",
+          "answer": "Key rules include maintaining proper position sizing (maximum 5% per trade), using stop losses, avoiding trading during major news events, and staying within maximum loss limits. Complete rules are provided when you start the challenge."
+        },
+        {
+          "question": "What happens after I pass the challenge?",
+          "answer": "Once successful, you'll receive a funded account with real capital within 24-48 hours. You can then begin trading with our capital while keeping up to 90% of the profits you generate."
+        },
+        {
+          "question": "How frequently are profits paid out?",
+          "answer": "We process profit payouts bi-weekly. Once your payout is approved, you'll receive the funds within 1-2 business days via your chosen payment method."
+        }
+      ]
+    }
+  },
+  "auth": {
+    "signIn": {
+      "title": "Welcome back",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "Enter your email",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "button": "Sign in",
+      "forgotPassword": "Forgot your password?",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up",
+      "success": "Successfully signed in!",
+      "error": "Invalid email or password"
+    }
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "connect": "Connect",
+    "copyright": " Traders Act. All rights reserved.",
+    "links": {
+      "features": "Features",
+      "pricing": "Pricing",
+      "testimonials": "Testimonials",
+      "faq": "FAQ",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "risk": "Risk Disclosure",
+      "refund": "Refund Policy",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram",
+      "youtube": "YouTube"
+    }
+  },
+  "languageSwitcher": {
+    "selectLanguage": "Select language",
+    "english": "English",
+    "arabic": "العربية",
+    "vietnamese": "Tiếng Việt",
+    "malay": "Bahasa Melayu",
+    "hindi": "हिंदी",
+    "chinese": "简体中文",
+    "spanish": "Español"
+  }
+}
