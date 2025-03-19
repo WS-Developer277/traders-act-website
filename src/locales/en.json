@@ -340,16 +340,173 @@
       }
     },
     "blog": {
-      "title": "Trading Insights",
       "hero": {
-        "title": "Latest Trading Knowledge",
-        "subtitle": "Expert analysis, strategies, and market insights."
+        "title": "Trading Insights & Education",
+        "subtitle": "Expert analysis, trading strategies, and market insights to help you become a better trader"
+      },
+      "searchPlaceholder": "Search articles...",
+      "latestArticles": "Latest Articles",
+      "readMore": "Read More",
+      "categoriesTitle": "Categories",
+      "relatedArticles": "Related Articles",
+      "readArticle": "Read Article",
+      "backToBlog": "Back to Blog",
+      "newsletter": {
+        "title": "Subscribe to Our Newsletter",
+        "description": "Get the latest trading insights and market analysis delivered to your inbox.",
+        "placeholder": "Enter your email",
+        "button": "Subscribe Now"
+      },
+      "actions": {
+        "helpful": "Helpful",
+        "share": "Share",
+        "save": "Save"
       },
       "categories": {
-        "technical": "Technical Analysis",
-        "fundamental": "Fundamental Analysis",
-        "psychology": "Trading Psychology",
-        "risk": "Risk Management"
+        "technicalAnalysis": "Technical Analysis",
+        "fundamentalAnalysis": "Fundamental Analysis",
+        "tradingPsychology": "Trading Psychology",
+        "riskManagement": "Risk Management",
+        "marketAnalysis": "Market Analysis",
+        "tradingStrategies": "Trading Strategies"
+      },
+      "posts": {
+        "mastering-risk-management": {
+          "title": "Mastering Risk Management: A Guide for Funded Traders",
+          "excerpt": "Learn the essential risk management techniques that professional traders use to protect their capital and maximize returns.",
+          "author": "Ahmed Al-Farsi",
+          "date": "March 15, 2025",
+          "readTime": "8 min read",
+          "tags": "Risk Management, Trading",
+          "sections": {
+            "introduction": {
+              "title": "Introduction",
+              "content": "Risk management is the cornerstone of successful trading. For funded traders, who are managing significant capital provided by others, mastering risk management becomes even more crucial. This comprehensive guide will explore essential risk management techniques that professional traders use to protect their capital and maximize returns."
+            },
+            "positionSizing": {
+              "title": "The Foundation: Position Sizing",
+              "content1": "Position sizing is your first line of defense against excessive losses. As a funded trader, you should never risk more than 1-2% of your account on any single trade. This means that if you have a $100,000 funded account, your maximum risk per trade should be between $1,000 and $2,000.",
+              "content2": "To calculate your position size:",
+              "steps": {
+                "step1": "Determine your account risk (1-2% of account size)",
+                "step2": "Identify your stop loss in pips or points",
+                "step3": "Calculate your position size based on the risk per pip/point"
+              },
+              "example": {
+                "title": "Example Calculation",
+                "content": "Account Size: $100,000<br />Risk per Trade: 1% = $1,000<br />Stop Loss: 50 pips<br />Therefore: $1,000 ÷ 50 pips = $20 per pip<br />Position Size: Adjust your lot size to achieve $20 per pip"
+              }
+            },
+            "stopLoss": {
+              "title": "Stop Loss Strategy",
+              "content": "Every trade must have a predetermined stop loss. This is non-negotiable. Your stop loss should be placed at a level that:",
+              "points": {
+                "point1": "Invalidates your trading setup",
+                "point2": "Accounts for market volatility",
+                "point3": "Aligns with your risk per trade",
+                "point4": "Considers key support/resistance levels"
+              }
+            },
+            "riskReward": {
+              "title": "Risk-Reward Ratio",
+              "content": "Maintain a minimum risk-reward ratio of 1:2, meaning your potential profit should be at least twice your risk. This allows you to be profitable even with a win rate below 50%. For example:",
+              "points": {
+                "point1": "Risk per trade: $1,000",
+                "point2": "Minimum target: $2,000",
+                "point3": "With a 40% win rate: (40% × $2,000) - (60% × $1,000) = $200 average profit per trade"
+              }
+            },
+            "drawdown": {
+              "title": "Drawdown Management",
+              "content": "As a funded trader, you'll typically have maximum drawdown limits. To stay well within these limits:",
+              "points": {
+                "point1": "Track your daily and overall drawdown",
+                "point2": "Reduce position sizes after consecutive losses",
+                "point3": "Take a break if you reach 50% of your maximum drawdown",
+                "point4": "Implement a daily stop-loss limit"
+              },
+              "warning": {
+                "title": "Warning Signs",
+                "content": "Stop trading immediately if you:",
+                "points": {
+                  "point1": "Reach your daily loss limit",
+                  "point2": "Experience three consecutive losses",
+                  "point3": "Feel emotionally compromised",
+                  "point4": "Start deviating from your trading plan"
+                }
+              }
+            },
+            "correlation": {
+              "title": "Correlation Risk",
+              "content": "Be mindful of correlation risk when trading multiple positions. Taking several correlated trades effectively increases your position size and risk exposure. For example:",
+              "points": {
+                "point1": "Trading multiple forex pairs with high USD exposure",
+                "point2": "Taking positions in both oil and CAD pairs",
+                "point3": "Trading indices with overlapping components"
+              }
+            },
+            "advanced": {
+              "title": "Advanced Risk Management Techniques",
+              "scaling": {
+                "title": "Scaling In and Out",
+                "content": "Instead of entering or exiting positions all at once, consider:",
+                "points": {
+                  "point1": "Scaling into positions to average your entry price",
+                  "point2": "Taking partial profits to secure gains",
+                  "point3": "Moving stop loss to breakeven after partial profits"
+                }
+              },
+              "time": {
+                "title": "Time-Based Risk Management",
+                "content": "Different trading sessions have different risk characteristics:",
+                "points": {
+                  "point1": "Avoid trading during major news events",
+                  "point2": "Be cautious during market opens and closes",
+                  "point3": "Adjust position sizes during volatile periods",
+                  "point4": "Consider time stops for trades not moving in your favor"
+                }
+              }
+            },
+            "conclusion": {
+              "title": "Conclusion",
+              "content": "Risk management is what separates successful funded traders from those who fail. By implementing these strategies and maintaining strict discipline, you can protect your funded account and build a sustainable trading career. Remember, your first goal as a funded trader should be capital preservation, followed by consistent growth."
+            }
+          }
+        },
+        "technical-analysis-beyond-basics": {
+          "title": "Technical Analysis: Beyond the Basics",
+          "excerpt": "Dive deep into advanced technical analysis concepts and learn how to identify high-probability trading setups.",
+          "author": "Sophia Nguyen",
+          "date": "March 12, 2025",
+          "readTime": "12 min read"
+        },
+        "psychology-successful-trading": {
+          "title": "The Psychology of Successful Trading",
+          "excerpt": "Understanding and mastering trading psychology is crucial for long-term success in the markets.",
+          "author": "Raj Patel",
+          "date": "March 10, 2025",
+          "readTime": "10 min read"
+        },
+        "understanding-market-correlations": {
+          "title": "Understanding Market Correlations",
+          "date": "March 8, 2025"
+        },
+        "building-trading-plan": {
+          "title": "Building a Robust Trading Plan",
+          "date": "March 5, 2025"
+        },
+        "economic-indicators": {
+          "title": "Economic Indicators That Matter",
+          "date": "March 3, 2025"
+        },
+        "position-sizing-strategies": {
+          "title": "Position Sizing Strategies for Day Traders",
+          "date": "March 10, 2025"
+        },
+        "understanding-stop-loss": {
+          "title": "Understanding Stop Loss Placement",
+          "date": "March 5, 2025"
+        }
       }
     },
     "affiliate": {
@@ -523,7 +680,7 @@
         "button": "Start Challenge"
       },
       "pro": {
-        "title": "Professional",
+        "title": "Pro",
         "price": "$50,000",
         "features": [
           "Initial Balance: $50,000",
@@ -536,7 +693,7 @@
         "button": "Start Challenge"
       },
       "elite": {
-        "title": "Elite",
+        "title": "VIP",
         "price": "$100,000",
         "features": [
           "Initial Balance: $100,000",

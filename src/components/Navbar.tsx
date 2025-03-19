@@ -32,7 +32,7 @@ export default function Navbar() {
 
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-white/90 backdrop-blur-md shadow-sm' : 'bg-[#171E60]/90 backdrop-blur-md'
+      isScrolled ? 'bg-white/90 backdrop-blur-md -webkit-backdrop-filter backdrop-blur-md shadow-sm' : 'bg-[#171E60]/90 backdrop-blur-md -webkit-backdrop-filter backdrop-blur-md'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
@@ -62,16 +62,23 @@ export default function Navbar() {
               {t('navbar.affiliate')}
             </Link>
             <LanguageSwitcher />
-            <Link to="/signin">
-              <Button variant={isScrolled ? "outline" : "primary"} size="sm">
+            <a href="https://my.tradersact.com/login">
+              <Button 
+                variant={isScrolled ? "outline" : "primary"} 
+                size="sm"
+                className={isScrolled ? "bg-gray-100 text-gray-800 hover:bg-gray-200 border-gray-300" : ""}
+              >
                 {t('common.signIn')}
               </Button>
-            </Link>
-            <Link to="/signup">
-              <Button size="sm" className={!isScrolled ? 'bg-white text-blue-600 hover:bg-white/90' : ''}>
+            </a>
+            <a href="https://my.tradersact.com/register">
+              <Button 
+                size="sm" 
+                className={!isScrolled ? 'bg-white text-blue-800 hover:bg-white/90' : ''}
+              >
                 {t('common.getStarted')}
               </Button>
-            </Link>
+            </a>
           </div>
 
           <div className="md:hidden flex items-center gap-4">
@@ -133,12 +140,14 @@ export default function Navbar() {
               {t('navbar.affiliate')}
             </Link>
             <div className="px-3 py-2 space-y-2">
-              <Link to="/signin" className="block w-full" onClick={() => setIsMenuOpen(false)}>
-                <Button variant="outline" className="w-full">{t('common.signIn')}</Button>
-              </Link>
-              <Link to="/signup" className="block w-full" onClick={() => setIsMenuOpen(false)}>
+              <a href="https://my.tradersact.com/login" className="block w-full" onClick={() => setIsMenuOpen(false)}>
+                <Button variant="outline" className="w-full bg-gray-100 text-gray-800 hover:bg-gray-200 border-gray-300">
+                  {t('common.signIn')}
+                </Button>
+              </a>
+              <a href="https://my.tradersact.com/register" className="block w-full" onClick={() => setIsMenuOpen(false)}>
                 <Button className="w-full">{t('common.getStarted')}</Button>
-              </Link>
+              </a>
             </div>
           </div>
         </div>

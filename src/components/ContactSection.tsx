@@ -1,10 +1,55 @@
 import { useTranslation } from 'react-i18next';
-import { Globe, Mail, MapPin, Phone } from 'lucide-react';
+import { Globe, Mail, MapPin, Phone, Check, AlertCircle } from 'lucide-react';
+import { useState } from 'react';
 import Button from './Button';
 import ErrorBoundary from './ErrorBoundary';
+import { submitContactForm } from '../services/contact';
 
 const ContactSection = () => {
   const { t } = useTranslation();
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [formStatus, setFormStatus] = useState<{ success: boolean; message: string } | null>(null);
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { id, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [id]: value
+    }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setFormStatus(null);
+
+    try {
+      const result = await submitContactForm(formData);
+      setFormStatus(result);
+      
+      if (result.success) {
+        // Reset form on success
+        setFormData({
+          name: '',
+          email: '',
+          message: ''
+        });
+      }
+    } catch (err: unknown) {
+      console.error('Error submitting contact form:', err);
+      setFormStatus({
+        success: false,
+        message: 'An error occurred. Please try again later.'
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
   return (
     <ErrorBoundary sectionName="Contact">
@@ -17,7 +62,7 @@ const ContactSection = () => {
 
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-sm">
-              <form className="space-y-6">
+              <form className="space-y-6" onSubmit={handleSubmit}>
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
                     {t('home.contact.form.name')}
@@ -25,6 +70,8 @@ const ContactSection = () => {
                   <input
                     type="text"
                     id="name"
+                    value={formData.name}
+                    onChange={handleChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     placeholder={t('home.contact.form.name')}
                   />
@@ -36,6 +83,8 @@ const ContactSection = () => {
                   <input
                     type="email"
                     id="email"
+                    value={formData.email}
+                    onChange={handleChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     placeholder={t('home.contact.form.email')}
                   />
@@ -47,11 +96,31 @@ const ContactSection = () => {
                   <textarea
                     id="message"
                     rows={4}
+                    value={formData.message}
+                    onChange={handleChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                     placeholder={t('home.contact.form.message')}
                   />
                 </div>
-                <Button className="w-full">{t('home.contact.form.button')}</Button>
+                
+                {formStatus && (
+                  <div className={`p-3 rounded-lg flex items-start ${formStatus.success ? 'bg-green-50 text-green-800' : 'bg-red-50 text-red-800'}`}>
+                    {formStatus.success ? (
+                      <Check className="h-5 w-5 text-green-500 mt-0.5 mr-2 flex-shrink-0" />
+                    ) : (
+                      <AlertCircle className="h-5 w-5 text-red-500 mt-0.5 mr-2 flex-shrink-0" />
+                    )}
+                    <p>{formStatus.message}</p>
+                  </div>
+                )}
+                
+                <Button 
+                  type="submit" 
+                  className="w-full" 
+                  disabled={isSubmitting}
+                >
+                  {isSubmitting ? t('common.submitting') : t('home.contact.form.button')}
+                </Button>
               </form>
 
               {/* Trading Hours and Support Hours */}

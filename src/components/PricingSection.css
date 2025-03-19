@@ -2,47 +2,17 @@
 .pricing-container {
   position: relative;
   padding: 1rem 1rem 2rem;
-  perspective: 2000px;
 }
 
-/* Carousel Styles */
-.pricing-carousel {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 650px;
-  position: relative;
-  transform-style: preserve-3d;
-  perspective: 1500px;
-}
-
-/* Card Styles */
-.pricing-card {
-  position: absolute;
-  width: 100%;
-  max-width: 24rem;
+/* Pricing Card Styles */
+.pricing-card-new {
   background-color: white;
-  border-radius: 1.5rem;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  overflow: hidden;
-  transform: translateZ(0);
-  cursor: pointer;
-  transform-style: preserve-3d;
-  backface-visibility: hidden;
-  transform-origin: center center;
-  transition: height 0.3s ease, max-height 0.3s ease;
+  transition: all 0.3s ease;
 }
 
-.pricing-card.active {
-  height: auto;
-  max-height: 600px;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25), 0 0 40px rgba(0, 0, 0, 0.1);
-  z-index: 10;
-}
-
-.pricing-card:not(.active) {
-  height: 520px;
-  max-height: 520px;
+.pricing-card-new:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
 /* 3D Button Styles */
@@ -120,6 +90,16 @@
   }
 }
 
+/* Brand color buttons */
+.pricing-button-brand {
+  background: linear-gradient(to right, #171E60, #0F1649);
+}
+
+.pricing-button-brand-light {
+  background: linear-gradient(to right, #2D3A8C, #171E60);
+}
+
+/* Legacy button styles - keeping for compatibility */
 .pricing-button-blue {
   background: linear-gradient(to right, #3b82f6, #2563eb);
 }
@@ -140,54 +120,24 @@
   background: linear-gradient(to right, #ec4899, #db2777);
 }
 
-/* Navigation Arrows */
-.pricing-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: white;
-  border-radius: 9999px;
-  padding: 0.75rem;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-  transition: all 0.2s;
-  z-index: 20;
-}
-
-.pricing-arrow:hover {
-  background-color: #f3f4f6;
-}
-
-.pricing-arrow.left {
-  left: 1rem;
-}
-
-.pricing-arrow.right {
-  right: 1rem;
-}
-
-/* Dot Navigation */
-.pricing-dots {
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
-  margin-top: 1.5rem;
-}
-
-.pricing-dot {
-  width: 0.75rem;
-  height: 0.75rem;
-  border-radius: 9999px;
-  background-color: #e5e7eb;
-  transition: all 0.2s;
-  cursor: pointer;
-}
-
-.pricing-dot.active {
-  background-color: #3b82f6;
-  transform: scale(1.2);
-}
-
 /* Error Boundary */
 .error-boundary {
   width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .pricing-card-new {
+    max-width: 100%;
+  }
+}
+
+/* Dark mode support */
+.dark .pricing-card-new {
+  background-color: #1f2937;
+  color: white;
+}
+
+.dark .pricing-card-new span.text-gray-700 {
+  color: #e5e7eb;
 }

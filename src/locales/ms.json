@@ -340,16 +340,173 @@
       }
     },
     "blog": {
-      "title": "Wawasan Perdagangan",
       "hero": {
-        "title": "Pengetahuan Perdagangan Terkini",
-        "subtitle": "Analisis pakar, strategi, dan wawasan pasaran."
+        "title": "Pendidikan & Pandangan Perdagangan",
+        "subtitle": "Analisis pakar, strategi perdagangan, dan pandangan pasaran untuk membantu anda menjadi pedagang yang lebih baik"
+      },
+      "searchPlaceholder": "Cari artikel...",
+      "latestArticles": "Artikel Terbaru",
+      "readMore": "Baca Lagi",
+      "categoriesTitle": "Kategori",
+      "relatedArticles": "Artikel Berkaitan",
+      "readArticle": "Baca Artikel",
+      "backToBlog": "Kembali ke Blog",
+      "newsletter": {
+        "title": "Langgan Surat Berita Kami",
+        "description": "Dapatkan pandangan perdagangan terkini dan analisis pasaran dihantar ke peti masuk anda.",
+        "placeholder": "Masukkan e-mel anda",
+        "button": "Langgan Sekarang"
+      },
+      "actions": {
+        "helpful": "Berguna",
+        "share": "Kongsi",
+        "save": "Simpan"
       },
       "categories": {
-        "technical": "Analisis Teknikal",
-        "fundamental": "Analisis Asas",
-        "psychology": "Psikologi Perdagangan",
-        "risk": "Pengurusan Risiko"
+        "technicalAnalysis": "Analisis Teknikal",
+        "fundamentalAnalysis": "Analisis Asas",
+        "tradingPsychology": "Psikologi Perdagangan",
+        "riskManagement": "Pengurusan Risiko",
+        "marketAnalysis": "Analisis Pasaran",
+        "tradingStrategies": "Strategi Perdagangan"
+      },
+      "posts": {
+        "mastering-risk-management": {
+          "title": "Menguasai Pengurusan Risiko: Panduan untuk Pedagang Bertaraf",
+          "excerpt": "Pelajari teknik pengurusan risiko penting yang digunakan oleh pedagang profesional untuk melindungi modal mereka dan memaksimumkan pulangan.",
+          "author": "Ahmad Al-Farsi",
+          "date": "15 Mac, 2025",
+          "readTime": "8 minit bacaan",
+          "tags": "Pengurusan Risiko, Perdagangan",
+          "sections": {
+            "introduction": {
+              "title": "Pengenalan",
+              "content": "Pengurusan risiko adalah asas kepada perdagangan yang berjaya. Bagi pedagang bertaraf, yang menguruskan modal yang besar disediakan oleh orang lain, menguasai pengurusan risiko menjadi lebih penting lagi. Panduan komprehensif ini akan meneroka teknik pengurusan risiko penting yang digunakan oleh pedagang profesional untuk melindungi modal mereka dan memaksimumkan pulangan."
+            },
+            "positionSizing": {
+              "title": "Asas: Saiz Posisi",
+              "content1": "Saiz posisi adalah barisan pertahanan pertama anda terhadap kerugian berlebihan. Sebagai pedagang bertaraf, anda tidak seharusnya meletakkan risiko lebih daripada 1-2% daripada akaun anda dalam mana-mana satu dagangan. Ini bermakna jika anda mempunyai akaun bertaraf $100,000, risiko maksimum anda bagi setiap dagangan seharusnya antara $1,000 hingga $2,000.",
+              "content2": "Untuk mengira saiz posisi anda:",
+              "steps": {
+                "step1": "Tentukan risiko akaun anda (1-2% daripada saiz akaun)",
+                "step2": "Kenal pasti stop loss anda dalam pip atau mata",
+                "step3": "Kira saiz posisi anda berdasarkan risiko per pip/mata"
+              },
+              "example": {
+                "title": "Contoh Pengiraan",
+                "content": "Saiz Akaun: $100,000<br />Risiko per dagangan: 1% = $1,000<br />Stop Loss: 50 pip<br />Maka: $1,000 ÷ 50 pip = $20 per pip<br />Saiz Posisi: Sesuaikan saiz lot anda untuk mencapai $20 per pip"
+              }
+            },
+            "stopLoss": {
+              "title": "Strategi Stop Loss",
+              "content": "Setiap dagangan mesti mempunyai stop loss yang telah ditetapkan. Ini tidak boleh dirundingkan. Stop loss anda harus diletakkan pada tahap yang:",
+              "points": {
+                "point1": "Membatalkan setup perdagangan anda",
+                "point2": "Mengambil kira volatiliti pasaran",
+                "point3": "Selaras dengan risiko per dagangan anda",
+                "point4": "Mempertimbangkan tahap sokongan/rintangan utama"
+              }
+            },
+            "riskReward": {
+              "title": "Nisbah Risiko-Ganjaran",
+              "content": "Kekalkan nisbah risiko-ganjaran minimum 1:2, bermakna potensi keuntungan anda harus sekurang-kurangnya dua kali ganda risiko anda. Ini membolehkan anda kekal menguntungkan walaupun dengan kadar kejayaan kurang daripada 50%. Contohnya:",
+              "points": {
+                "point1": "Risiko per dagangan: $1,000",
+                "point2": "Sasaran minimum: $2,000",
+                "point3": "Dengan kadar kejayaan 40%: (40% × $2,000) - (60% × $1,000) = $200 keuntungan purata per dagangan"
+              }
+            },
+            "drawdown": {
+              "title": "Pengurusan Drawdown",
+              "content": "Sebagai pedagang bertaraf, anda biasanya akan mempunyai had drawdown maksimum. Untuk kekal dalam had-had ini:",
+              "points": {
+                "point1": "Jejak drawdown harian dan keseluruhan anda",
+                "point2": "Kurangkan saiz posisi selepas kerugian berturut-turut",
+                "point3": "Ambil rehat jika anda mencapai 50% daripada had drawdown maksimum anda",
+                "point4": "Laksanakan had stop-loss harian"
+              },
+              "warning": {
+                "title": "Tanda-tanda Amaran",
+                "content": "Berhenti berdagang dengan segera jika:",
+                "points": {
+                  "point1": "Anda mencapai had kerugian harian anda",
+                  "point2": "Anda mengalami tiga kerugian berturut-turut",
+                  "point3": "Anda berasa terjejas secara emosi",
+                  "point4": "Anda mula menyimpang daripada pelan perdagangan anda"
+                }
+              }
+            },
+            "correlation": {
+              "title": "Risiko Korelasi",
+              "content": "Berhati-hati dengan risiko korelasi apabila berdagang berbilang posisi. Mengambil berbilang dagangan berkorelasi secara berkesan meningkatkan saiz posisi anda dan pendedahan risiko. Contohnya:",
+              "points": {
+                "point1": "Berdagang berbilang pasangan forex dengan pendedahan USD yang tinggi",
+                "point2": "Mengambil posisi dalam kedua-dua minyak dan pasangan CAD",
+                "point3": "Berdagang indeks dengan komponen yang bertindih"
+              }
+            },
+            "advanced": {
+              "title": "Teknik Pengurusan Risiko Lanjutan",
+              "scaling": {
+                "title": "Penskalaan Masuk dan Keluar",
+                "content": "Daripada memasuki atau keluar dari posisi sekaligus, pertimbangkan:",
+                "points": {
+                  "point1": "Penskalaan ke dalam posisi untuk merata-ratakan harga kemasukan anda",
+                  "point2": "Mengambil keuntungan separa untuk mengamankan keuntungan",
+                  "point3": "Menggerakkan stop loss ke titik pulang modal selepas keuntungan separa"
+                }
+              },
+              "time": {
+                "title": "Pengurusan Risiko Berasaskan Masa",
+                "content": "Sesi perdagangan yang berbeza mempunyai ciri-ciri risiko yang berbeza:",
+                "points": {
+                  "point1": "Elakkan berdagang semasa acara berita penting",
+                  "point2": "Berhati-hati semasa tempoh pembukaan dan penutupan pasaran",
+                  "point3": "Sesuaikan saiz posisi semasa tempoh volatiliti",
+                  "point4": "Pertimbangkan stop berasaskan masa untuk dagangan yang tidak bergerak memihak kepada anda"
+                }
+              }
+            },
+            "conclusion": {
+              "title": "Kesimpulan",
+              "content": "Pengurusan risiko adalah apa yang membezakan pedagang bertaraf yang berjaya daripada yang gagal. Dengan melaksanakan strategi-strategi ini dan mengekalkan disiplin yang ketat, anda boleh melindungi akaun bertaraf anda dan membina kerjaya perdagangan yang mampan. Ingat, matlamat pertama anda sebagai pedagang bertaraf harus menjadi pemeliharaan modal, diikuti dengan pertumbuhan yang konsisten."
+            }
+          }
+        },
+        "technical-analysis-beyond-basics": {
+          "title": "Analisis Teknikal: Melangkaui Asas",
+          "excerpt": "Terokai konsep analisis teknikal lanjutan dan pelajari cara mengenal pasti persediaan perdagangan berkebarangkalian tinggi.",
+          "author": "Sophia Nguyen",
+          "date": "12 Mac, 2025",
+          "readTime": "12 minit bacaan"
+        },
+        "psychology-successful-trading": {
+          "title": "Psikologi Perdagangan Berjaya",
+          "excerpt": "Memahami dan menguasai psikologi perdagangan adalah penting untuk kejayaan jangka panjang di pasaran.",
+          "author": "Raj Patel",
+          "date": "10 Mac, 2025",
+          "readTime": "10 minit bacaan"
+        },
+        "understanding-market-correlations": {
+          "title": "Memahami Korelasi Pasaran",
+          "date": "8 Mac, 2025"
+        },
+        "building-trading-plan": {
+          "title": "Membina Pelan Perdagangan Kukuh",
+          "date": "5 Mac, 2025"
+        },
+        "economic-indicators": {
+          "title": "Petunjuk Ekonomi Yang Penting",
+          "date": "3 Mac, 2025"
+        },
+        "position-sizing-strategies": {
+          "title": "Strategi Saiz Posisi untuk Pedagang Harian",
+          "date": "10 Mac, 2025"
+        },
+        "understanding-stop-loss": {
+          "title": "Memahami Penempatan Stop Loss",
+          "date": "5 Mac, 2025"
+        }
       }
     },
     "affiliate": {

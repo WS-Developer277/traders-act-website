@@ -340,16 +340,173 @@
       }
     },
     "blog": {
-      "title": "Perspectivas de Trading",
       "hero": {
-        "title": "Los últimos conocimientos de trading",
-        "subtitle": "Análisis de expertos, estrategias y perspectivas del mercado."
+        "title": "Educación e Información de Trading",
+        "subtitle": "Análisis de expertos, estrategias de trading y perspectivas del mercado para ayudarte a convertirte en un mejor trader"
+      },
+      "searchPlaceholder": "Buscar artículos...",
+      "latestArticles": "Últimos Artículos",
+      "readMore": "Leer Más",
+      "categoriesTitle": "Categorías",
+      "relatedArticles": "Artículos Relacionados",
+      "readArticle": "Leer Artículo",
+      "backToBlog": "Volver al Blog",
+      "newsletter": {
+        "title": "Suscríbete a Nuestro Boletín",
+        "description": "Recibe los últimos conocimientos de trading y análisis de mercado en tu bandeja de entrada.",
+        "placeholder": "Ingresa tu correo electrónico",
+        "button": "Suscríbete Ahora"
+      },
+      "actions": {
+        "helpful": "Útil",
+        "share": "Compartir",
+        "save": "Guardar"
       },
       "categories": {
-        "technical": "Análisis Técnico",
-        "fundamental": "Análisis Fundamental",
-        "psychology": "Psicología de Trading",
-        "risk": "Gestión de Riesgos"
+        "technicalAnalysis": "Análisis Técnico",
+        "fundamentalAnalysis": "Análisis Fundamental",
+        "tradingPsychology": "Psicología de Trading",
+        "riskManagement": "Gestión de Riesgos",
+        "marketAnalysis": "Análisis de Mercado",
+        "tradingStrategies": "Estrategias de Trading"
+      },
+      "posts": {
+        "mastering-risk-management": {
+          "title": "Dominando la Gestión de Riesgos: Una Guía para Traders Financiados",
+          "excerpt": "Aprende las técnicas esenciales de gestión de riesgos que los traders profesionales utilizan para proteger su capital y maximizar los rendimientos.",
+          "author": "Ahmed Al-Farsi",
+          "date": "15 de marzo de 2025",
+          "readTime": "8 min de lectura",
+          "tags": "Gestión de Riesgos, Trading",
+          "sections": {
+            "introduction": {
+              "title": "Introducción",
+              "content": "La gestión de riesgos es la piedra angular del trading exitoso. Para los traders financiados, que gestionan capital significativo proporcionado por otros, dominar la gestión de riesgos se vuelve aún más crucial. Esta guía completa explorará técnicas esenciales de gestión de riesgos que los traders profesionales utilizan para proteger su capital y maximizar los rendimientos."
+            },
+            "positionSizing": {
+              "title": "La Base: Dimensionamiento de Posiciones",
+              "content1": "El dimensionamiento de posiciones es tu primera línea de defensa contra pérdidas excesivas. Como trader financiado, nunca deberías arriesgar más del 1-2% de tu cuenta en una sola operación. Esto significa que si tienes una cuenta financiada de $100,000, tu riesgo máximo por operación debería estar entre $1,000 y $2,000.",
+              "content2": "Para calcular el tamaño de tu posición:",
+              "steps": {
+                "step1": "Determina el riesgo de tu cuenta (1-2% del tamaño de la cuenta)",
+                "step2": "Identifica tu stop loss en pips o puntos",
+                "step3": "Calcula el tamaño de tu posición basado en el riesgo por pip/punto"
+              },
+              "example": {
+                "title": "Ejemplo de Cálculo",
+                "content": "Tamaño de la Cuenta: $100,000<br />Riesgo por Operación: 1% = $1,000<br />Stop Loss: 50 pips<br />Por lo tanto: $1,000 ÷ 50 pips = $20 por pip<br />Tamaño de la Posición: Ajusta tu tamaño de lote para lograr $20 por pip"
+              }
+            },
+            "stopLoss": {
+              "title": "Estrategia de Stop Loss",
+              "content": "Cada operación debe tener un stop loss predeterminado. Esto es no negociable. Tu stop loss debe colocarse en un nivel que:",
+              "points": {
+                "point1": "Invalide tu configuración de trading",
+                "point2": "Tenga en cuenta la volatilidad del mercado",
+                "point3": "Se alinee con tu riesgo por operación",
+                "point4": "Considere niveles clave de soporte/resistencia"
+              }
+            },
+            "riskReward": {
+              "title": "Ratio Riesgo-Beneficio",
+              "content": "Mantén un ratio mínimo de riesgo-beneficio de 1:2, lo que significa que tu beneficio potencial debe ser al menos el doble de tu riesgo. Esto te permite ser rentable incluso con una tasa de aciertos inferior al 50%. Por ejemplo:",
+              "points": {
+                "point1": "Riesgo por operación: $1,000",
+                "point2": "Objetivo mínimo: $2,000",
+                "point3": "Con una tasa de aciertos del 40%: (40% × $2,000) - (60% × $1,000) = $200 de beneficio promedio por operación"
+              }
+            },
+            "drawdown": {
+              "title": "Gestión de Drawdown",
+              "content": "Como trader financiado, normalmente tendrás límites máximos de drawdown. Para mantenerte dentro de estos límites:",
+              "points": {
+                "point1": "Realiza un seguimiento de tu drawdown diario y general",
+                "point2": "Reduce el tamaño de las posiciones después de pérdidas consecutivas",
+                "point3": "Toma un descanso si alcanzas el 50% de tu drawdown máximo",
+                "point4": "Implementa un límite diario de stop-loss"
+              },
+              "warning": {
+                "title": "Señales de Advertencia",
+                "content": "Deja de operar inmediatamente si:",
+                "points": {
+                  "point1": "Alcanzas tu límite diario de pérdidas",
+                  "point2": "Experimentas tres pérdidas consecutivas",
+                  "point3": "Te sientes emocionalmente comprometido",
+                  "point4": "Comienzas a desviarte de tu plan de trading"
+                }
+              }
+            },
+            "correlation": {
+              "title": "Riesgo de Correlación",
+              "content": "Ten cuidado con el riesgo de correlación al operar múltiples posiciones. Tomar varias operaciones correlacionadas efectivamente aumenta tu tamaño de posición y exposición al riesgo. Por ejemplo:",
+              "points": {
+                "point1": "Operar múltiples pares de forex con alta exposición al USD",
+                "point2": "Tomar posiciones tanto en petróleo como en pares de CAD",
+                "point3": "Operar índices con componentes superpuestos"
+              }
+            },
+            "advanced": {
+              "title": "Técnicas Avanzadas de Gestión de Riesgos",
+              "scaling": {
+                "title": "Escalar Entradas y Salidas",
+                "content": "En lugar de entrar o salir de posiciones de una sola vez, considera:",
+                "points": {
+                  "point1": "Escalar en posiciones para promediar tu precio de entrada",
+                  "point2": "Tomar beneficios parciales para asegurar ganancias",
+                  "point3": "Mover el stop loss al punto de equilibrio después de beneficios parciales"
+                }
+              },
+              "time": {
+                "title": "Gestión de Riesgos Basada en el Tiempo",
+                "content": "Diferentes sesiones de trading tienen diferentes características de riesgo:",
+                "points": {
+                  "point1": "Evita operar durante eventos importantes de noticias",
+                  "point2": "Sé cauteloso durante las aperturas y cierres de mercado",
+                  "point3": "Ajusta el tamaño de las posiciones durante períodos volátiles",
+                  "point4": "Considera stops basados en tiempo para operaciones que no se mueven a tu favor"
+                }
+              }
+            },
+            "conclusion": {
+              "title": "Conclusión",
+              "content": "La gestión de riesgos es lo que separa a los traders financiados exitosos de los que fracasan. Al implementar estas estrategias y mantener una disciplina estricta, puedes proteger tu cuenta financiada y construir una carrera de trading sostenible. Recuerda, tu primer objetivo como trader financiado debe ser la preservación del capital, seguido de un crecimiento constante."
+            }
+          }
+        },
+        "technical-analysis-beyond-basics": {
+          "title": "Análisis Técnico: Más Allá de lo Básico",
+          "excerpt": "Profundiza en conceptos avanzados de análisis técnico y aprende a identificar configuraciones de trading de alta probabilidad.",
+          "author": "Sophia Nguyen",
+          "date": "12 de marzo de 2025",
+          "readTime": "12 min de lectura"
+        },
+        "psychology-successful-trading": {
+          "title": "La Psicología del Trading Exitoso",
+          "excerpt": "Comprender y dominar la psicología del trading es crucial para el éxito a largo plazo en los mercados.",
+          "author": "Raj Patel",
+          "date": "10 de marzo de 2025",
+          "readTime": "10 min de lectura"
+        },
+        "understanding-market-correlations": {
+          "title": "Entendiendo las Correlaciones de Mercado",
+          "date": "8 de marzo de 2025"
+        },
+        "building-trading-plan": {
+          "title": "Construyendo un Plan de Trading Robusto",
+          "date": "5 de marzo de 2025"
+        },
+        "economic-indicators": {
+          "title": "Indicadores Económicos que Importan",
+          "date": "3 de marzo de 2025"
+        },
+        "position-sizing-strategies": {
+          "title": "Estrategias de Dimensionamiento de Posiciones para Day Traders",
+          "date": "10 de marzo de 2025"
+        },
+        "understanding-stop-loss": {
+          "title": "Entendiendo la Colocación del Stop Loss",
+          "date": "5 de marzo de 2025"
+        }
       }
     },
     "affiliate": {

@@ -1,0 +1,50 @@
+/* Language Switcher Styles */
+.language-dropdown {
+  max-height: 300px;
+  overflow-y: auto;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: all 0.2s ease;
+}
+
+/* Scrollbar styling for the dropdown */
+.language-dropdown::-webkit-scrollbar {
+  width: 8px;
+}
+
+.language-dropdown::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.language-dropdown::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.language-dropdown::-webkit-scrollbar-thumb:hover {
+  background: #a1a1a1;
+}
+
+/* RTL support */
+[dir="rtl"] .language-dropdown {
+  left: 0;
+  right: auto;
+}
+
+/* Dark mode support */
+.dark .language-dropdown {
+  background-color: #1f2937;
+  border-color: #374151;
+}
+
+.dark .language-dropdown button {
+  color: #e5e7eb;
+}
+
+.dark .language-dropdown button:hover {
+  background-color: #374151;
+}
+
+.dark .language-dropdown button.bg-blue-50 {
+  background-color: rgba(59, 130, 246, 0.1);
+}

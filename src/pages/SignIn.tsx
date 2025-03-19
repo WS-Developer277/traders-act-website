@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Mail, Lock, ArrowRight, Loader2, Facebook } from 'lucide-react';
 import { useForm } from 'react-hook-form';
@@ -37,7 +37,8 @@ export default function SignIn() {
       await signIn(data.email, data.password);
       toast.success(t('auth.signIn.success'));
       navigate('/dashboard');
-    } catch (error) {
+    } catch (err) {
+      console.error('Sign in error:', err);
       toast.error(t('auth.signIn.error'));
     } finally {
       setIsLoading(false);
@@ -49,7 +50,8 @@ export default function SignIn() {
       setSocialLoading(provider);
       await signInWithSocial(provider);
       // No need for success toast here as we're redirecting to the OAuth provider
-    } catch (error) {
+    } catch (err) {
+      console.error(`Social sign in error with ${provider}:`, err);
       toast.error(t('auth.socialAuth.error'));
       setSocialLoading(null);
     }
@@ -66,16 +68,16 @@ export default function SignIn() {
               transition={{ duration: 0.5 }}
               className="flex justify-center"
             >
-              <Link to="/">
+              <a href="/" title="Traders Act Home">
                 <Logo className="h-12 w-auto text-blue-600" />
-              </Link>
+              </a>
             </motion.div>
             <h2 className="mt-6 text-3xl font-bold text-gray-900">{t('auth.signIn.title')}</h2>
             <p className="mt-2 text-sm text-gray-600">
               {t('auth.signIn.noAccount')}{' '}
-              <Link to="/signup" className="font-medium text-blue-600 hover:text-blue-500">
+              <a href="https://my.tradersact.com/register" className="font-medium text-blue-600 hover:text-blue-500">
                 {t('auth.signIn.signUp')}
-              </Link>
+              </a>
             </p>
           </div>
 
@@ -136,9 +138,9 @@ export default function SignIn() {
               </div>
 
               <div className="text-sm">
-                <Link to="/forgot-password" className="font-medium text-blue-600 hover:text-blue-500">
+                <a href="/forgot-password" className="font-medium text-blue-600 hover:text-blue-500">
                   {t('common.forgotPassword')}
-                </Link>
+                </a>
               </div>
             </div>
 

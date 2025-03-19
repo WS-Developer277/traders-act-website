@@ -16,13 +16,14 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
           {
             'bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-600': variant === 'primary',
             'bg-gray-100 text-gray-900 hover:bg-gray-200 focus-visible:ring-gray-500': variant === 'secondary',
-            'border-2 border-blue-600 text-blue-600 hover:bg-blue-50 focus-visible:ring-blue-600': variant === 'outline',
+            'border-2 border-blue-600 text-blue-800 hover:bg-blue-50 focus-visible:ring-blue-600': variant === 'outline',
             'px-3 py-1.5 text-sm': size === 'sm',
             'px-4 py-2 text-base': size === 'md',
             'px-6 py-3 text-lg': size === 'lg',
           },
           className
         )}
+        data-component-name="_c"
         {...props}
       />
     );

@@ -340,16 +340,173 @@
       }
     },
     "blog": {
-      "title": "交易见解",
       "hero": {
-        "title": "最新交易知识",
-        "subtitle": "专家分析、策略和市场见解。"
+        "title": "交易知识与教育",
+        "subtitle": "专家分析、交易策略和市场洞察，帮助您成为更好的交易者"
+      },
+      "searchPlaceholder": "搜索文章...",
+      "latestArticles": "最新文章",
+      "readMore": "阅读更多",
+      "categoriesTitle": "分类",
+      "relatedArticles": "相关文章",
+      "readArticle": "阅读文章",
+      "backToBlog": "返回博客",
+      "newsletter": {
+        "title": "订阅我们的通讯",
+        "description": "获取最新的交易洞察和市场分析，直接发送到您的收件箱。",
+        "placeholder": "输入您的电子邮箱",
+        "button": "立即订阅"
+      },
+      "actions": {
+        "helpful": "有帮助",
+        "share": "分享",
+        "save": "保存"
       },
       "categories": {
-        "technical": "技术分析",
-        "fundamental": "基本面分析",
-        "psychology": "交易心理学",
-        "risk": "风险管理"
+        "technicalAnalysis": "技术分析",
+        "fundamentalAnalysis": "基本面分析",
+        "tradingPsychology": "交易心理学",
+        "riskManagement": "风险管理",
+        "marketAnalysis": "市场分析",
+        "tradingStrategies": "交易策略"
+      },
+      "posts": {
+        "mastering-risk-management": {
+          "title": "掌握风险管理：资金交易员指南",
+          "excerpt": "了解专业交易员用来保护资金和最大化回报的基本风险管理技术。",
+          "author": "艾哈迈德·阿尔法西",
+          "date": "2025年3月15日",
+          "readTime": "阅读时间8分钟",
+          "tags": "风险管理, 交易",
+          "sections": {
+            "introduction": {
+              "title": "介绍",
+              "content": "风险管理是成功交易的基石。对于资金交易员来说，他们管理着由他人提供的大量资金，掌握风险管理变得更加至关重要。这份全面指南将探讨专业交易员用来保护资金和最大化回报的基本风险管理技术。"
+            },
+            "positionSizing": {
+              "title": "基础：仓位大小",
+              "content1": "仓位大小是您防御过度损失的第一道防线。作为资金交易员，您在任何单笔交易中的风险不应超过您账户的1-2%。这意味着如果您有一个$100,000的资金账户，您每笔交易的最大风险应该在$1,000到$2,000之间。",
+              "content2": "计算您的仓位大小：",
+              "steps": {
+                "step1": "确定您的账户风险（账户规模的1-2%）",
+                "step2": "确定您的止损点数或点位",
+                "step3": "根据每点/点位风险计算您的仓位大小"
+              },
+              "example": {
+                "title": "计算示例",
+                "content": "账户规模：$100,000<br />每笔交易风险：1% = $1,000<br />止损：50点<br />因此：$1,000 ÷ 50点 = 每点$20<br />仓位大小：调整您的手数以达到每点$20"
+              }
+            },
+            "stopLoss": {
+              "title": "止损策略",
+              "content": "每笔交易必须有预先确定的止损。这是不可协商的。您的止损应该设置在一个：",
+              "points": {
+                "point1": "使您的交易设置无效的水平",
+                "point2": "考虑市场波动性",
+                "point3": "与您的每笔交易风险一致",
+                "point4": "考虑关键支撑/阻力水平"
+              }
+            },
+            "riskReward": {
+              "title": "风险回报比",
+              "content": "保持至少1:2的风险回报比，这意味着您的潜在利润应该至少是您风险的两倍。这使您即使胜率低于50%也能盈利。例如：",
+              "points": {
+                "point1": "每笔交易风险：$1,000",
+                "point2": "最低目标：$2,000",
+                "point3": "胜率为40%时：(40% × $2,000) - (60% × $1,000) = 每笔交易平均$200利润"
+              }
+            },
+            "drawdown": {
+              "title": "回撤管理",
+              "content": "作为资金交易员，您通常会有最大回撤限制。为了保持在这些限制内：",
+              "points": {
+                "point1": "跟踪您的每日和总体回撤",
+                "point2": "连续亏损后减少仓位大小",
+                "point3": "如果达到最大回撤的50%，休息一下",
+                "point4": "实施每日止损限制"
+              },
+              "warning": {
+                "title": "警告信号",
+                "content": "如果出现以下情况，立即停止交易：",
+                "points": {
+                  "point1": "达到您的每日亏损限制",
+                  "point2": "连续三次亏损",
+                  "point3": "情绪受到影响",
+                  "point4": "开始偏离您的交易计划"
+                }
+              }
+            },
+            "correlation": {
+              "title": "相关性风险",
+              "content": "在交易多个仓位时要小心相关性风险。进行多个相关交易实际上会增加您的仓位大小和风险敞口。例如：",
+              "points": {
+                "point1": "交易多个高美元敞口的外汇对",
+                "point2": "同时持有石油和加元对的仓位",
+                "point3": "交易有重叠成分的指数"
+              }
+            },
+            "advanced": {
+              "title": "高级风险管理技术",
+              "scaling": {
+                "title": "分批进出",
+                "content": "不要一次性进入或退出仓位，考虑：",
+                "points": {
+                  "point1": "分批进入仓位以平均您的入场价",
+                  "point2": "部分获利以确保收益",
+                  "point3": "部分获利后将止损移至盈亏平衡点"
+                }
+              },
+              "time": {
+                "title": "基于时间的风险管理",
+                "content": "不同的交易时段有不同的风险特征：",
+                "points": {
+                  "point1": "避免在重要新闻事件期间交易",
+                  "point2": "在市场开盘和收盘时谨慎",
+                  "point3": "在波动时期调整仓位大小",
+                  "point4": "对不朝您有利方向移动的交易考虑基于时间的止损"
+                }
+              }
+            },
+            "conclusion": {
+              "title": "结论",
+              "content": "风险管理是区分成功和失败资金交易员的因素。通过实施这些策略并保持严格的纪律，您可以保护您的资金账户并建立可持续的交易职业。请记住，作为资金交易员，您的首要目标应该是资金保全，其次是稳定增长。"
+            }
+          }
+        },
+        "technical-analysis-beyond-basics": {
+          "title": "技术分析：超越基础",
+          "excerpt": "深入了解高级技术分析概念，学习如何识别高概率交易设置。",
+          "author": "索菲亚·阮",
+          "date": "2025年3月12日",
+          "readTime": "阅读时间12分钟"
+        },
+        "psychology-successful-trading": {
+          "title": "成功交易的心理学",
+          "excerpt": "理解和掌握交易心理学对于在市场中取得长期成功至关重要。",
+          "author": "拉杰·帕特尔",
+          "date": "2025年3月10日",
+          "readTime": "阅读时间10分钟"
+        },
+        "understanding-market-correlations": {
+          "title": "理解市场相关性",
+          "date": "2025年3月8日"
+        },
+        "building-trading-plan": {
+          "title": "构建稳健的交易计划",
+          "date": "2025年3月5日"
+        },
+        "economic-indicators": {
+          "title": "重要的经济指标",
+          "date": "2025年3月3日"
+        },
+        "position-sizing-strategies": {
+          "title": "日内交易者的仓位大小策略",
+          "date": "2025年3月10日"
+        },
+        "understanding-stop-loss": {
+          "title": "理解止损位置",
+          "date": "2025年3月5日"
+        }
       }
     },
     "affiliate": {

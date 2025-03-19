@@ -340,16 +340,173 @@
       }
     },
     "blog": {
-      "title": "Góc nhìn giao dịch",
       "hero": {
-        "title": "Kiến thức giao dịch mới nhất",
-        "subtitle": "Phân tích chuyên gia, chiến lược và góc nhìn thị trường."
+        "title": "Kiến Thức & Đào Tạo Giao Dịch",
+        "subtitle": "Phân tích chuyên gia, chiến lược giao dịch và thông tin thị trường để giúp bạn trở thành một nhà giao dịch tốt hơn"
+      },
+      "searchPlaceholder": "Tìm kiếm bài viết...",
+      "latestArticles": "Bài Viết Mới Nhất",
+      "readMore": "Đọc Thêm",
+      "categoriesTitle": "Danh Mục",
+      "relatedArticles": "Bài Viết Liên Quan",
+      "readArticle": "Đọc Bài Viết",
+      "backToBlog": "Quay Lại Blog",
+      "newsletter": {
+        "title": "Đăng Ký Nhận Bản Tin",
+        "description": "Nhận thông tin giao dịch mới nhất và phân tích thị trường gửi đến hộp thư của bạn.",
+        "placeholder": "Nhập email của bạn",
+        "button": "Đăng Ký Ngay"
+      },
+      "actions": {
+        "helpful": "Hữu Ích",
+        "share": "Chia Sẻ",
+        "save": "Lưu"
       },
       "categories": {
-        "technical": "Phân tích kỹ thuật",
-        "fundamental": "Phân tích cơ bản",
-        "psychology": "Tâm lý giao dịch",
-        "risk": "Quản lý rủi ro"
+        "technicalAnalysis": "Phân Tích Kỹ Thuật",
+        "fundamentalAnalysis": "Phân Tích Cơ Bản",
+        "tradingPsychology": "Tâm Lý Giao Dịch",
+        "riskManagement": "Quản Lý Rủi Ro",
+        "marketAnalysis": "Phân Tích Thị Trường",
+        "tradingStrategies": "Chiến Lược Giao Dịch"
+      },
+      "posts": {
+        "mastering-risk-management": {
+          "title": "Làm Chủ Quản Lý Rủi Ro: Hướng Dẫn cho Nhà Giao Dịch Được Tài Trợ",
+          "excerpt": "Tìm hiểu các kỹ thuật quản lý rủi ro thiết yếu mà các nhà giao dịch chuyên nghiệp sử dụng để bảo vệ vốn và tối đa hóa lợi nhuận.",
+          "author": "Ahmed Al-Farsi",
+          "date": "15 tháng 3, 2025",
+          "readTime": "8 phút đọc",
+          "tags": "Quản Lý Rủi Ro, Giao Dịch",
+          "sections": {
+            "introduction": {
+              "title": "Giới Thiệu",
+              "content": "Quản lý rủi ro là nền tảng của giao dịch thành công. Đối với các nhà giao dịch được tài trợ, những người đang quản lý số vốn đáng kể được cung cấp bởi người khác, việc làm chủ quản lý rủi ro trở nên thậm chí còn quan trọng hơn. Hướng dẫn toàn diện này sẽ khám phá các kỹ thuật quản lý rủi ro thiết yếu mà các nhà giao dịch chuyên nghiệp sử dụng để bảo vệ vốn và tối đa hóa lợi nhuận."
+            },
+            "positionSizing": {
+              "title": "Nền Tảng: Định Kích Thước Vị Thế",
+              "content1": "Định kích thước vị thế là tuyến phòng thủ đầu tiên của bạn chống lại tổn thất quá mức. Là một nhà giao dịch được tài trợ, bạn không bao giờ nên rủi ro hơn 1-2% tài khoản của bạn trên bất kỳ giao dịch đơn lẻ nào. Điều này có nghĩa là nếu bạn có tài khoản được tài trợ $100,000, rủi ro tối đa của bạn cho mỗi giao dịch nên nằm trong khoảng từ $1,000 đến $2,000.",
+              "content2": "Để tính toán kích thước vị thế của bạn:",
+              "steps": {
+                "step1": "Xác định rủi ro tài khoản của bạn (1-2% kích thước tài khoản)",
+                "step2": "Xác định stop loss của bạn tính bằng pip hoặc điểm",
+                "step3": "Tính toán kích thước vị thế của bạn dựa trên rủi ro trên mỗi pip/điểm"
+              },
+              "example": {
+                "title": "Ví Dụ Tính Toán",
+                "content": "Kích Thước Tài Khoản: $100,000<br />Rủi Ro Mỗi Giao Dịch: 1% = $1,000<br />Stop Loss: 50 pip<br />Do đó: $1,000 ÷ 50 pip = $20 mỗi pip<br />Kích Thước Vị Thế: Điều chỉnh kích thước lô của bạn để đạt được $20 mỗi pip"
+              }
+            },
+            "stopLoss": {
+              "title": "Chiến Lược Stop Loss",
+              "content": "Mỗi giao dịch phải có một stop loss được xác định trước. Điều này không thể thương lượng. Stop loss của bạn nên được đặt ở mức:",
+              "points": {
+                "point1": "Làm mất hiệu lực thiết lập giao dịch của bạn",
+                "point2": "Tính đến biến động thị trường",
+                "point3": "Phù hợp với rủi ro trên mỗi giao dịch của bạn",
+                "point4": "Xem xét các mức hỗ trợ/kháng cự quan trọng"
+              }
+            },
+            "riskReward": {
+              "title": "Tỷ Lệ Rủi Ro-Phần Thưởng",
+              "content": "Duy trì tỷ lệ rủi ro-phần thưởng tối thiểu là 1:2, có nghĩa là lợi nhuận tiềm năng của bạn nên ít nhất gấp đôi rủi ro của bạn. Điều này cho phép bạn có lợi nhuận ngay cả với tỷ lệ thắng dưới 50%. Ví dụ:",
+              "points": {
+                "point1": "Rủi ro mỗi giao dịch: $1,000",
+                "point2": "Mục tiêu tối thiểu: $2,000",
+                "point3": "Với tỷ lệ thắng 40%: (40% × $2,000) - (60% × $1,000) = $200 lợi nhuận trung bình mỗi giao dịch"
+              }
+            },
+            "drawdown": {
+              "title": "Quản Lý Drawdown",
+              "content": "Là một nhà giao dịch được tài trợ, bạn thường sẽ có giới hạn drawdown tối đa. Để luôn nằm trong các giới hạn này:",
+              "points": {
+                "point1": "Theo dõi drawdown hàng ngày và tổng thể của bạn",
+                "point2": "Giảm kích thước vị thế sau các thua lỗ liên tiếp",
+                "point3": "Nghỉ ngơi nếu bạn đạt đến 50% drawdown tối đa của bạn",
+                "point4": "Thực hiện giới hạn stop-loss hàng ngày"
+              },
+              "warning": {
+                "title": "Dấu Hiệu Cảnh Báo",
+                "content": "Ngừng giao dịch ngay lập tức nếu bạn:",
+                "points": {
+                  "point1": "Đạt đến giới hạn thua lỗ hàng ngày của bạn",
+                  "point2": "Trải qua ba thua lỗ liên tiếp",
+                  "point3": "Cảm thấy bị ảnh hưởng về mặt cảm xúc",
+                  "point4": "Bắt đầu đi chệch khỏi kế hoạch giao dịch của bạn"
+                }
+              }
+            },
+            "correlation": {
+              "title": "Rủi Ro Tương Quan",
+              "content": "Hãy cẩn thận với rủi ro tương quan khi giao dịch nhiều vị thế. Thực hiện nhiều giao dịch có tương quan thực sự làm tăng kích thước vị thế và mức độ rủi ro của bạn. Ví dụ:",
+              "points": {
+                "point1": "Giao dịch nhiều cặp tiền tệ có mức độ tiếp xúc USD cao",
+                "point2": "Nắm giữ vị thế trong cả dầu và các cặp CAD",
+                "point3": "Giao dịch các chỉ số có các thành phần chồng chéo"
+              }
+            },
+            "advanced": {
+              "title": "Kỹ Thuật Quản Lý Rủi Ro Nâng Cao",
+              "scaling": {
+                "title": "Mở và Đóng Vị Thế Theo Từng Phần",
+                "content": "Thay vì vào hoặc ra khỏi vị thế một lần, hãy xem xét:",
+                "points": {
+                  "point1": "Mở vị thế theo từng phần để trung bình hóa giá vào của bạn",
+                  "point2": "Chốt lời một phần để đảm bảo lợi nhuận",
+                  "point3": "Di chuyển stop loss đến điểm hòa vốn sau khi chốt lời một phần"
+                }
+              },
+              "time": {
+                "title": "Quản Lý Rủi Ro Dựa Trên Thời Gian",
+                "content": "Các phiên giao dịch khác nhau có đặc điểm rủi ro khác nhau:",
+                "points": {
+                  "point1": "Tránh giao dịch trong các sự kiện tin tức quan trọng",
+                  "point2": "Thận trọng trong thởi gian mở cửa và đóng cửa thị trường",
+                  "point3": "Điều chỉnh kích thước vị thế trong các giai đoạn biến động",
+                  "point4": "Xem xét stop dựa trên thời gian cho các giao dịch không di chuyển theo hướng có lợi cho bạn"
+                }
+              }
+            },
+            "conclusion": {
+              "title": "Kết Luận",
+              "content": "Quản lý rủi ro là điều phân biệt các nhà giao dịch được tài trợ thành công với những người thất bại. Bằng cách thực hiện các chiến lược này và duy trì kỷ luật nghiêm ngặt, bạn có thể bảo vệ tài khoản được tài trợ của mình và xây dựng sự nghiệp giao dịch bền vững. Hãy nhớ rằng, mục tiêu đầu tiên của bạn với tư cách là một nhà giao dịch được tài trợ nên là bảo toàn vốn, sau đó là tăng trưởng ổn định."
+            }
+          }
+        },
+        "technical-analysis-beyond-basics": {
+          "title": "Phân Tích Kỹ Thuật: Vượt Qua Những Điều Cơ Bản",
+          "excerpt": "Đi sâu vào các khái niệm phân tích kỹ thuật nâng cao và học cách xác định các thiết lập giao dịch có xác suất cao.",
+          "author": "Sophia Nguyen",
+          "date": "12 tháng 3, 2025",
+          "readTime": "12 phút đọc"
+        },
+        "psychology-successful-trading": {
+          "title": "Tâm Lý của Giao Dịch Thành Công",
+          "excerpt": "Hiểu và làm chủ tâm lý giao dịch là rất quan trọng cho sự thành công lâu dài trên thị trường.",
+          "author": "Raj Patel",
+          "date": "10 tháng 3, 2025",
+          "readTime": "10 phút đọc"
+        },
+        "understanding-market-correlations": {
+          "title": "Hiểu về Tương Quan Thị Trường",
+          "date": "8 tháng 3, 2025"
+        },
+        "building-trading-plan": {
+          "title": "Xây Dựng Kế Hoạch Giao Dịch Vững Chắc",
+          "date": "5 tháng 3, 2025"
+        },
+        "economic-indicators": {
+          "title": "Các Chỉ Số Kinh Tế Quan Trọng",
+          "date": "3 tháng 3, 2025"
+        },
+        "position-sizing-strategies": {
+          "title": "Chiến Lược Định Kích Thước Vị Thế cho Nhà Giao Dịch Ngày",
+          "date": "10 tháng 3, 2025"
+        },
+        "understanding-stop-loss": {
+          "title": "Hiểu về Đặt Lệnh Dừng Lỗ",
+          "date": "5 tháng 3, 2025"
+        }
       }
     },
     "affiliate": {

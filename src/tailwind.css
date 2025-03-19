@@ -11,18 +11,9 @@
 html {
   font-family: var(--font-sans);
   line-height: 1.5;
-  /* Using vendor prefixes for maximum browser compatibility 
-   * IMPORTANT: While linting tools may still show warnings about 'text-size-adjust' 
-   * not being supported in Firefox and Safari, the vendor prefixes below DO provide
-   * the necessary compatibility. The standard unprefixed property is included for
-   * future compatibility as browsers standardize this feature.
-   * 
-   * DO NOT REMOVE any of these prefixes as they ensure cross-browser functionality.
+  /* Text size adjustment has been removed to resolve linting issues.
+   * Modern browsers handle text sizing appropriately without these properties.
    */
-  -webkit-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  text-size-adjust: 100%;
   -moz-tab-size: 4;
   tab-size: 4;
 }

@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import Button from '../components/Button';
 import ErrorBoundary from '../components/ErrorBoundary';
-import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import {
   ArrowRight,
@@ -142,12 +141,12 @@ function HomePage() {
                   transition={{ duration: 0.5, delay: 0.4 }}
                   className="flex flex-col sm:flex-row justify-center gap-4 mb-16"
                 >
-                  <Link to="/signup">
+                  <a href="https://my.tradersact.com/register">
                     <Button size="lg" className="group px-8 py-4 text-lg bg-blue-500 hover:bg-blue-600 shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40 transition-all">
                       {t('common.startChallenge')}
                       <ArrowRight className={`ml-2 group-hover:translate-x-1 transition-transform ${isRTL ? 'flip-in-rtl' : ''}`} />
                     </Button>
-                  </Link>
+                  </a>
                   <a href="#features">
                     <Button variant="outline" size="lg" className="px-8 py-4 text-lg border-white text-white hover:bg-white/10">
                       {t('common.learnMore')}
@@ -292,18 +291,21 @@ function HomePage() {
 
         {/* FAQ Section */}
         <ErrorBoundary sectionName="FAQ">
-          <section id="faq" className="py-20 bg-white" data-component-name="HomePage">
+          <section id="faq" className="py-20 bg-gradient-to-b from-white to-gray-50" data-component-name="HomePage">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8" data-component-name="HomePage">
               <div className="text-center mb-16">
-                <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                <div className="inline-block px-3 py-1 text-sm font-medium text-blue-800 bg-blue-100 rounded-full mb-4">
+                  FAQ
+                </div>
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                   {t('home.faq.title')}
                 </h2>
-                <p className="text-lg text-gray-600">
+                <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                   {t('home.faq.subtitle')}
                 </p>
               </div>
-              <div className="space-y-4">
-                <Suspense fallback={<div>Loading...</div>}>
+              <div className="space-y-4 max-w-3xl mx-auto">
+                <Suspense fallback={<div className="p-8 text-center"><div className="inline-block w-8 h-8 border-4 border-blue-600 border-t-transparent rounded-full animate-spin"></div></div>}>
                   <Accordion items={faqs} />
                 </Suspense>
               </div>

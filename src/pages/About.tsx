@@ -3,7 +3,6 @@ import { Globe, Building2, Shield, Check } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import AnimatedTransition from '../components/AnimatedTransition';
 import Button from '../components/Button';
-import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Footer from '../components/Footer';
 
@@ -312,14 +311,14 @@ export default function AboutPage() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.4 }}
               >
-                <Link to="/signup">
+                <a href="https://my.tradersact.com/register">
                   <Button 
                     size="lg" 
                     className="bg-white text-blue-600 hover:bg-blue-50 px-8"
                   >
                     Get Started
                   </Button>
-                </Link>
+                </a>
               </motion.div>
             </div>
           </div>

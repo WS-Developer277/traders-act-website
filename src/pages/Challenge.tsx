@@ -184,9 +184,12 @@ export default function ChallengePage() {
         <PricingSection />
 
         {/* FAQ Section */}
-        <section id="faq" className="py-20 bg-gray-50">
+        <section id="faq" className="py-20 bg-gradient-to-b from-gray-50 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
+              <div className="inline-block px-3 py-1 text-sm font-medium text-blue-800 bg-blue-100 rounded-full mb-4">
+                FAQ
+              </div>
               <motion.h2
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -207,7 +210,12 @@ export default function ChallengePage() {
             </div>
 
             <div className="max-w-3xl mx-auto">
-              <Suspense fallback={<div className="p-4 text-center">Loading FAQ...</div>}>
+              <Suspense fallback={
+                <div className="p-8 text-center">
+                  <div className="inline-block w-8 h-8 border-4 border-blue-600 border-t-transparent rounded-full animate-spin"></div>
+                  <p className="mt-2 text-gray-600">Loading FAQ...</p>
+                </div>
+              }>
                 <Accordion items={faqs} />
               </Suspense>
             </div>

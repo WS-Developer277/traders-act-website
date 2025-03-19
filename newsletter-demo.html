@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traders Act - Newsletter Demo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .success-icon {
+            color: #10b981;
+        }
+        .error-icon {
+            color: #ef4444;
+        }
+        .header {
+            background-color: #1e40af;
+            color: white;
+        }
+        .logo {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col">
+    <!-- Header -->
+    <header class="header py-4 px-6 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="logo">Traders Act</div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#" class="text-white hover:text-blue-200">Home</a>
+                <a href="#" class="text-white hover:text-blue-200">About</a>
+                <a href="#" class="text-white hover:text-blue-200">Services</a>
+                <a href="#" class="text-white hover:text-blue-200 font-medium">Blog</a>
+                <a href="#" class="text-white hover:text-blue-200">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow container mx-auto py-10 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h1 class="text-3xl font-bold text-gray-900 mb-8">Blog</h1>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- Main Content Area -->
+                <div class="lg:col-span-2">
+                    <div class="mb-8">
+                        <h2 class="text-2xl font-bold text-gray-900 mb-4">Featured Articles</h2>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <!-- Featured Article 1 -->
+                            <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+                                <img src="https://via.placeholder.com/600x400" alt="Article" class="w-full h-48 object-cover">
+                                <div class="p-6">
+                                    <div class="text-sm text-blue-600 mb-2">Trading Strategies</div>
+                                    <h3 class="text-xl font-bold text-gray-900 mb-2">Understanding Market Volatility</h3>
+                                    <p class="text-gray-600 mb-4">Learn how to navigate through volatile markets and make informed decisions.</p>
+                                    <div class="flex items-center justify-between">
+                                        <span class="text-sm text-gray-500">5 min read</span>
+                                        <button class="text-blue-600 hover:text-blue-800">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Featured Article 2 -->
+                            <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+                                <img src="https://via.placeholder.com/600x400" alt="Article" class="w-full h-48 object-cover">
+                                <div class="p-6">
+                                    <div class="text-sm text-blue-600 mb-2">Investment</div>
+                                    <h3 class="text-xl font-bold text-gray-900 mb-2">Long-term Investment Strategies</h3>
+                                    <p class="text-gray-600 mb-4">Discover the best practices for building a sustainable investment portfolio.</p>
+                                    <div class="flex items-center justify-between">
+                                        <span class="text-sm text-gray-500">7 min read</span>
+                                        <button class="text-blue-600 hover:text-blue-800">Read More</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Sidebar -->
+                <div class="lg:col-span-1">
+                    <!-- Newsletter -->
+                    <div class="bg-blue-600 rounded-xl p-6 text-white shadow-lg">
+                        <h3 class="text-xl font-bold mb-4">Subscribe to Our Newsletter</h3>
+                        <p class="text-blue-100 mb-6">
+                            Get the latest trading insights and market analysis delivered to your inbox.
+                        </p>
+                        
+                        <div id="status-message" class="hidden p-3 mb-4 rounded-lg flex items-center text-sm"></div>
+                        
+                        <input
+                            type="email"
+                            id="email-input"
+                            placeholder="Enter your email"
+                            class="w-full px-4 py-2 rounded-lg text-gray-900 mb-4"
+                        />
+                        <button 
+                            id="subscribe-button"
+                            class="w-full bg-white text-blue-600 hover:bg-blue-50 py-2 px-4 rounded-lg font-medium transition-colors"
+                        >
+                            Subscribe Now
+                        </button>
+                    </div>
+                    
+                    <!-- Categories -->
+                    <div class="bg-white rounded-xl p-6 shadow-sm mt-8">
+                        <h3 class="text-xl font-bold text-gray-900 mb-6">Categories</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between cursor-pointer hover:text-blue-600">
+                                <span>Trading Strategies</span>
+                                <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded-full">12</span>
+                            </div>
+                            <div class="flex items-center justify-between cursor-pointer hover:text-blue-600">
+                                <span>Investment</span>
+                                <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded-full">8</span>
+                            </div>
+                            <div class="flex items-center justify-between cursor-pointer hover:text-blue-600">
+                                <span>Market Analysis</span>
+                                <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded-full">15</span>
+                            </div>
+                            <div class="flex items-center justify-between cursor-pointer hover:text-blue-600">
+                                <span>Financial Planning</span>
+                                <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded-full">6</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-10">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Traders Act</h4>
+                    <p class="text-gray-400">Empowering traders with the knowledge and tools they need to succeed in the financial markets.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Services</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>123 Trading Street</li>
+                        <li>Financial District</li>
+                        <li>contact@tradersact.com</li>
+                        <li>+1 (555) 123-4567</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">Twitter</a>
+                        <a href="#" class="text-gray-400 hover:text-white">LinkedIn</a>
+                        <a href="#" class="text-gray-400 hover:text-white">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Traders Act. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const emailInput = document.getElementById('email-input');
+            const subscribeButton = document.getElementById('subscribe-button');
+            const statusMessage = document.getElementById('status-message');
+            
+            subscribeButton.addEventListener('click', async () => {
+                const email = emailInput.value.trim();
+                
+                // Reset status message
+                statusMessage.innerHTML = '';
+                statusMessage.className = 'hidden p-3 mb-4 rounded-lg flex items-center text-sm';
+                
+                // Validate email
+                if (!email) {
+                    showError('Please enter your email address');
+                    return;
+                }
+                
+                if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                    showError('Please enter a valid email address');
+                    return;
+                }
+                
+                // Show loading state
+                subscribeButton.disabled = true;
+                subscribeButton.textContent = 'Subscribing...';
+                
+                // Simulate API call
+                setTimeout(() => {
+                    // Simulate success
+                    showSuccess('Thank you for subscribing to our newsletter!');
+                    emailInput.value = ''; // Clear input
+                    
+                    // Reset button
+                    subscribeButton.disabled = false;
+                    subscribeButton.textContent = 'Subscribe Now';
+                    
+                    // Log notification (in a real app, this would be sent to the server)
+                    console.log(`Newsletter subscription for ${email} - Notification would be sent to contact@tradersact.com`);
+                }, 1500);
+            });
+            
+            function showSuccess(message) {
+                statusMessage.innerHTML = `
+                    <svg class="w-4 h-4 mr-2 flex-shrink-0 success-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    ${message}
+                `;
+                statusMessage.className = 'p-3 mb-4 rounded-lg flex items-center text-sm bg-green-100 text-green-800';
+            }
+            
+            function showError(message) {
+                statusMessage.innerHTML = `
+                    <svg class="w-4 h-4 mr-2 flex-shrink-0 error-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="12" y1="8" x2="12" y2="12"></line>
+                        <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                    </svg>
+                    ${message}
+                `;
+                statusMessage.className = 'p-3 mb-4 rounded-lg flex items-center text-sm bg-red-100 text-red-800';
+            }
+        });
+    </script>
+</body>
+</html>

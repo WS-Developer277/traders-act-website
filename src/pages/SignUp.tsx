@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Mail, Lock, User, ArrowRight, Loader2, Facebook } from 'lucide-react';
 import { useForm } from 'react-hook-form';
@@ -37,7 +37,7 @@ export default function SignUp() {
       await signUp(data.email, data.password);
       toast.success(t('auth.signUp.success'));
       navigate('/signin');
-    } catch (error) {
+    } catch (err) {
       toast.error(t('auth.signUp.error'));
     } finally {
       setIsLoading(false);
@@ -49,7 +49,7 @@ export default function SignUp() {
       setSocialLoading(provider);
       await signInWithSocial(provider);
       // No need for success toast here as we're redirecting to the OAuth provider
-    } catch (error) {
+    } catch (err) {
       toast.error(t('auth.socialAuth.error'));
       setSocialLoading(null);
     }
@@ -66,16 +66,16 @@ export default function SignUp() {
               transition={{ duration: 0.5 }}
               className="flex justify-center"
             >
-              <Link to="/">
+              <a href="/" title="Traders Act Home">
                 <Logo className="h-12 w-auto text-blue-600" />
-              </Link>
+              </a>
             </motion.div>
             <h2 className="mt-6 text-3xl font-bold text-gray-900">{t('auth.signUp.title')}</h2>
             <p className="mt-2 text-sm text-gray-600">
               {t('auth.signUp.haveAccount')}{' '}
-              <Link to="/signin" className="font-medium text-blue-600 hover:text-blue-500">
+              <a href="https://my.tradersact.com/login" className="font-medium text-blue-600 hover:text-blue-500">
                 {t('auth.signUp.signIn')}
-              </Link>
+              </a>
             </p>
           </div>
 

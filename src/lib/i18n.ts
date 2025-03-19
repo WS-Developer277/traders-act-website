@@ -11,6 +11,9 @@ import hiTranslation from '../locales/hi.json';
 import zhCNTranslation from '../locales/zh-CN.json';
 import esTranslation from '../locales/es.json';
 
+// Define available languages
+export const availableLanguages = ['en', 'ar', 'vi', 'ms', 'hi', 'zh-CN', 'es'];
+
 // Initialize i18next
 i18n
   .use(LanguageDetector)
@@ -31,9 +34,12 @@ i18n
       escapeValue: false
     },
     detection: {
-      order: ['localStorage', 'navigator'],
+      order: ['querystring', 'localStorage', 'navigator', 'htmlTag'],
+      lookupQuerystring: 'lang',
+      lookupLocalStorage: 'i18nextLng',
       caches: ['localStorage'],
-      lookupLocalStorage: 'i18nextLng'
+      cookieMinutes: 160,
+      htmlTag: document.documentElement
     },
     returnObjects: true,
     returnEmptyString: false,
@@ -56,6 +62,14 @@ i18n
     }
   });
 
+// Ensure we have a valid language
+const storedLang = localStorage.getItem('i18nextLng');
+if (storedLang && !availableLanguages.includes(storedLang)) {
+  // If stored language is invalid, reset to English
+  localStorage.setItem('i18nextLng', 'en');
+  i18n.changeLanguage('en');
+}
+
 // Handle language direction and font family
 i18n.on('languageChanged', (lng) => {
   // Set direction
@@ -74,6 +88,9 @@ i18n.on('languageChanged', (lng) => {
   } else {
     document.documentElement.classList.add('font-sans');
   }
+
+  // Update localStorage
+  localStorage.setItem('i18nextLng', lng);
 
   // Log language change in development
   if (import.meta.env.DEV) {

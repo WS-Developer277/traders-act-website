@@ -1,4 +1,3 @@
-import { Navigate } from 'react-router-dom';
 import { useAuth } from '../lib/auth';
 
 interface ProtectedRouteProps {
@@ -13,7 +12,8 @@ export default function ProtectedRoute({ children }: ProtectedRouteProps) {
   }
 
   if (!user) {
-    return <Navigate to="/signin" />;
+    window.location.href = "https://my.tradersact.com/login";
+    return null;
   }
 
   return <>{children}</>;

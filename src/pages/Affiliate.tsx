@@ -1,12 +1,10 @@
 /** @jsxImportSource react */
 import { motion } from 'framer-motion';
-import { BarChart2, Clock, DollarSign, Headphones, Image, LineChart, ArrowRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { BarChart2, Clock, DollarSign, Headphones, Image, LineChart } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import Button from '../components/Button';
 
 // Feature icons and colors mapping
 const iconColors = {
@@ -148,12 +146,9 @@ export default function AffiliatePage() {
                   transition={{ duration: 0.5, delay: 0.4 }}
                   className="flex flex-col sm:flex-row justify-center gap-4 mb-16"
                 >
-                  <Link to="/register">
-                    <Button size="lg" className="group px-8 py-4 text-lg bg-blue-500 hover:bg-blue-600 shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40 transition-all">
-                      {t('pages.affiliate.hero.joinButton')}
-                      <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
-                    </Button>
-                  </Link>
+                  <a href="https://my.tradersact.com/register" className="inline-block bg-white text-blue-600 font-semibold px-8 py-3 rounded-lg shadow-md hover:bg-blue-50 transition duration-300">
+                    {t('common.signUp')}
+                  </a>
                 </motion.div>
               </div>
             </div>
@@ -170,7 +165,7 @@ export default function AffiliatePage() {
                   transition={{ duration: 0.5 }}
                   className="text-center"
                 >
-                  <p className="text-3xl md:text-4xl font-bold text-blue-600">$1M+</p>
+                  <p className="text-3xl md:text-4xl font-bold text-blue-600" data-component-name="AffiliatePage">$100K+</p>
                   <p className="text-gray-600 mt-2">{t('pages.affiliate.stats.payouts')}</p>
                 </motion.div>
                 <motion.div 
@@ -180,7 +175,7 @@ export default function AffiliatePage() {
                   transition={{ duration: 0.5, delay: 0.1 }}
                   className="text-center"
                 >
-                  <p className="text-3xl md:text-4xl font-bold text-blue-600">5000+</p>
+                  <p className="text-3xl md:text-4xl font-bold text-blue-600" data-component-name="AffiliatePage">100+</p>
                   <p className="text-gray-600 mt-2">{t('pages.affiliate.stats.affiliates')}</p>
                 </motion.div>
                 <motion.div 
@@ -190,7 +185,7 @@ export default function AffiliatePage() {
                   transition={{ duration: 0.5, delay: 0.2 }}
                   className="text-center"
                 >
-                  <p className="text-3xl md:text-4xl font-bold text-blue-600">40%</p>
+                  <p className="text-3xl md:text-4xl font-bold text-blue-600" data-component-name="AffiliatePage">35%</p>
                   <p className="text-gray-600 mt-2">{t('pages.affiliate.stats.commission')}</p>
                 </motion.div>
                 <motion.div 
@@ -200,7 +195,7 @@ export default function AffiliatePage() {
                   transition={{ duration: 0.5, delay: 0.3 }}
                   className="text-center"
                 >
-                  <p className="text-3xl md:text-4xl font-bold text-blue-600">24/7</p>
+                  <p className="text-3xl md:text-4xl font-bold text-blue-600" data-component-name="AffiliatePage">24/5</p>
                   <p className="text-gray-600 mt-2">{t('pages.affiliate.stats.support')}</p>
                 </motion.div>
               </div>
@@ -302,17 +297,20 @@ export default function AffiliatePage() {
                 ))}
               </div>
               <div className="text-center mt-8">
-                <Link to="/commission-details" className="text-blue-600 hover:text-blue-800 font-medium">
+                <a href="/commission-details" className="text-blue-600 hover:text-blue-800 font-medium">
                   {t('pages.affiliate.commission.viewDetails')}
-                </Link>
+                </a>
               </div>
             </div>
           </section>
 
           {/* FAQ Section */}
-          <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+          <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-gray-50 to-white">
             <div className="max-w-7xl mx-auto">
-              <div className="text-center mb-12">
+              <div className="text-center mb-16">
+                <div className="inline-block px-3 py-1 text-sm font-medium text-blue-800 bg-blue-100 rounded-full mb-4">
+                  FAQ
+                </div>
                 <motion.h2 
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -332,7 +330,7 @@ export default function AffiliatePage() {
                   {t('pages.affiliate.faq.subtitle')}
                 </motion.p>
               </div>
-              <div className="space-y-8">
+              <div className="max-w-4xl mx-auto space-y-8">
                 {Array.isArray(faqs) && faqs.map((faq: FAQ, index: number) => (
                   <motion.div
                     key={index}
@@ -340,10 +338,10 @@ export default function AffiliatePage() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: index * 0.1 }}
-                    className="bg-white rounded-lg p-6 shadow-sm"
+                    className="bg-white rounded-lg p-8 shadow-md hover:shadow-lg transition-all duration-300 border-l-4 border-blue-500"
                   >
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">{faq.question}</h3>
-                    <p className="text-gray-600">{faq.answer}</p>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-3">{faq.question}</h3>
+                    <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
                   </motion.div>
                 ))}
               </div>
@@ -378,12 +376,12 @@ export default function AffiliatePage() {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 className="flex flex-col sm:flex-row justify-center gap-4"
               >
-                <Link to="/register" className="inline-block bg-white text-blue-600 font-semibold px-8 py-3 rounded-lg shadow-md hover:bg-blue-50 transition duration-300">
+                <a href="https://my.tradersact.com/register" className="inline-block bg-white text-blue-600 font-semibold px-8 py-3 rounded-lg shadow-md hover:bg-blue-50 transition duration-300">
                   {t('common.signUp')}
-                </Link>
-                <Link to="/login" className="inline-block bg-transparent border-2 border-white text-white font-semibold px-8 py-3 rounded-lg hover:bg-white hover:text-blue-600 transition duration-300">
+                </a>
+                <a href="https://my.tradersact.com/login" className="inline-block bg-transparent border-2 border-white text-white font-semibold px-8 py-3 rounded-lg hover:bg-white hover:text-blue-600 transition duration-300">
                   {t('common.signIn')}
-                </Link>
+                </a>
               </motion.div>
             </div>
           </section>
