@@ -3,7 +3,122 @@
     "title": "Traders Act - Tu camino para convertirte en un trader financiado",
     "description": "Únete a Traders Act y demuestra tus habilidades de trading. Supera nuestro desafío y obtén acceso a una cuenta financiada con hasta 90% de participación en las ganancias."
   },
+  "navbar": {
+    "about": "Acerca de",
+    "features": "Características",
+    "pricing": "Precios",
+    "faq": "Preguntas Frecuentes",
+    "challenge": "Desafío",
+    "funding": "Financiación",
+    "academy": "Academia",
+    "blog": "Blog",
+    "ctrader": "cTrader",
+    "affiliate": "Afiliados"
+  },
+  "common": {
+    "learnMore": "Más información",
+    "getStarted": "Comenzar",
+    "signIn": "Iniciar Sesión",
+    "signUp": "Registrarse",
+    "readMore": "Leer más",
+    "viewAll": "Ver todo",
+    "apply": "Aplicar",
+    "submit": "Enviar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "loading": "Cargando...",
+    "success": "Éxito",
+    "error": "Error",
+    "close": "Cerrar"
+  },
+  "footer": {
+    "title": "Traders Act",
+    "quickLinks": "Enlaces Rápidos",
+    "legal": "Legal",
+    "connect": "Conectar",
+    "copyright": "Traders Act. Todos los derechos reservados.",
+    "operatedBy": "Operado por: White Stone Investment Advisors LTD",
+    "introducedBy": "Introducido por White Stone Financial Services LLC",
+    "disclaimer": "Aviso legal: Traders Act es una plataforma educativa y de trading demo y no proporciona asesoramiento de inversión. Todo trading implica riesgo, y el rendimiento pasado no es indicativo de resultados futuros. Uso bajo su propio riesgo.",
+    "links": {
+      "features": "Características",
+      "pricing": "Precios",
+      "testimonials": "Testimonios",
+      "faq": "Preguntas Frecuentes",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
+      "risk": "Divulgación de Riesgos",
+      "refund": "Política de Reembolso",
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram",
+      "youtube": "YouTube"
+    }
+  },
   "pages": {
+    "ctrader": {
+      "title": "Plataforma cTrader",
+      "hero": {
+        "title": "Opera con cTrader",
+        "subtitle": "Experimenta una plataforma de trading potente, intuitiva y rica en funciones diseñada tanto para traders novatos como profesionales",
+        "button": "Iniciar cTrader"
+      },
+      "overview": {
+        "title": "¿Qué es cTrader?",
+        "content": "cTrader es una sofisticada plataforma de trading que ofrece acceso directo al mercado de forex y CFDs. Desarrollada pensando tanto en traders principiantes como profesionales, proporciona una interfaz fácil de usar combinada con herramientas y funciones avanzadas de trading. En Traders Act, hemos elegido cTrader como nuestra plataforma exclusiva de trading debido a su fiabilidad, transparencia y conjunto completo de características."
+      },
+      "features": {
+        "title": "Características de la Plataforma",
+        "subtitle": "Descubre las potentes herramientas y capacidades que hacen de cTrader la plataforma ideal para tu viaje de trading",
+        "items": [
+          {
+            "title": "Gráficos Avanzados",
+            "description": "Accede a más de 70 indicadores técnicos, múltiples marcos temporales y herramientas de dibujo avanzadas para realizar un análisis exhaustivo del mercado."
+          },
+          {
+            "title": "Ejecución Rápida",
+            "description": "Experimenta una ejecución de operaciones ultrarrápida con un deslizamiento mínimo, asegurando que obtengas los precios que ves."
+          },
+          {
+            "title": "Seguridad Mejorada",
+            "description": "Opera con confianza sabiendo que tu cuenta está protegida por medidas de seguridad y encriptación de última generación."
+          },
+          {
+            "title": "Herramientas de Análisis Técnico",
+            "description": "Utiliza un conjunto completo de herramientas de análisis técnico que incluyen líneas de tendencia, retrocesos de Fibonacci y más."
+          },
+          {
+            "title": "Accesibilidad Multi-Dispositivo",
+            "description": "Accede a tu cuenta de trading desde cualquier lugar con las aplicaciones cTrader Web, Desktop y Mobile."
+          }
+        ]
+      },
+      "getting_started": {
+        "title": "Comenzando con cTrader",
+        "subtitle": "Sigue estos sencillos pasos para comenzar tu viaje de trading en cTrader",
+        "button": "Acceder a cTrader Ahora",
+        "steps": [
+          {
+            "title": "Crea Tu Cuenta",
+            "description": "Regístrate para obtener una cuenta de Traders Act para acceder a nuestra plataforma cTrader."
+          },
+          {
+            "title": "Completa la Verificación",
+            "description": "Verifica tu identidad para garantizar la seguridad de la cuenta y cumplir con los requisitos regulatorios."
+          },
+          {
+            "title": "Comienza a Operar",
+            "description": "Inicia sesión en cTrader, deposita fondos y comienza a operar en una amplia gama de mercados."
+          }
+        ]
+      },
+      "cta": {
+        "title": "¿Listo para Experimentar cTrader?",
+        "subtitle": "Únete a miles de traders que han elegido cTrader por sus potentes funciones e interfaz fácil de usar",
+        "button_platform": "Iniciar cTrader",
+        "button_account": "Crear Cuenta"
+      }
+    },
     "about": {
       "title": "Acerca de",
       "hero": {
@@ -13,9 +128,9 @@
       "story": {
         "title": "Nuestra Historia",
         "content": [
-          "Traders Act fue fundada en 2018, a partir de una idea simple pero poderosa: los traders talentosos no deberían estar limitados por su capital inicial.",
+          "Traders Act fue fundada a finales de 2024, a partir de una idea simple pero poderosa: los traders talentosos no deberían estar limitados por su capital inicial.",
           "Hemos construido una plataforma que identifica y apoya a traders habilidosos, proporcionándoles el capital y las herramientas que necesitan para tener éxito en los mercados financieros globales.",
-          "Hoy, nos enorgullece financiar a más de 1,000 traders en todo el mundo, administrar millones en capital de trading y continuar haciendo crecer nuestra comunidad de traders exitosos."
+          "Hoy, nos enorgullece financiar a cientos de traders en todo el mundo, estamos creciendo muy rápidamente, administrando millones en capital de trading y continuamos expandiendo nuestra comunidad de traders exitosos."
         ]
       },
       "values": {
@@ -35,6 +150,55 @@
             "description": "Continuamente desarrollamos nuestra plataforma y servicios para satisfacer las necesidades de los traders."
           }
         }
+      },
+      "structure": {
+        "title": "Nuestra Estructura de Grupo",
+        "subtitle": "Traders Act opera a través de una red de entidades reguladas, cada una especializada en diferentes aspectos de nuestro negocio para garantizar los más altos estándares de servicio y cumplimiento.",
+        "entities": [
+          {
+            "title": "Markets Act Broker Limited",
+            "description": "Una firma de corretaje reconocida mundialmente, licenciada por la Comisión de Servicios Financieros de Mauricio, que garantiza una ejecución eficiente de operaciones y mantiene los más altos estándares de excelencia operativa.",
+            "features": [
+              "Bróker licenciado y regulado",
+              "Infraestructura de trading avanzada",
+              "Plataforma de trading multi-activos"
+            ]
+          },
+          {
+            "title": "White Stone Investment Advisors Limited",
+            "description": "Una firma de asesoramiento de inversiones con licencia que proporciona análisis financiero, investigación y educación a los traders. Gestiona la Academia Traders Act y proporciona formación especializada para traders financiados.",
+            "features": [
+              "Certificación profesional",
+              "Supervisión de gestión de riesgos",
+              "Monitoreo de cumplimiento"
+            ]
+          },
+          {
+            "title": "White Stone Financial Services LLC",
+            "description": "Una entidad con licencia en Dubai, EAU, que gestiona las operaciones de Oriente Medio y Asia. Proporciona servicios de soporte y educación a los traders en la región.",
+            "features": [
+              "Acceso a mercados globales",
+              "Soporte al cliente 24/7",
+              "Experiencia regional"
+            ]
+          }
+        ]
+      },
+      "commitment": {
+        "title": "Nuestro Compromiso con la Excelencia",
+        "regulatory": {
+          "title": "Cumplimiento Regulatorio",
+          "description": "A través de nuestra estructura de grupo, mantenemos los más altos estándares de cumplimiento regulatorio e integridad operativa. Cada entidad está completamente licenciada y regulada en sus respectivas jurisdicciones, asegurando que tu experiencia de trading sea segura y cumpla con los estándares internacionales."
+        },
+        "support": {
+          "title": "Red de Soporte Global",
+          "description": "Nuestra estructura integrada está diseñada para nutrir y desarrollar traders financiados en cada etapa de su viaje. Nos enfocamos en educación integral de trading, mentoría personalizada y proporcionando experiencia de trading en el mundo real. Nuestro objetivo es transformar a individuos habilidosos en traders excepcionales que puedan tener éxito consistentemente en los mercados."
+        }
+      },
+      "cta": {
+        "title": "¿Estás listo para comenzar tu viaje de trading?",
+        "subtitle": "Únete a Traders Act hoy y convierte tus habilidades de trading en ganancias reales. ¡Regístrate ahora, acepta el desafío y descubre un mundo de oportunidades diseñadas específicamente para ti!",
+        "button": "Comenzar Ahora"
       }
     },
     "challenge": {

@@ -293,14 +293,14 @@ function HomePage() {
         <ErrorBoundary sectionName="FAQ">
           <section id="faq" className="py-20 bg-gradient-to-b from-white to-gray-50" data-component-name="HomePage">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8" data-component-name="HomePage">
-              <div className="text-center mb-16">
+              <div className={`text-center mb-16 ${isRTL ? 'rtl' : ''}`}>
                 <div className="inline-block px-3 py-1 text-sm font-medium text-blue-800 bg-blue-100 rounded-full mb-4">
-                  FAQ
+                  {i18n.language === 'en' ? 'FAQ' : t('navbar.faq')}
                 </div>
-                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                <h2 className={`text-3xl md:text-4xl font-bold text-gray-900 mb-4 ${isRTL ? 'text-right' : ''}`}>
                   {t('home.faq.title')}
                 </h2>
-                <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                <p className={`text-lg text-gray-600 max-w-2xl mx-auto ${isRTL ? 'text-right' : ''}`}>
                   {t('home.faq.subtitle')}
                 </p>
               </div>

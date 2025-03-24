@@ -104,12 +104,12 @@ export default function AboutPage() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
               >
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                <h2 className={`text-3xl font-bold text-gray-900 mb-6 ${isRTL ? 'text-right' : ''}`} data-component-name="AboutPage">
                   {t('pages.about.story.title')}
                 </h2>
-                <div className="prose prose-lg text-gray-600">
+                <div className={`prose prose-lg text-gray-600 ${isRTL ? 'text-right' : ''}`}>
                   {storyItems.map((paragraph, index) => (
-                    <p key={index}>{paragraph}</p>
+                    <p key={index} data-component-name="AboutPage" className={isRTL ? 'text-right' : ''}>{paragraph}</p>
                   ))}
                 </div>
               </motion.div>
@@ -146,9 +146,11 @@ export default function AboutPage() {
               transition={{ duration: 0.5 }}
               className="text-center mb-12"
             >
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Group Structure</h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Traders Act operates through a network of regulated entities, each specializing in different aspects of our business to ensure the highest standards of service and compliance.
+              <h2 className={`text-3xl font-bold text-gray-900 mb-4 ${isRTL ? 'text-right' : 'text-center'}`} data-component-name="AboutPage">
+                {t('pages.about.structure.title')}
+              </h2>
+              <p className={`text-lg text-gray-600 max-w-3xl mx-auto ${isRTL ? 'text-right' : 'text-center'}`} data-component-name="AboutPage">
+                {t('pages.about.structure.subtitle')}
               </p>
             </motion.div>
 
@@ -166,22 +168,30 @@ export default function AboutPage() {
                   <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
                     <Building2 className="w-8 h-8 text-blue-600" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">Markets Act Broker Ltd</h3>
-                  <p className="text-gray-600 mb-6">
-                    A globally recognized brokerage licensed by the Financial Services Commission in Mauritius, ensuring efficient trade execution and maintaining the highest standards of operational excellence.
+                  <h3 className={`text-xl font-bold text-gray-900 mb-4 ${isRTL ? 'text-right' : ''}`} data-component-name="AboutPage">
+                    {t('pages.about.structure.entities.0.title')}
+                  </h3>
+                  <p className={`text-gray-600 mb-6 ${isRTL ? 'text-right' : ''}`} data-component-name="AboutPage">
+                    {t('pages.about.structure.entities.0.description')}
                   </p>
                   <ul className="space-y-3">
-                    <li className="flex items-start">
-                      <Check className="w-5 h-5 text-blue-500 mt-1 mr-3 flex-shrink-0" />
-                      <span className="text-gray-600">Licensed and regulated broker</span>
+                    <li className={`flex items-start ${isRTL ? 'flex-row-reverse' : ''}`}>
+                      <Check className={`w-5 h-5 text-blue-500 mt-1 ${isRTL ? 'ml-3' : 'mr-3'} flex-shrink-0`} />
+                      <span className={`text-gray-600 ${isRTL ? 'text-right' : ''}`} data-component-name="AboutPage">
+                        {t('pages.about.structure.entities.0.features.0')}
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <Check className="w-5 h-5 text-blue-500 mt-1 mr-3 flex-shrink-0" />
-                      <span className="text-gray-600">Advanced trading infrastructure</span>
+                    <li className={`flex items-start ${isRTL ? 'flex-row-reverse' : ''}`}>
+                      <Check className={`w-5 h-5 text-blue-500 mt-1 ${isRTL ? 'ml-3' : 'mr-3'} flex-shrink-0`} />
+                      <span className={`text-gray-600 ${isRTL ? 'text-right' : ''}`} data-component-name="AboutPage">
+                        {t('pages.about.structure.entities.0.features.1')}
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <Check className="w-5 h-5 text-blue-500 mt-1 mr-3 flex-shrink-0" />
-                      <span className="text-gray-600">Multi-asset trading platform</span>
+                    <li className={`flex items-start ${isRTL ? 'flex-row-reverse' : ''}`}>
+                      <Check className={`w-5 h-5 text-blue-500 mt-1 ${isRTL ? 'ml-3' : 'mr-3'} flex-shrink-0`} />
+                      <span className={`text-gray-600 ${isRTL ? 'text-right' : ''}`} data-component-name="AboutPage">
+                        {t('pages.about.structure.entities.0.features.2')}
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -200,22 +210,30 @@ export default function AboutPage() {
                   <div className="w-14 h-14 bg-green-100 rounded-xl flex items-center justify-center mb-6">
                     <Shield className="w-8 h-8 text-green-600" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">White Stone Investment Advisors LTD</h3>
-                  <p className="text-gray-600 mb-6">
-                    A fully regulated financial advisory that supervises and funds our program, providing successful traders with a verified trading track record and a Professional Certificate of Achievement.
+                  <h3 className={`text-xl font-bold text-gray-900 mb-4 ${isRTL ? 'text-right' : ''}`} data-component-name="AboutPage">
+                    {t('pages.about.structure.entities.1.title')}
+                  </h3>
+                  <p className={`text-gray-600 mb-6 ${isRTL ? 'text-right' : ''}`} data-component-name="AboutPage">
+                    {t('pages.about.structure.entities.1.description')}
                   </p>
                   <ul className="space-y-3">
-                    <li className="flex items-start">
-                      <Check className="w-5 h-5 text-green-500 mt-1 mr-3 flex-shrink-0" />
-                      <span className="text-gray-600">Professional certification</span>
+                    <li className={`flex items-start ${isRTL ? 'flex-row-reverse' : ''}`}>
+                      <Check className={`w-5 h-5 text-green-500 mt-1 ${isRTL ? 'ml-3' : 'mr-3'} flex-shrink-0`} />
+                      <span className={`text-gray-600 ${isRTL ? 'text-right' : ''}`} data-component-name="AboutPage">
+                        {t('pages.about.structure.entities.1.features.0')}
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <Check className="w-5 h-5 text-green-500 mt-1 mr-3 flex-shrink-0" />
-                      <span className="text-gray-600">Risk management oversight</span>
+                    <li className={`flex items-start ${isRTL ? 'flex-row-reverse' : ''}`}>
+                      <Check className={`w-5 h-5 text-green-500 mt-1 ${isRTL ? 'ml-3' : 'mr-3'} flex-shrink-0`} />
+                      <span className={`text-gray-600 ${isRTL ? 'text-right' : ''}`} data-component-name="AboutPage">
+                        {t('pages.about.structure.entities.1.features.1')}
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <Check className="w-5 h-5 text-green-500 mt-1 mr-3 flex-shrink-0" />
-                      <span className="text-gray-600">Compliance monitoring</span>
+                    <li className={`flex items-start ${isRTL ? 'flex-row-reverse' : ''}`}>
+                      <Check className={`w-5 h-5 text-green-500 mt-1 ${isRTL ? 'ml-3' : 'mr-3'} flex-shrink-0`} />
+                      <span className={`text-gray-600 ${isRTL ? 'text-right' : ''}`} data-component-name="AboutPage">
+                        {t('pages.about.structure.entities.1.features.2')}
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -234,22 +252,30 @@ export default function AboutPage() {
                   <div className="w-14 h-14 bg-purple-100 rounded-xl flex items-center justify-center mb-6">
                     <Globe className="w-8 h-8 text-purple-600" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">White Stone Financial Services LLC</h3>
-                  <p className="text-gray-600 mb-6">
-                    Our global outreach partner based in the UAE, ensuring international standards of service and trust. This partnership strengthens our presence in key markets and provides localized support.
+                  <h3 className={`text-xl font-bold text-gray-900 mb-4 ${isRTL ? 'text-right' : ''}`} data-component-name="AboutPage">
+                    {t('pages.about.structure.entities.2.title')}
+                  </h3>
+                  <p className={`text-gray-600 mb-6 ${isRTL ? 'text-right' : ''}`} data-component-name="AboutPage">
+                    {t('pages.about.structure.entities.2.description')}
                   </p>
                   <ul className="space-y-3">
-                    <li className="flex items-start">
-                      <Check className="w-5 h-5 text-purple-500 mt-1 mr-3 flex-shrink-0" />
-                      <span className="text-gray-600">Global market access</span>
+                    <li className={`flex items-start ${isRTL ? 'flex-row-reverse' : ''}`}>
+                      <Check className={`w-5 h-5 text-purple-500 mt-1 ${isRTL ? 'ml-3' : 'mr-3'} flex-shrink-0`} />
+                      <span className={`text-gray-600 ${isRTL ? 'text-right' : ''}`} data-component-name="AboutPage">
+                        {t('pages.about.structure.entities.2.features.0')}
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <Check className="w-5 h-5 text-purple-500 mt-1 mr-3 flex-shrink-0" />
-                      <span className="text-gray-600">24/7 customer support</span>
+                    <li className={`flex items-start ${isRTL ? 'flex-row-reverse' : ''}`}>
+                      <Check className={`w-5 h-5 text-purple-500 mt-1 ${isRTL ? 'ml-3' : 'mr-3'} flex-shrink-0`} />
+                      <span className={`text-gray-600 ${isRTL ? 'text-right' : ''}`} data-component-name="AboutPage">
+                        {t('pages.about.structure.entities.2.features.1')}
+                      </span>
                     </li>
-                    <li className="flex items-start">
-                      <Check className="w-5 h-5 text-purple-500 mt-1 mr-3 flex-shrink-0" />
-                      <span className="text-gray-600">Regional expertise</span>
+                    <li className={`flex items-start ${isRTL ? 'flex-row-reverse' : ''}`}>
+                      <Check className={`w-5 h-5 text-purple-500 mt-1 ${isRTL ? 'ml-3' : 'mr-3'} flex-shrink-0`} />
+                      <span className={`text-gray-600 ${isRTL ? 'text-right' : ''}`} data-component-name="AboutPage">
+                        {t('pages.about.structure.entities.2.features.2')}
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -264,18 +290,24 @@ export default function AboutPage() {
               transition={{ duration: 0.5, delay: 0.6 }}
               className="mt-12 bg-white rounded-xl shadow-lg p-8"
             >
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Our Commitment to Excellence</h3>
+              <h3 className={`text-2xl font-bold text-gray-900 mb-6 ${isRTL ? 'text-right' : ''}`} data-component-name="AboutPage">
+                {t('pages.about.commitment.title')}
+              </h3>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Regulatory Compliance</h4>
-                  <p className="text-gray-600">
-                    Through our group structure, we maintain the highest standards of regulatory compliance and operational integrity. Each entity is fully licensed and regulated in their respective jurisdictions, ensuring your trading experience is secure and compliant with international standards.
+                  <h4 className={`text-lg font-semibold text-gray-900 mb-4 ${isRTL ? 'text-right' : ''}`} data-component-name="AboutPage">
+                    {t('pages.about.commitment.regulatory.title')}
+                  </h4>
+                  <p className={`text-gray-600 ${isRTL ? 'text-right' : ''}`} data-component-name="AboutPage">
+                    {t('pages.about.commitment.regulatory.description')}
                   </p>
                 </div>
                 <div>
-                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Global Support Network</h4>
-                  <p className="text-gray-600">
-                    Our integrated group structure allows us to provide comprehensive support to traders worldwide. From specialized trading solutions like Shariah-compliant accounts to localized customer service, we ensure every trader receives the support they need to succeed.
+                  <h4 className={`text-lg font-semibold text-gray-900 mb-4 ${isRTL ? 'text-right' : ''}`} data-component-name="AboutPage">
+                    {t('pages.about.commitment.support.title')}
+                  </h4>
+                  <p className={`text-gray-600 ${isRTL ? 'text-right' : ''}`} data-component-name="AboutPage">
+                    {t('pages.about.commitment.support.description')}
                   </p>
                 </div>
               </div>
@@ -284,26 +316,28 @@ export default function AboutPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-16 bg-blue-600 text-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
+        <section className="py-16 bg-blue-600 text-white" data-component-name="AboutPage">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" data-component-name="AboutPage">
+            <div className="text-center" data-component-name="AboutPage">
               <motion.h2
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
-                className="text-3xl font-bold mb-6"
+                className="text-3xl font-bold mb-6 text-center"
+                data-component-name="AboutPage"
               >
-                Ready to Start Your Trading Journey?
+                {isRTL ? t('pages.about.aboutCta.title') : t('pages.about.cta.title')}
               </motion.h2>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.2 }}
-                className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto"
+                className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto text-center"
+                data-component-name="AboutPage"
               >
-                Join Traders Act today and turn your trading skills into real profits. Sign up now, take the challenge, and discover a world of opportunities tailored for you!
+                {isRTL ? t('pages.about.aboutCta.subtitle') : t('pages.about.cta.subtitle')}
               </motion.p>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
@@ -316,7 +350,7 @@ export default function AboutPage() {
                     size="lg" 
                     className="bg-white text-blue-600 hover:bg-blue-50 px-8"
                   >
-                    Get Started
+                    {isRTL ? t('pages.about.aboutCta.button') : t('pages.about.cta.button')}
                   </Button>
                 </a>
               </motion.div>

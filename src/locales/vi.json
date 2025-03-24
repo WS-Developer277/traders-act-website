@@ -13,9 +13,9 @@
       "story": {
         "title": "Câu chuyện của chúng tôi",
         "content": [
-          "Traders Act được thành lập vào năm 2018, bắt nguồn từ một ý tưởng đơn giản nhưng mạnh mẽ: các nhà giao dịch tài năng không nên bị giới hạn bởi vốn ban đầu của họ.",
+          "Traders Act được thành lập vào cuối năm 2024, bắt nguồn từ một ý tưởng đơn giản nhưng mạnh mẽ: các nhà giao dịch tài năng không nên bị giới hạn bởi vốn ban đầu của họ.",
           "Chúng tôi đã xây dựng một nền tảng xác định và hỗ trợ các nhà giao dịch có kỹ năng, cung cấp cho họ vốn và công cụ cần thiết để thành công trên thị trường tài chính toàn cầu.",
-          "Ngày nay, chúng tôi tự hào tài trợ cho hơn 1.000 nhà giao dịch trên toàn thế giới, quản lý hàng triệu vốn giao dịch và tiếp tục phát triển cộng đồng các nhà giao dịch thành công của chúng tôi."
+          "Ngày nay, chúng tôi tự hào tài trợ cho hàng trăm nhà giao dịch trên toàn thế giới, đang phát triển rất nhanh, quản lý hàng triệu vốn giao dịch và tiếp tục mở rộng cộng đồng các nhà giao dịch thành công của chúng tôi."
         ]
       },
       "values": {
@@ -35,6 +35,55 @@
             "description": "Chúng tôi liên tục phát triển nền tảng và dịch vụ để đáp ứng nhu cầu của các nhà giao dịch."
           }
         }
+      },
+      "structure": {
+        "title": "Cấu Trúc Tập Đoàn Của Chúng Tôi",
+        "subtitle": "Traders Act hoạt động thông qua mạng lưới các tổ chức được quản lý, mỗi tổ chức chuyên về các khía cạnh khác nhau của doanh nghiệp để đảm bảo tiêu chuẩn dịch vụ và tuân thủ cao nhất.",
+        "entities": [
+          {
+            "title": "Markets Act Broker Limited",
+            "description": "Công ty môi giới được công nhận toàn cầu, được cấp phép bởi Ủy ban Dịch vụ Tài chính Mauritius, đảm bảo việc thực hiện giao dịch hiệu quả và duy trì tiêu chuẩn hoạt động xuất sắc cao nhất.",
+            "features": [
+              "Môi giới được cấp phép và quản lý",
+              "Cơ sở hạ tầng giao dịch tiên tiến",
+              "Nền tảng giao dịch đa tài sản"
+            ]
+          },
+          {
+            "title": "White Stone Investment Advisors Limited",
+            "description": "Công ty tư vấn đầu tư được cấp phép cung cấp phân tích tài chính, nghiên cứu và giáo dục cho các nhà giao dịch. Quản lý Học viện Traders Act và cung cấp đào tạo chuyên biệt cho các nhà giao dịch được tài trợ.",
+            "features": [
+              "Chứng nhận chuyên nghiệp",
+              "Giám sát quản lý rủi ro",
+              "Theo dõi tuân thủ"
+            ]
+          },
+          {
+            "title": "White Stone Financial Services LLC",
+            "description": "Tổ chức được cấp phép tại Dubai, UAE, quản lý hoạt động ở Trung Đông và Châu Á. Cung cấp dịch vụ hỗ trợ và giáo dục cho các nhà giao dịch trong khu vực.",
+            "features": [
+              "Tiếp cận thị trường toàn cầu",
+              "Hỗ trợ khách hàng 24/7",
+              "Chuyên môn khu vực"
+            ]
+          }
+        ]
+      },
+      "commitment": {
+        "title": "Cam Kết Của Chúng Tôi Về Sự Xuất Sắc",
+        "regulatory": {
+          "title": "Tuân Thủ Quy Định",
+          "description": "Thông qua cấu trúc tập đoàn, chúng tôi duy trì tiêu chuẩn cao nhất về tuân thủ quy định và tính toàn vẹn trong hoạt động. Mỗi tổ chức được cấp phép đầy đủ và được quản lý trong phạm vi quyền hạn tương ứng, đảm bảo trải nghiệm giao dịch của bạn an toàn và tuân thủ các tiêu chuẩn quốc tế."
+        },
+        "support": {
+          "title": "Mạng Lưới Hỗ Trợ Toàn Cầu",
+          "description": "Cấu trúc tích hợp của chúng tôi được thiết kế để nuôi dưỡng và phát triển các nhà giao dịch được tài trợ ở mọi giai đoạn của hành trình. Chúng tôi tập trung vào giáo dục giao dịch toàn diện, hướng dẫn cá nhân hóa và cung cấp kinh nghiệm giao dịch thực tế. Mục tiêu của chúng tôi là biến những cá nhân có kỹ năng thành những nhà giao dịch xuất sắc có thể thành công một cách nhất quán trên thị trường."
+        }
+      },
+      "cta": {
+        "title": "Bạn đã sẵn sàng bắt đầu hành trình giao dịch của mình?",
+        "subtitle": "Tham gia Traders Act ngay hôm nay và chuyển đổi kỹ năng giao dịch của bạn thành lợi nhuận thực tế. Đăng ký ngay, chấp nhận thử thách và khám phá thế giới cơ hội được thiết kế đặc biệt cho bạn!",
+        "button": "Bắt Đầu Ngay"
       }
     },
     "challenge": {
@@ -209,6 +258,69 @@
         "title": "Sẵn sàng để được tài trợ?",
         "subtitle": "Hãy tham gia thử thách ngay hôm nay và bắt đầu giao dịch với vốn của chúng tôi.",
         "button": "Đăng ký tài trợ"
+      }
+    },
+    "ctrader": {
+      "title": "Nền Tảng cTrader",
+      "hero": {
+        "title": "Giao Dịch với cTrader",
+        "subtitle": "Trải nghiệm nền tảng giao dịch mạnh mẽ, trực quan và đầy đủ tính năng được thiết kế cho cả nhà giao dịch mới và chuyên nghiệp",
+        "button": "Khởi Động cTrader"
+      },
+      "overview": {
+        "title": "cTrader Là Gì?",
+        "content": "cTrader là một nền tảng giao dịch tiên tiến cung cấp quyền truy cập trực tiếp vào thị trường forex và CFD. Được phát triển với cả nhà giao dịch mới và chuyên nghiệp trong tâm trí, nó cung cấp giao diện thân thiện với người dùng kết hợp với các công cụ và tính năng giao dịch nâng cao. Tại Traders Act, chúng tôi đã chọn cTrader làm nền tảng giao dịch độc quyền của mình vì độ tin cậy, tính minh bạch và bộ tính năng toàn diện của nó."
+      },
+      "features": {
+        "title": "Tính Năng Nền Tảng",
+        "subtitle": "Khám phá các công cụ và khả năng mạnh mẽ giúp cTrader trở thành nền tảng lý tưởng cho hành trình giao dịch của bạn",
+        "items": [
+          {
+            "title": "Biểu Đồ Nâng Cao",
+            "description": "Truy cập hơn 70 chỉ báo kỹ thuật, nhiều khung thời gian và các công cụ vẽ nâng cao để thực hiện phân tích thị trường toàn diện."
+          },
+          {
+            "title": "Thực Hiện Nhanh Chóng",
+            "description": "Trải nghiệm thực hiện giao dịch nhanh như chớp với độ trượt giá tối thiểu, đảm bảo bạn nhận được giá mà bạn thấy."
+          },
+          {
+            "title": "Bảo Mật Nâng Cao",
+            "description": "Giao dịch với sự tự tin khi biết rằng tài khoản của bạn được bảo vệ bởi các biện pháp bảo mật và mã hóa tiên tiến."
+          },
+          {
+            "title": "Công Cụ Phân Tích Kỹ Thuật",
+            "description": "Sử dụng bộ công cụ phân tích kỹ thuật toàn diện bao gồm đường xu hướng, Fibonacci retracement và nhiều hơn nữa."
+          },
+          {
+            "title": "Khả Năng Truy Cập Đa Thiết Bị",
+            "description": "Truy cập tài khoản giao dịch của bạn từ bất kỳ đâu với các ứng dụng cTrader Web, Desktop và Mobile."
+          }
+        ]
+      },
+      "getting_started": {
+        "title": "Bắt Đầu với cTrader",
+        "subtitle": "Làm theo các bước đơn giản này để bắt đầu hành trình giao dịch của bạn trên cTrader",
+        "button": "Truy Cập cTrader Ngay",
+        "steps": [
+          {
+            "title": "Tạo Tài Khoản Của Bạn",
+            "description": "Đăng ký tài khoản Traders Act để truy cập nền tảng cTrader của chúng tôi."
+          },
+          {
+            "title": "Hoàn Thành Xác Minh",
+            "description": "Xác minh danh tính của bạn để đảm bảo an toàn tài khoản và tuân thủ các yêu cầu quy định."
+          },
+          {
+            "title": "Bắt Đầu Giao Dịch",
+            "description": "Đăng nhập vào cTrader, nạp tiền và bắt đầu giao dịch trên nhiều thị trường khác nhau."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Bạn Đã Sẵn Sàng Trải Nghiệm cTrader?",
+        "subtitle": "Tham gia cùng hàng nghìn nhà giao dịch đã chọn cTrader vì các tính năng mạnh mẽ và giao diện thân thiện với người dùng",
+        "button_platform": "Khởi Động cTrader",
+        "button_account": "Tạo Tài Khoản"
       }
     },
     "academy": {
@@ -463,7 +575,7 @@
                   "point1": "Tránh giao dịch trong các sự kiện tin tức quan trọng",
                   "point2": "Thận trọng trong thởi gian mở cửa và đóng cửa thị trường",
                   "point3": "Điều chỉnh kích thước vị thế trong các giai đoạn biến động",
-                  "point4": "Xem xét stop dựa trên thời gian cho các giao dịch không di chuyển theo hướng có lợi cho bạn"
+                  "point4": "Xem xét stop dựa trên thởi gian cho các giao dịch không di chuyển theo hướng có lợi cho bạn"
                 }
               }
             },
@@ -598,7 +710,7 @@
         },
         {
           "title": "Theo dõi thời gian thực",
-          "description": "Giám sát người được giới thiệu và thu nhập của bạn theo thời gian thực thông qua bảng điều khiển đối tác liên kết toàn diện của chúng tôi."
+          "description": "Giám sát người được giới thiệu và thu nhập của bạn theo thởi gian thực thông qua bảng điều khiển đối tác liên kết toàn diện của chúng tôi."
         }
       ],
       "faq": {
@@ -654,15 +766,13 @@
       "acceptTerms": "Tôi đồng ý với điều khoản dịch vụ và chính sách bảo mật"
     },
     "navbar": {
-      "about": "Giới thiệu",
-      "features": "Tính năng",
-      "pricing": "Bảng giá",
-      "faq": "Câu hỏi thường gặp",
-      "challenge": "Thử thách",
-      "funding": "Tài trợ",
-      "academy": "Học viện",
+      "about": "Giới Thiệu",
+      "challenge": "Thử Thách",
+      "funding": "Tài Trợ",
+      "ctrader": "cTrader",
+      "academy": "Học Viện",
       "blog": "Blog",
-      "affiliate": "Tiếp thị liên kết"
+      "affiliate": "Đối Tác"
     },
     "home": {
       "hero": {

@@ -13,9 +13,9 @@
       "story": {
         "title": "Our Story",
         "content": [
-          "Founded in 2018, Traders Act emerged from a simple yet powerful idea: talented traders shouldn't be limited by their initial capital.",
+          "Founded in late 2024, Traders Act emerged from a simple yet powerful idea: talented traders shouldn't be limited by their initial capital.",
           "We've built a platform that identifies and supports skilled traders, providing them with the capital and tools they need to succeed in the global financial markets.",
-          "Today, we're proud to have funded over 1,000 traders worldwide, managing millions in trading capital and continuing to grow our community of successful traders."
+          "Today, we're proud to have funded hundreds of traders worldwide, are growing very fast, managing millions in trading capital and continuing to expand our community of successful traders."
         ]
       },
       "values": {
@@ -35,6 +35,55 @@
             "description": "We continuously evolve our platform and services to meet traders' needs."
           }
         }
+      },
+      "structure": {
+        "title": "Our Group Structure",
+        "subtitle": "Traders Act operates through a network of regulated entities, each specializing in different aspects of our business to ensure the highest standards of service and compliance.",
+        "entities": [
+          {
+            "title": "Markets Act Broker Ltd",
+            "description": "A globally recognized brokerage licensed by the Financial Services Commission in Mauritius, ensuring efficient trade execution and maintaining the highest standards of operational excellence.",
+            "features": [
+              "Licensed and regulated broker",
+              "Advanced trading infrastructure",
+              "Multi-asset trading platform"
+            ]
+          },
+          {
+            "title": "White Stone Investment Advisors LTD",
+            "description": "A fully regulated financial advisory that supervises and funds our program, providing successful traders with a verified trading track record and a Professional Certificate of Achievement.",
+            "features": [
+              "Professional certification",
+              "Risk management oversight",
+              "Compliance monitoring"
+            ]
+          },
+          {
+            "title": "White Stone Financial Services LLC",
+            "description": "Our global outreach partner based in the UAE, ensuring international standards of service and trust. This partnership strengthens our presence in key markets and provides localized support.",
+            "features": [
+              "Global market access",
+              "24/7 customer support",
+              "Regional expertise"
+            ]
+          }
+        ]
+      },
+      "commitment": {
+        "title": "Our Commitment to Excellence",
+        "regulatory": {
+          "title": "Regulatory Compliance",
+          "description": "Through our group structure, we maintain the highest standards of regulatory compliance and operational integrity. Each entity is fully licensed and regulated in their respective jurisdictions, ensuring your trading experience is secure and compliant with international standards."
+        },
+        "support": {
+          "title": "Global Support Network",
+          "description": "Our integrated structure is designed to nurture and develop funded traders at every stage of their journey. We focus on comprehensive trading education, personalized mentoring, and providing real-world trading experience. Our goal is to transform skilled individuals into exceptional traders who can consistently succeed in the markets."
+        }
+      },
+      "cta": {
+        "title": "Ready to Start Your Trading Journey?",
+        "subtitle": "Join Traders Act today and turn your trading skills into real profits. Sign up now, take the challenge, and discover a world of opportunities tailored for you!",
+        "button": "Get Started"
       }
     },
     "challenge": {
@@ -705,6 +754,69 @@
         ],
         "button": "Start Challenge"
       }
+    },
+    "ctrader": {
+      "title": "cTrader Platform",
+      "hero": {
+        "title": "Trade with cTrader",
+        "subtitle": "Experience a powerful, intuitive, and feature-rich trading platform designed for both novice and professional traders",
+        "button": "Launch cTrader"
+      },
+      "overview": {
+        "title": "What is cTrader?",
+        "content": "cTrader is a sophisticated trading platform that offers direct market access to the forex and CFD markets. Developed with both beginner and professional traders in mind, it provides a user-friendly interface combined with advanced trading tools and features. At Traders Act, we've chosen cTrader as our exclusive trading platform due to its reliability, transparency, and comprehensive feature set."
+      },
+      "features": {
+        "title": "Platform Features",
+        "subtitle": "Discover the powerful tools and capabilities that make cTrader the ideal platform for your trading journey",
+        "items": [
+          {
+            "title": "Advanced Charting",
+            "description": "Access over 70 technical indicators, multiple timeframes, and advanced drawing tools to perform thorough market analysis."
+          },
+          {
+            "title": "Fast Execution",
+            "description": "Experience lightning-fast trade execution with minimal slippage, ensuring you get the prices you see."
+          },
+          {
+            "title": "Enhanced Security",
+            "description": "Trade with confidence knowing your account is protected by state-of-the-art security measures and encryption."
+          },
+          {
+            "title": "Technical Analysis Tools",
+            "description": "Utilize a comprehensive suite of technical analysis tools including trend lines, Fibonacci retracements, and more."
+          },
+          {
+            "title": "Multi-Device Accessibility",
+            "description": "Access your trading account from anywhere with cTrader Web, Desktop, and Mobile applications."
+          }
+        ]
+      },
+      "getting_started": {
+        "title": "Getting Started with cTrader",
+        "subtitle": "Follow these simple steps to begin your trading journey on cTrader",
+        "button": "Access cTrader Now",
+        "steps": [
+          {
+            "title": "Create Your Account",
+            "description": "Sign up for a Traders Act account to gain access to our cTrader platform."
+          },
+          {
+            "title": "Complete Verification",
+            "description": "Verify your identity to ensure account security and comply with regulatory requirements."
+          },
+          {
+            "title": "Start Trading",
+            "description": "Log in to cTrader, deposit funds, and begin trading on a wide range of markets."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Ready to Experience cTrader?",
+        "subtitle": "Join thousands of traders who have chosen cTrader for its powerful features and user-friendly interface",
+        "button_platform": "Launch cTrader",
+        "button_account": "Create Account"
+      }
     }
   },
   "common": {
@@ -726,13 +838,11 @@
   },
   "navbar": {
     "about": "About",
-    "features": "Features",
-    "pricing": "Pricing",
-    "faq": "FAQ",
     "challenge": "Challenge",
     "funding": "Funding",
     "academy": "Academy",
     "blog": "Blog",
+    "ctrader": "cTrader",
     "affiliate": "Affiliate"
   },
   "home": {
@@ -882,10 +992,14 @@
     }
   },
   "footer": {
+    "title": "Traders Act",
     "quickLinks": "Quick Links",
     "legal": "Legal",
     "connect": "Connect",
-    "copyright": " Traders Act. All rights reserved.",
+    "copyright": "Traders Act. All rights reserved.",
+    "operatedBy": "Operated by: White Stone Investment Advisors LTD",
+    "introducedBy": "Introduced by White Stone Financial Services LLC",
+    "disclaimer": "Disclaimer: Traders Act is an educational and demo trading platform and does not provide investment advice. All trading involves risk, and past performance is not indicative of future results. Use at your own risk.",
     "links": {
       "features": "Features",
       "pricing": "Pricing",

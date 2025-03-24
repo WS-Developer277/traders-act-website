@@ -10,7 +10,8 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const isArabic = i18n.language === 'ar';
 
   const isActive = (path: string) => {
     return location.pathname === path ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600';
@@ -42,27 +43,30 @@ export default function Navbar() {
             </Link>
           </div>
           
-          <div className="hidden md:flex items-center space-x-8">
-            <Link to="/about" className={isScrolled ? isActive('/about') : 'text-white/90 hover:text-white'}>
+          <div className={`hidden md:flex items-center ${isArabic ? 'space-x-0 space-x-reverse space-x-6 rtl' : 'space-x-8'}`} data-component-name="Navbar">
+            <Link to="/about" className={`${isScrolled ? isActive('/about') : 'text-white/90 hover:text-white'} ${isArabic ? 'px-2' : ''}`} data-component-name="LinkWithRef">
               {t('navbar.about')}
             </Link>
-            <Link to="/challenge" className={isScrolled ? isActive('/challenge') : 'text-white/90 hover:text-white'}>
+            <Link to="/challenge" className={`${isScrolled ? isActive('/challenge') : 'text-white/90 hover:text-white'} ${isArabic ? 'px-2' : ''}`} data-component-name="LinkWithRef">
               {t('navbar.challenge')}
             </Link>
-            <Link to="/funding" className={isScrolled ? isActive('/funding') : 'text-white/90 hover:text-white'}>
+            <Link to="/funding" className={`${isScrolled ? isActive('/funding') : 'text-white/90 hover:text-white'} ${isArabic ? 'px-2' : ''}`} data-component-name="LinkWithRef">
               {t('navbar.funding')}
             </Link>
-            <Link to="/academy" className={isScrolled ? isActive('/academy') : 'text-white/90 hover:text-white'}>
+            <Link to="/academy" className={`${isScrolled ? isActive('/academy') : 'text-white/90 hover:text-white'} ${isArabic ? 'px-2' : ''}`} data-component-name="LinkWithRef">
               {t('navbar.academy')}
             </Link>
-            <Link to="/blog" className={isScrolled ? isActive('/blog') : 'text-white/90 hover:text-white'}>
+            <Link to="/blog" className={`${isScrolled ? isActive('/blog') : 'text-white/90 hover:text-white'} ${isArabic ? 'px-2' : ''}`} data-component-name="LinkWithRef">
               {t('navbar.blog')}
             </Link>
-            <Link to="/affiliate" className={isScrolled ? isActive('/affiliate') : 'text-white/90 hover:text-white'}>
+            <Link to="/ctrader" className={`${isScrolled ? isActive('/ctrader') : 'text-white/90 hover:text-white'} ${isArabic ? 'px-2' : ''}`} data-component-name="LinkWithRef">
+              {t('navbar.ctrader')}
+            </Link>
+            <Link to="/affiliate" className={`${isScrolled ? isActive('/affiliate') : 'text-white/90 hover:text-white'} ${isArabic ? 'px-2' : ''}`} data-component-name="LinkWithRef">
               {t('navbar.affiliate')}
             </Link>
             <LanguageSwitcher />
-            <a href="https://my.tradersact.com/login">
+            <a href="https://my.tradersact.com/login" data-component-name="Navbar">
               <Button 
                 variant={isScrolled ? "outline" : "primary"} 
                 size="sm"
@@ -96,45 +100,52 @@ export default function Navbar() {
       {/* Mobile menu */}
       {isMenuOpen && (
         <div className="md:hidden">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-b">
+          <div className={`px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-b ${isArabic ? 'rtl' : ''}`}>
             <Link
               to="/about"
-              className="block px-3 py-2 text-gray-700 hover:text-blue-600"
+              className={`block px-3 py-2 text-gray-700 hover:text-blue-600 ${isArabic ? 'text-right' : ''}`}
               onClick={() => setIsMenuOpen(false)}
             >
               {t('navbar.about')}
             </Link>
             <Link
               to="/challenge"
-              className="block px-3 py-2 text-gray-700 hover:text-blue-600"
+              className={`block px-3 py-2 text-gray-700 hover:text-blue-600 ${isArabic ? 'text-right' : ''}`}
               onClick={() => setIsMenuOpen(false)}
             >
               {t('navbar.challenge')}
             </Link>
             <Link
               to="/funding"
-              className="block px-3 py-2 text-gray-700 hover:text-blue-600"
+              className={`block px-3 py-2 text-gray-700 hover:text-blue-600 ${isArabic ? 'text-right' : ''}`}
               onClick={() => setIsMenuOpen(false)}
             >
               {t('navbar.funding')}
             </Link>
             <Link
               to="/academy"
-              className="block px-3 py-2 text-gray-700 hover:text-blue-600"
+              className={`block px-3 py-2 text-gray-700 hover:text-blue-600 ${isArabic ? 'text-right' : ''}`}
               onClick={() => setIsMenuOpen(false)}
             >
               {t('navbar.academy')}
             </Link>
             <Link
               to="/blog"
-              className="block px-3 py-2 text-gray-700 hover:text-blue-600"
+              className={`block px-3 py-2 text-gray-700 hover:text-blue-600 ${isArabic ? 'text-right' : ''}`}
               onClick={() => setIsMenuOpen(false)}
             >
               {t('navbar.blog')}
             </Link>
             <Link
+              to="/ctrader"
+              className={`block px-3 py-2 text-gray-700 hover:text-blue-600 ${isArabic ? 'text-right' : ''}`}
+              onClick={() => setIsMenuOpen(false)}
+            >
+              {t('navbar.ctrader')}
+            </Link>
+            <Link
               to="/affiliate"
-              className="block px-3 py-2 text-gray-700 hover:text-blue-600"
+              className={`block px-3 py-2 text-gray-700 hover:text-blue-600 ${isArabic ? 'text-right' : ''}`}
               onClick={() => setIsMenuOpen(false)}
             >
               {t('navbar.affiliate')}

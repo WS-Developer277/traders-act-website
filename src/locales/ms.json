@@ -13,9 +13,9 @@
       "story": {
         "title": "Kisah Kami",
         "content": [
-          "Ditubuhkan pada 2018, Traders Act muncul daripada idea yang mudah tetapi berkuasa: pedagang berbakat tidak seharusnya dihadkan oleh modal awal mereka.",
+          "Ditubuhkan pada akhir 2024, Traders Act muncul daripada idea yang mudah tetapi berkuasa: pedagang berbakat tidak seharusnya dihadkan oleh modal awal mereka.",
           "Kami telah membina platform yang mengenal pasti dan menyokong pedagang berkemahiran, menyediakan mereka dengan modal dan alat yang mereka perlukan untuk berjaya di pasaran kewangan global.",
-          "Hari ini, kami berbangga telah membiayai lebih daripada 1,000 pedagang di seluruh dunia, menguruskan berjuta-juta dalam modal perdagangan dan terus mengembangkan komuniti pedagang yang berjaya."
+          "Hari ini, kami berbangga telah membiayai beratus-ratus pedagang di seluruh dunia, sedang berkembang dengan sangat pesat, menguruskan berjuta-juta dalam modal perdagangan dan terus memperluaskan komuniti pedagang yang berjaya."
         ]
       },
       "values": {
@@ -35,6 +35,55 @@
             "description": "Kami terus mengembangkan platform dan perkhidmatan kami untuk memenuhi keperluan pedagang."
           }
         }
+      },
+      "structure": {
+        "title": "Struktur Kumpulan Kami",
+        "subtitle": "Traders Act beroperasi melalui rangkaian entiti terkawal, setiap satu pakar dalam aspek perniagaan kami yang berbeza untuk memastikan standard perkhidmatan dan pematuhan tertinggi.",
+        "entities": [
+          {
+            "title": "Markets Act Broker Limited",
+            "description": "Firma broker yang diiktiraf di peringkat global yang dilesenkan oleh Suruhanjaya Perkhidmatan Kewangan Mauritius, menjamin pelaksanaan perdagangan yang cekap dan mengekalkan standard kecemerlangan operasi tertinggi.",
+            "features": [
+              "Broker berlesen dan terkawal",
+              "Infrastruktur perdagangan termaju",
+              "Platform perdagangan pelbagai aset"
+            ]
+          },
+          {
+            "title": "White Stone Investment Advisors Limited",
+            "description": "Firma penasihat pelaburan berlesen yang menyediakan analisis kewangan, penyelidikan, dan pendidikan kepada pedagang. Ia menguruskan Akademi Traders Act dan menyediakan latihan khusus untuk pedagang bermodal.",
+            "features": [
+              "Pensijilan profesional",
+              "Pengawasan pengurusan risiko",
+              "Pemantauan pematuhan"
+            ]
+          },
+          {
+            "title": "White Stone Financial Services LLC",
+            "description": "Entiti berlesen di Dubai, UAE, yang menguruskan operasi Timur Tengah dan Asia. Ia menyediakan perkhidmatan sokongan dan pendidikan kepada pedagang di rantau ini.",
+            "features": [
+              "Akses ke pasaran global",
+              "Sokongan pelanggan 24/7",
+              "Kepakaran serantau"
+            ]
+          }
+        ]
+      },
+      "commitment": {
+        "title": "Komitmen Kami Terhadap Kecemerlangan",
+        "regulatory": {
+          "title": "Pematuhan Kawal Selia",
+          "description": "Melalui struktur kumpulan kami, kami mengekalkan standard tertinggi pematuhan kawal selia dan integriti operasi. Setiap entiti dilesenkan sepenuhnya dan dikawal selia dalam bidang kuasa masing-masing, memastikan pengalaman perdagangan anda selamat dan mematuhi standard antarabangsa."
+        },
+        "support": {
+          "title": "Rangkaian Sokongan Global",
+          "description": "Struktur bersepadu kami direka untuk memupuk dan membangunkan pedagang bermodal pada setiap peringkat perjalanan mereka. Kami memberi tumpuan kepada pendidikan perdagangan yang komprehensif, bimbingan peribadi, dan menyediakan pengalaman perdagangan dunia sebenar. Matlamat kami adalah untuk mengubah individu berkemahiran menjadi pedagang luar biasa yang boleh berjaya secara konsisten di pasaran."
+        }
+      },
+      "cta": {
+        "title": "Adakah anda bersedia untuk memulakan perjalanan perdagangan anda?",
+        "subtitle": "Sertai Traders Act hari ini dan tukar kemahiran perdagangan anda kepada keuntungan sebenar. Daftar sekarang, ambil cabaran, dan terokai dunia peluang yang direka khusus untuk anda!",
+        "button": "Mulakan Sekarang"
       }
     },
     "challenge": {
@@ -209,6 +258,69 @@
         "title": "Bersedia untuk Dibiayai?",
         "subtitle": "Sertai cabaran hari ini dan mula berdagang dengan modal kami.",
         "button": "Mohon Pembiayaan"
+      }
+    },
+    "ctrader": {
+      "title": "Platform cTrader",
+      "hero": {
+        "title": "Berdagang dengan cTrader",
+        "subtitle": "Nikmati platform dagangan yang berkuasa, intuitif dan kaya dengan ciri-ciri yang direka untuk pedagang pemula dan profesional",
+        "button": "Lancarkan cTrader"
+      },
+      "overview": {
+        "title": "Apakah itu cTrader?",
+        "content": "cTrader adalah platform dagangan canggih yang menyediakan akses langsung ke pasaran forex dan CFD. Dibangunkan dengan mengambil kira pedagang pemula dan profesional, ia menyediakan antara muka yang mesra pengguna dengan alat dan ciri dagangan lanjutan. Di Traders Act, kami telah memilih cTrader sebagai platform dagangan eksklusif kami kerana kebolehpercayaan, ketelusan dan set ciri-cirinya yang komprehensif."
+      },
+      "features": {
+        "title": "Ciri-ciri Platform",
+        "subtitle": "Terokai alat dan keupayaan berkuasa yang menjadikan cTrader platform ideal untuk perjalanan dagangan anda",
+        "items": [
+          {
+            "title": "Carta Lanjutan",
+            "description": "Akses lebih daripada 70 penunjuk teknikal, pelbagai kerangka masa, dan alat lukisan lanjutan untuk melakukan analisis pasaran yang menyeluruh."
+          },
+          {
+            "title": "Pelaksanaan Pantas",
+            "description": "Alami pelaksanaan dagangan kilat dengan slippage minimum, memastikan anda mendapat harga yang anda lihat."
+          },
+          {
+            "title": "Keselamatan Dipertingkatkan",
+            "description": "Berdagang dengan keyakinan mengetahui bahawa akaun anda dilindungi oleh langkah-langkah keselamatan dan penyulitan canggih."
+          },
+          {
+            "title": "Alat Analisis Teknikal",
+            "description": "Gunakan set alat analisis teknikal yang komprehensif termasuk garis trend, retracement Fibonacci, dan banyak lagi."
+          },
+          {
+            "title": "Kebolehcapaian Pelbagai Peranti",
+            "description": "Akses akaun dagangan anda dari mana-mana sahaja dengan aplikasi cTrader Web, Desktop dan Mobile."
+          }
+        ]
+      },
+      "getting_started": {
+        "title": "Memulakan dengan cTrader",
+        "subtitle": "Ikuti langkah-langkah mudah ini untuk memulakan perjalanan dagangan anda di cTrader",
+        "button": "Akses cTrader Sekarang",
+        "steps": [
+          {
+            "title": "Cipta Akaun Anda",
+            "description": "Daftar untuk akaun Traders Act untuk mengakses platform cTrader kami."
+          },
+          {
+            "title": "Lengkapkan Pengesahan",
+            "description": "Sahkan identiti anda untuk memastikan keselamatan akaun dan pematuhan kepada keperluan kawal selia."
+          },
+          {
+            "title": "Mula Berdagang",
+            "description": "Log masuk ke cTrader, deposit dana, dan mula berdagang dalam pelbagai pasaran."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Bersedia untuk Mengalami cTrader?",
+        "subtitle": "Sertai ribuan pedagang yang telah memilih cTrader untuk ciri-ciri berkuasa dan antara muka mesra penggunanya",
+        "button_platform": "Lancarkan cTrader",
+        "button_account": "Cipta Akaun"
       }
     },
     "academy": {
@@ -653,16 +765,38 @@
       "dontHaveAccount": "Belum mempunyai akaun?",
       "acceptTerms": "Saya bersetuju dengan Syarat Perkhidmatan dan Dasar Privasi"
     },
+    "footer": {
+      "title": "Traders Act",
+      "quickLinks": "Pautan Pantas",
+      "legal": "Perundangan",
+      "connect": "Hubungi",
+      "copyright": "Traders Act. Hak Cipta Terpelihara.",
+      "operatedBy": "Dikendalikan oleh: White Stone Investment Advisors Limited",
+      "introducedBy": "Diperkenalkan oleh: White Stone Financial Services LLC",
+      "disclaimer": "Penafian: Traders Act adalah platform perdagangan pendidikan dan demo dan tidak menyediakan nasihat pelaburan. Semua perdagangan melibatkan risiko, dan prestasi masa lalu bukanlah petunjuk hasil masa depan. Gunakan atas risiko anda sendiri.",
+      "links": {
+        "features": "Ciri-ciri",
+        "pricing": "Harga",
+        "testimonials": "Testimoni",
+        "faq": "Soalan Lazim",
+        "privacy": "Dasar Privasi",
+        "terms": "Syarat Perkhidmatan",
+        "risk": "Pendedahan Risiko",
+        "refund": "Dasar Bayaran Balik",
+        "twitter": "Twitter",
+        "linkedin": "LinkedIn",
+        "instagram": "Instagram",
+        "youtube": "YouTube"
+      }
+    },
     "navbar": {
       "about": "Tentang Kami",
-      "features": "Ciri-ciri",
-      "pricing": "Harga",
-      "faq": "Soalan Lazim",
       "challenge": "Cabaran",
       "funding": "Pembiayaan",
+      "ctrader": "cTrader",
       "academy": "Akademi",
       "blog": "Blog",
-      "affiliate": "Program Affiliate"
+      "affiliate": "Affiliate"
     },
     "home": {
       "hero": {
@@ -832,26 +966,6 @@
         "signUp": "Daftar",
         "success": "Berjaya log masuk!",
         "error": "Emel atau kata laluan tidak sah"
-      }
-    },
-    "footer": {
-      "quickLinks": "Pautan Pantas",
-      "legal": "Perundangan",
-      "connect": "Hubungi",
-      "copyright": " Traders Act. Hak cipta terpelihara.",
-      "links": {
-        "features": "Ciri-ciri",
-        "pricing": "Harga",
-        "testimonials": "Testimoni",
-        "faq": "Soalan Lazim",
-        "privacy": "Dasar Privasi",
-        "terms": "Syarat Perkhidmatan",
-        "risk": "Pendedahan Risiko",
-        "refund": "Dasar Bayaran Balik",
-        "twitter": "Twitter",
-        "linkedin": "LinkedIn",
-        "instagram": "Instagram",
-        "youtube": "YouTube"
       }
     },
     "languageSwitcher": {

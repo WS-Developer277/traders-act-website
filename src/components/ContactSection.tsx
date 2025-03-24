@@ -148,7 +148,7 @@ const ContactSection = () => {
                     </div>
                     <div className="flex justify-between">
                       <span>{t('home.contact.hours.support.weekend')}</span>
-                      <span data-component-name="ContactSection">{t('home.contact.hours.support.weekendHours')}</span>
+                      <span data-component-name="ContactSection">NA</span>
                     </div>
                   </div>
                 </div>
@@ -173,6 +173,12 @@ const ContactSection = () => {
                       <div className="flex items-center">
                         <Phone className="text-blue-600 mr-4" />
                         <span className="text-gray-600">{t('home.contact.companies.marketsAct.phone')}</span>
+                      </div>
+                      <div className="flex items-center">
+                        <Globe className="text-blue-600 mr-4" />
+                        <a href="https://www.marketsact.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 transition-colors" data-component-name="ContactSection">
+                          www.marketsact.com
+                        </a>
                       </div>
                       <div className="flex items-start">
                         <MapPin className="text-blue-600 mr-4 mt-1" />

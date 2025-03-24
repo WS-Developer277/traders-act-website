@@ -28,6 +28,7 @@ const TradingPsychologyPost = lazy(() => import('./pages/TradingPsychology'));
 const MarketCorrelationsPost = lazy(() => import('./pages/MarketCorrelations'));
 const TradingPlanPost = lazy(() => import('./pages/TradingPlan'));
 const EconomicIndicatorsPost = lazy(() => import('./pages/EconomicIndicators'));
+const CTraderPage = lazy(() => import('./pages/CTrader'));
 
 // Loading fallback
 const PageLoader = () => (
@@ -64,6 +65,7 @@ function App() {
               <Route path="/blog/understanding-market-correlations" element={<MarketCorrelationsPost />} />
               <Route path="/blog/building-trading-plan" element={<TradingPlanPost />} />
               <Route path="/blog/economic-indicators" element={<EconomicIndicatorsPost />} />
+              <Route path="/ctrader" element={<CTraderPage />} />
               <Route
                 path="/dashboard"
                 element={
